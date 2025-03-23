@@ -1,2 +1,2 @@
 # MLCT
-idi nahui sk
+sam blayat
