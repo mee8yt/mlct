@@ -7,7 +7,7 @@
 2. [Синтаксис]()
 3. [Документация](#документация-)
    - [Активаторы](#активаторы)
-     -  [Событие игрока](#событие-игрока---playereventname--none-)
+     -  [Событие игрока](#событие-игрока---playereventevent--none-)
      -  [Событие мира]()
      -  [Циклы]()
      -  [Функции]()
@@ -36,7 +36,7 @@
 # Документация 📜
 Более подробная информация по всем событиям, условиям и действиям кода.
    - [Активаторы](#активаторы)
-     -  [Событие игрока](#событие-игрока---playereventname--none-)
+     -  [Событие игрока](#событие-игрока---playereventevent--none-)
      -  [Событие мира]()
      -  [Циклы]()
      -  [Функции]()
@@ -54,7 +54,7 @@
      - [Иначе]()
 ## Активаторы
 К активаторам относятся все блоки кода, которые начинают строку. Ими являются все существующие в коде события, циклы и вызываемые функции.
-### Событие игрока - **`PlayerEvent(name) { none; }`**
+### Событие игрока - **`PlayerEvent(event) { none; }`**
 | **Код** | **Название** |
 | --- | --- |
 | `PlayerEvent(join)` | Вход игрока |
@@ -116,18 +116,18 @@
 | `PlayerEvent(consumeItem)` | Игрок потребляет предмет |
 | `PlayerEvent(changeFoodLvl)` | Изменение уровня голода |
 
-### Событие мира - **`WorldEvent(name) { none; }`**
+### Событие мира - **`WorldEvent(event) { none; }`**
 | **Код** | **Название** |
 | --- | --- |
 | 0 | 0 |
 
-### Циклы - **`Loop(`loop`,0) { none; }`**
+### Циклы - **`Loop(`name`,0) { none; }`**
 
 ```
 пример кода
 ```
 
-### Функции - **`Function(`function`) { none; }`**
+### Функции - **`Function(`name`) { none; }`**
 
 ```
 пример кода
@@ -135,3 +135,90 @@
 
 ## Действия
 К действиям относятся все блоки, которые позволяют изменять игровой мир,  значения переменных, параметры игроков, а также выбирать этих игроков.
+### Действие игрока - **`player.action(args)`**
+| **Код** | **Название** |
+| --- | --- |
+| `player.giveItems();` | Выдать предметы |
+| `player.setItems();` |  |
+| `player.setItemsEnder();` |  |
+| `player.setArmor();` |  |
+| `player.setItemHand();` |  |
+| `player.setItemCursor();` |  |
+| `player.removeItem();` |  |
+| `player.clearInventory();` |  |
+| `player.clearEnder();` |  |
+| `player.setHotbar();` |  |
+| `player.giveRandomItem();` |  |
+| `player.saveInventory();` |  |
+| `player.loadInventory();` |  |
+| `player.setDelay();` |  |
+| `player.getItem();` |  |
+| `player.setItem();` |  |
+| `player.getItemCooldown();` |  |
+| `player.send();` |  |
+| `player.sendComponent();` |  |
+| `player.sendDialogue();` |  |
+| `player.clearChat();` |  |
+| `player.playSound();` |  |
+| `player.stopSound();` |  |
+| `player.title();` |  |
+| `player.actionbar();` |  |
+| `player.showLink();` |  |
+| `player.openBook();` |  |
+| `player.openMenu();` |  |
+| `player.expandMenu();` |  |
+| `player.setItemInMenu();` |  |
+| `player.setMenuName();` |  |
+| `player.addLineInMenu();` |  |
+| `player.deleteLineMenu();` |  |
+| `player.closeInventory();` |  |
+| `player.openBlock();` |  |
+| `player.openEntity();` |  |
+| `player.teleport();` |  |
+| `player.rotateToLocation();` |  |
+| `player.randomTeleport();` |  |
+| `player.teleportSequence();` |  |
+| `player.launchVertically();` |  |
+| `player.launchForward();` |  |
+| `player.launchToward();` |  |
+| `player.launchToLocation();` |  |
+| `player.kick();` |  |
+| `player.moveToGame();` |  |
+| `player.damage();` |  |
+| `player.setHealth();` |  |
+| `player.givePotionEffect();` |  |
+| `player.clearPotionEffect();` |  |
+| `player.removePotionEffect();` |  |
+| `player.setXpLvl();` |  |
+| `player.setXpProgress();` |  |
+| `player.setHunger();` |  |
+| `player.setSaturation();` |  |
+| `player.setExhaustion();` |  |
+| `player.setMaxHealth();` |  |
+| `player.setOnFire();` |  |
+| `player.setFlightSpeed();` |  |
+| `player.setWalkSpeed();` |  |
+| `player.setRemainingAir();` |  |
+| `player.setMaximumAir();` |  |
+| `player.setName();` |  |
+| `player.setDamage();` |  |
+| `player.setSize();` |  |
+| `player.setSound();` |  |
+| `player.setGlow();` |  |
+| `player.setVisibility();` |  |
+| `player.setGravity();` |  |
+| `player.setInvincibility();` |  |
+| `player.deleteEntity();` |  |
+| `player.setFlight();` |  |
+| `player.setGamemode();` |  |
+| `player.setKeepInventory();` |  |
+| `player.showScoreboard();` |  |
+| `player.hideScoreboard();` |  |
+| `player.showBossbar();` |  |
+| `player.hideBossbar();` |  |
+| `player.layOnBed();` |  |
+| `player.wakeUp();` |  |
+| `player.handAnimation();` |  |
+| `player.sneakingState();` |  |
+| `player.damageAnimation();` |  |
+| `player.goldTransaction();` |  |
