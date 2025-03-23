@@ -28,25 +28,25 @@
 | **Код** | **Название** |
 | --- | --- |
 | `PlayerEvent(join)` | Вход игрока |
-| `PlayerEvent(leave)` | f |
-| `PlayerEvent(rejoin)` | f |
-| `PlayerEvent(interaction)` | f |
-| `PlayerEvent(rightClick)` | f |
-| `PlayerEvent(leftClick)` | f |
-| `PlayerEvent(rightClickEntity)` | f |
-| `PlayerEvent(leashEntity)` | f |
-| `PlayerEvent(tameEntity)` | f |
-| `PlayerEvent(placeBlock)` | f |
-| `PlayerEvent(breakBlock)` | f |
-| `PlayerEvent(playerFishing)` | f |
-| `PlayerEvent(damageBlock)` | f |
-| `PlayerEvent(expChange)` | f |
-| `PlayerEvent(like)` | f |
-| `PlayerEvent(goldTransaction)` | f |
-| `PlayerEvent(buyAdvert)` | f |
-| `PlayerEvent(buyPoint)` | f |
-| `PlayerEvent(studioTransaction)` | f |
-| `PlayerEvent(openedInventory)` | f |
+| `PlayerEvent(leave)` | Выход игрока |
+| `PlayerEvent(rejoin)` | Игрок перезашёл в игру |
+| `PlayerEvent(interaction)` | Взаимодействие с блоком |
+| `PlayerEvent(rightClick)` | Игрок кликает правой кнопкой |
+| `PlayerEvent(leftClick)` | Игрок кликает левой кнопкой |
+| `PlayerEvent(rightClickEntity)` | Правый клик по существу |
+| `PlayerEvent(leashEntity)` | Игрок привязал сущность |
+| `PlayerEvent(tameEntity)` | Игрок приручил сущность |
+| `PlayerEvent(placeBlock)` | Игрок поставил блок |
+| `PlayerEvent(breakBlock)` | Игрок сломал блок |
+| `PlayerEvent(playerFishing)` | Игрок рыбачит |
+| `PlayerEvent(damageBlock)` | Игрок дамажит блок |
+| `PlayerEvent(expChange)` | Игрок подобрал опыт |
+| `PlayerEvent(like)` | Игрок лайкает игру |
+| `PlayerEvent(goldTransaction)` | Транзакция золота |
+| `PlayerEvent(buyAdvert)` | Покупка рекламы |
+| `PlayerEvent(buyPoint)` | Приобретение баллов |
+| `PlayerEvent(studioTransaction)` | Транзакция Mineland Studio |
+| `PlayerEvent(openedInventory)` | Игрок открыл инвентарь |
 | `PlayerEvent(closedInventory)` | f |
 | `PlayerEvent(editBook)` | f |
 | `PlayerEvent(damageItem)` | f |
