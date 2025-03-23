@@ -47,33 +47,33 @@
 | `PlayerEvent(buyPoint)` | Приобретение баллов |
 | `PlayerEvent(studioTransaction)` | Транзакция Mineland Studio |
 | `PlayerEvent(openedInventory)` | Игрок открыл инвентарь |
-| `PlayerEvent(closedInventory)` | f |
-| `PlayerEvent(editBook)` | f |
-| `PlayerEvent(damageItem)` | f |
-| `PlayerEvent(breakItem)` | f |
-| `PlayerEvent(clickInventory)` | f |
-| `PlayerEvent(moveInventory)` | f |
-| `PlayerEvent(pickupItem)` | f |
-| `PlayerEvent(dropItem)` | f |
-| `PlayerEvent(extractFurnace)` | f |
-| `PlayerEvent(swapHands)` | f |
-| `PlayerEvent(crafted)` | f |
-| `PlayerEvent(changeSlot)` | f |
-| `PlayerEvent(killPlayer)` | f |
-| `PlayerEvent(deathPlayer)` | f |
-| `PlayerEvent(damagePlayer)` | f |
-| `PlayerEvent(projectileDamagePlayer)` | f |
-| `PlayerEvent(takeDamagePlayer)` | f |
-| `PlayerEvent(takeFallDamagePlayer)` | f |
-| `PlayerEvent(killMobByPlayer)` | f |
-| `PlayerEvent(killPlayerByMob)` | f |
-| `PlayerEvent(damageMobByPlayer)` | f |
-| `PlayerEvent(damagePlayerByMob)` | f |
-| `PlayerEvent(projectileDamageMobByPlayer)` | f |
-| `PlayerEvent(projectileKillMobByPlayer)` | f |
-| `PlayerEvent(deathMob)` | f |
-| `PlayerEvent(takeDamageMob)` | f |
-| `PlayerEvent(restoredHealthEntity)` | f |
+| `PlayerEvent(closedInventory)` | Игрок закрыл инвентарь |
+| `PlayerEvent(editBook)` | Игрок изменил книгу |
+| `PlayerEvent(damageItem)` | Игрок потратил прочность |
+| `PlayerEvent(breakItem)` | Игрок сломал предмет |
+| `PlayerEvent(clickInventory)` | Игрок кликнул по инвентарю |
+| `PlayerEvent(moveInventory)` | Игрок перетащил предметы по слотам |
+| `PlayerEvent(pickupItem)` | Игрок поднимает предмет |
+| `PlayerEvent(dropItem)` | Игрок выбрасывает предмет |
+| `PlayerEvent(extractFurnace)` | Игрок достал предмет из печи |
+| `PlayerEvent(swapHands)` | Смена рук |
+| `PlayerEvent(crafted)` | Игрок скрафтил предмет |
+| `PlayerEvent(changeSlot)` | Игрок сменил слот |
+| `PlayerEvent(killPlayer)` | Игрок убил игрока |
+| `PlayerEvent(deathPlayer)` | Смерть игрока |
+| `PlayerEvent(damagePlayer)` | Игрок нанёс урон игроку |
+| `PlayerEvent(projectileDamagePlayer)` | Урон от снаряда |
+| `PlayerEvent(takeDamagePlayer)` | Игрок получает урон |
+| `PlayerEvent(takeFallDamagePlayer)` | Урон от падения |
+| `PlayerEvent(killMobByPlayer)` | Игрок убил моба |
+| `PlayerEvent(killPlayerByMob)` | Моб убил игрока |
+| `PlayerEvent(damageMobByPlayer)` | Игрок нанёс урон мобу |
+| `PlayerEvent(damagePlayerByMob)` | Моб наносит урон игроку |
+| `PlayerEvent(projectileDamageMobByPlayer)` | Игрок нанёс урон мобу при помощи снаряда |
+| `PlayerEvent(projectileKillMobByPlayer)` | Игрок убил моба при помощи снаряда |
+| `PlayerEvent(deathMob)` | Смерть моба |
+| `PlayerEvent(takeDamageMob)` | Моб получает урон |
+| `PlayerEvent(restoredHealthEntity)` | Сущность восстановила здоровье |
 | `PlayerEvent(sneak)` | f |
 | `PlayerEvent(unsneak)` | f |
 | `PlayerEvent(startSprint)` | f |
