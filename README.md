@@ -74,14 +74,14 @@
 | `PlayerEvent(deathMob)` | Смерть моба |
 | `PlayerEvent(takeDamageMob)` | Моб получает урон |
 | `PlayerEvent(restoredHealthEntity)` | Сущность восстановила здоровье |
-| `PlayerEvent(sneak)` | f |
-| `PlayerEvent(unsneak)` | f |
-| `PlayerEvent(startSprint)` | f |
-| `PlayerEvent(jump)` | f |
-| `PlayerEvent(stopSprint)` | f |
-| `PlayerEvent(move)` | f |
-| `PlayerEvent(rotate)` | f |
-| `PlayerEvent(message)` | f |
-| `PlayerEvent(launchProjectile)` | f |
-| `PlayerEvent(consumeItem)` | f |
-| `PlayerEvent(changeFoodLvl)` | f |
+| `PlayerEvent(sneak)` | Игрок крадётся |
+| `PlayerEvent(unsneak)` | Игрок перестаёт красться |
+| `PlayerEvent(startSprint)` | Игрок бежит |
+| `PlayerEvent(jump)` | Игрок прыгает |
+| `PlayerEvent(stopSprint)` | Игрок прекратил бежать |
+| `PlayerEvent(move)` | Игрок передвигается |
+| `PlayerEvent(rotate)` | Игрок повернулся |
+| `PlayerEvent(message)` | Игрок написал в чат |
+| `PlayerEvent(launchProjectile)` | Игрок запустил снаряд |
+| `PlayerEvent(consumeItem)` | Игрок потребляет предмет |
+| `PlayerEvent(changeFoodLvl)` | Изменение уровня голода |
