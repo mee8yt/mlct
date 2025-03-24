@@ -99,52 +99,52 @@
 ### Игровое действие - **`game.action(args)`**
 | **Код** | **Название** |
 | --- | --- |
-| `game.spawnEntity();` | |
-| `game.spawnNpc();` | |
-| `game.spawnItem();` | |
-| `game.launchFirework();` | |
-| `game.spawnTnt();` | |
-| `game.spawnVehicle();` | |
-| `game.spawnXpOrb();` | |
-| `game.spawnLightning();` | |
-| `game.wait();` | |
-| `game.startLoop();` | |
-| `game.stopLoop();` | |
-| `game.cancelEvent();` | |
-| `game.callFunction();` | |
-| `game.setBlock();` | |
-| `game.fillRegion();` | |
-| `game.breakBlock();` | |
-| `game.copyBlock();` | |
-| `game.fillContainer();` | |
-| `game.deleteItemFromContainer();` | |
-| `game.setItemFromContainer();` | |
-| `game.clearContainer();` | |
-| `game.changeSign);` | |
-| `game.changeContainerName();` | |
-| `game.getItemFromContainer();` | |
-| `game.setItemInEnderChest();` | |
-| `game.getItemFromEnderChest();` | |
-| `game.getItemsFromContainer();` | |
-| `game.getSignValue();` | |
-| `game.createExplosion();` | |
-| `game.playFireworkExplosion();` | |
-| `game.playParticle();` | |
-| `game.playParticleLine();` | |
-| `game.createHologram();` | |
-| `game.deleteHologram();` | |
-| `game.createScoreboard();` | |
-| `game.deleteScoreboard();` | |
-| `game.setScoreboardScore();` | |
-| `game.removeScoreboardScore();` | |
-| `game.setWeather();` | |
-| `game.setGameTime();` | |
-| `game.createBossbar();` | |
-| `game.deleteBossbar();` | |
-| `game.setBossbarTitle();` | |
-| `game.setBossbarColor();` | |
-| `game.setBossbarStyle();` | |
-| `game.setBossbarProgress();` | |
-| `game.readDataFromChannel();` | |
-| `game.sendDataThroughChannel();` | |
-| `game.sendArrayThroughChannel();` | |
+| `game.spawnEntity();` | Заспавнить моба/сущность |
+| `game.spawnNpc();` | Заспавнить NPC |
+| `game.spawnItem();` | Заспавнить предмет |
+| `game.launchFirework();` | Запустить фейерверк |
+| `game.spawnTnt();` | Заспавнить активированный TNT |
+| `game.spawnVehicle();` | Заспавнить транспортное средство |
+| `game.spawnXpOrb();` | Заспавнить сферу опыта |
+| `game.spawnLightning();` | Заспавнить молнию |
+| `game.wait();` | Ждать |
+| `game.startLoop();` | Запустить цикл |
+| `game.stopLoop();` | Остановить цикл |
+| `game.cancelEvent();` | Отменить событие |
+| `game.callFunction();` | Вызвать функцию |
+| `game.setBlock();` | Поставить блок(и) |
+| `game.fillRegion();` | Заполнить область блоками |
+| `game.breakBlock();` | Сломать блок |
+| `game.copyBlock();` | Копировать блоки |
+| `game.fillContainer();` | Заполнить контейнер |
+| `game.deleteItemFromContainer();` | Удалить предметы из контейнера |
+| `game.setItemFromContainer();` | Установить предмет в контейнер |
+| `game.clearContainer();` | Очистить контейнер |
+| `game.changeSign);` | Изменить табличку |
+| `game.changeContainerName();` | Изменить название блока |
+| `game.getItemFromContainer();` | Получить предмет из контейнера |
+| `game.setItemInEnderChest();` | Установить предметы в эндер сундук |
+| `game.getItemFromEnderChest();` | Получить предмет из эндер сундука |
+| `game.getItemsFromContainer();` | Получить предметы из контейнера |
+| `game.getSignValue();` | Получить значение из таблички |
+| `game.createExplosion();` | Создать взрыв |
+| `game.playFireworkExplosion();` | Воспроизвести взрыв фейерверка |
+| `game.playParticle();` | Воспроизвести частицу |
+| `game.playParticleLine();` | Воспроизвести линию из частиц |
+| `game.createHologram();` | Создать голограмму |
+| `game.deleteHologram();` | Удалить голограмму |
+| `game.createScoreboard();` | Создать скорборд |
+| `game.deleteScoreboard();` | Удалить скорборд |
+| `game.setScoreboardScore();` | Выставить очки скорборда |
+| `game.removeScoreboardScore();` | Удалить очки в скорборде |
+| `game.setWeather();` | Установить погоду |
+| `game.setGameTime();` | Установить время в мире |
+| `game.createBossbar();` | Создать боссбар |
+| `game.deleteBossbar();` | Удалить боссбар |
+| `game.setBossbarTitle();` | Установить титл боссбара |
+| `game.setBossbarColor();` | Установить цвет боссбара |
+| `game.setBossbarStyle();` | Установить стиль боссбара |
+| `game.setBossbarProgress();` | Установить прогресс боссбара |
+| `game.readDataFromChannel();` | Считать данные из канала |
+| `game.sendDataThroughChannel();` | Отправить данные через канал |
+| `game.sendArrayThroughChannel();` | Отправить массив через канал |
