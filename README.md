@@ -119,40 +119,40 @@
 ### Событие мира - **`WorldEvent(event) { none; }`**
 | **Код** | **Название** |
 | --- | --- |
-| `WorldEvent()` | Запуск мира |
-| `WorldEvent()` | Остановка мира |
-| `WorldEvent()` | Приём данных |
-| `WorldEvent()` | Блок загорелся |
-| `WorldEvent()` | Блок сгорел |
-| `WorldEvent()` | Блок пропал |
-| `WorldEvent()` | Поршень выдвигается |
-| `WorldEvent()` | Поршень вдвигается |
-| `WorldEvent()` | Блок взорвался |
-| `WorldEvent()` | Спавн существа |
-| `WorldEvent()` | Сущность взорвалась |
-| `WorldEvent()` | Сущность решила взорваться |
-| `WorldEvent()` | Опадение листьев |
-| `WorldEvent()` | Дерево выросло |
-| `WorldEvent()` | Блок вырос |
-| `WorldEvent()` | Блок переместился |
-| `WorldEvent()` | Зельеварка приготовила зелье(я) |
-| `WorldEvent()` | Зельеварка увеличила уровень топлива |
-| `WorldEvent()` | Блок сгенерировался |
-| `WorldEvent()` | Генерация блока из-за сущности |
-| `WorldEvent()` | Блок распространился |
-| `WorldEvent()` | Падающий блок приземляется |
-| `WorldEvent()` | Создание портала |
-| `WorldEvent()` | Нотный блок проиграл звук |
-| `WorldEvent()` | Блок выкинул предмет |
-| `WorldEvent()` | Предмет пропал |
-| `WorldEvent()` | Предметы объединились |
-| `WorldEvent()` | Котел изменил уровень воды |
-| `WorldEvent()` | Табличка была изменена |
-| `WorldEvent()` | Блок выделил опыт |
-| `WorldEvent()` | Предмет переместился в контейнер |
-| `WorldEvent()` | Воронка подбирает предмет |
-| `WorldEvent()` | Печь закончила плавку |
-| `WorldEvent()` | Печь использует топливо |
+| `WorldEvent(start)` | Запуск мира |
+| `WorldEvent(stop)` | Остановка мира |
+| `WorldEvent(receiveData)` | Приём данных |
+| `WorldEvent(blockIgnite)` | Блок загорелся |
+| `WorldEvent(blockBurn)` | Блок сгорел |
+| `WorldEvent(blockFade)` | Блок пропал |
+| `WorldEvent(pistonExtend)` | Поршень выдвигается |
+| `WorldEvent(pistonRetract)` | Поршень вдвигается |
+| `WorldEvent(blockExplode)` | Блок взорвался |
+| `WorldEvent(entitySpawn)` | Спавн существа |
+| `WorldEvent(entityExplode)` | Сущность взорвалась |
+| `WorldEvent(entityExplosionPrime)` | Сущность решила взорваться |
+| `WorldEvent(leavesDecay)` | Опадение листьев |
+| `WorldEvent(treeGrow)` | Дерево выросло |
+| `WorldEvent(blockGrow)` | Блок вырос |
+| `WorldEvent(blockMoved)` | Блок переместился |
+| `WorldEvent(blockBrew)` | Зельеварка приготовила зелье(я) |
+| `WorldEvent(brewingStandFuel)` | Зельеварка увеличила уровень топлива |
+| `WorldEvent(blockForm)` | Блок сгенерировался |
+| `WorldEvent(entityBlockForm)` | Генерация блока из-за сущности |
+| `WorldEvent(blockSpread)` | Блок распространился |
+| `WorldEvent(blockPhysics)` | Падающий блок приземляется |
+| `WorldEvent(portalActivation)` | Создание портала |
+| `WorldEvent(notePlay)` | Нотный блок проиграл звук |
+| `WorldEvent(blockDispense)` | Блок выкинул предмет |
+| `WorldEvent(itemDespawn)` | Предмет пропал |
+| `WorldEvent(itemMerge)` | Предметы объединились |
+| `WorldEvent(cauldronChange)` | Котел изменил уровень воды |
+| `WorldEvent(signChange)` | Табличка была изменена |
+| `WorldEvent(blockExp)` | Блок выделил опыт |
+| `WorldEvent(itemMoveToInventory)` | Предмет переместился в контейнер |
+| `WorldEvent(inventoryPickupItem)` | Воронка подбирает предмет |
+| `WorldEvent(furnaceSmelt)` | Печь закончила плавку |
+| `WorldEvent(furnaceBurn)` | Печь использует топливо |
 
 ### Циклы - **`Loop(`\``name`\``, 0) { none; }`**
 
