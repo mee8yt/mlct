@@ -1,11 +1,11 @@
 ## Активаторы
 К активаторам относятся все блоки кода, которые начинают строку. Ими являются все существующие в коде события, циклы и вызываемые функции.
 
-   - [Активаторы](activators.md) 
-     -  [Событие игрока](activators.md#событие-игрока---playereventevent--none-)
-     -  [Событие мира](activators.md#событие-мира---worldeventevent--none-)
-     -  [Циклы](activators.md#циклы---loopname-0--none-)
-     -  [Функции](activators.md#функции---functionname--none-)
+   - [Активаторы](documentation/activators.md) 
+     -  [Событие игрока](documentation/activators.md#событие-игрока---playereventevent--none-)
+     -  [Событие мира](documentation/activators.md#событие-мира---worldeventevent--none-)
+     -  [Циклы](documentation/activators.md#циклы---loopname-0--none-)
+     -  [Функции](documentation/activators.md#функции---functionname--none-)
 
 ### Событие игрока - **`PlayerEvent(event) { none; }`**
 | **Код** | **Название** |
