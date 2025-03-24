@@ -4,7 +4,7 @@
    - [Действия](actions.md)
      - [Действие игрока](actions.md#действие-игрока---playeractionargs)
      - [Игровое действие](actions.md#игровое-действие---gameactionargs)
-     - [Установить переменную](actions.md#)
+     - [Установить переменную](actions.md#установить-переменную---varactionargs)
      - [Работа с массивами](actions.md#)
      - [Выбрать объект](actions.md#)
 
