@@ -148,3 +148,7 @@
 | `game.readDataFromChannel();` | Считать данные из канала |
 | `game.sendDataThroughChannel();` | Отправить данные через канал |
 | `game.sendArrayThroughChannel();` | Отправить массив через канал |
+
+### Установить переменную - **`var.action(args)`**
+| **Код** | **Название** |
+| --- | --- |
