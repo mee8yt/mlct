@@ -3,7 +3,7 @@
 
    - [Действия](actions.md)
      - [Действие игрока](actions.md#действие-игрока---playeractionargs)
-     - [Игровое действие](actions.md#)
+     - [Игровое действие](actions.md#игровое-действие---gameactionargs)
      - [Установить переменную](actions.md#)
      - [Работа с массивами](actions.md#)
      - [Выбрать объект](actions.md#)
@@ -96,6 +96,55 @@
 | `player.damageAnimation();` | Анимация урона |
 | `player.goldTransaction();` | Запросить транзакцию золота |
 
-### Действие игрока - **`game.action(args)`**
+### Игровое действие - **`game.action(args)`**
 | **Код** | **Название** |
 | --- | --- |
+| `game.spawnEntity();` | |
+| `game.spawnNpc();` | |
+| `game.spawnItem();` | |
+| `game.launchFirework();` | |
+| `game.spawnTnt();` | |
+| `game.spawnVehicle();` | |
+| `game.spawnXpOrb();` | |
+| `game.spawnLightning();` | |
+| `game.wait();` | |
+| `game.startLoop();` | |
+| `game.stopLoop();` | |
+| `game.cancelEvent();` | |
+| `game.callFunction();` | |
+| `game.setBlock();` | |
+| `game.fillRegion();` | |
+| `game.breakBlock();` | |
+| `game.copyBlock();` | |
+| `game.fillContainer();` | |
+| `game.deleteItemFromContainer();` | |
+| `game.setItemFromContainer();` | |
+| `game.clearContainer();` | |
+| `game.changeSign);` | |
+| `game.changeContainerName();` | |
+| `game.getItemFromContainer();` | |
+| `game.setItemInEnderChest();` | |
+| `game.getItemFromEnderChest();` | |
+| `game.getItemsFromContainer();` | |
+| `game.getSignValue();` | |
+| `game.createExplosion();` | |
+| `game.playFireworkExplosion();` | |
+| `game.playParticle();` | |
+| `game.playParticleLine();` | |
+| `game.createHologram();` | |
+| `game.deleteHologram();` | |
+| `game.createScoreboard();` | |
+| `game.deleteScoreboard();` | |
+| `game.setScoreboardScore();` | |
+| `game.removeScoreboardScore();` | |
+| `game.setWeather();` | |
+| `game.setGameTime();` | |
+| `game.createBossbar();` | |
+| `game.deleteBossbar();` | |
+| `game.setBossbarTitle();` | |
+| `game.setBossbarColor();` | |
+| `game.setBossbarStyle();` | |
+| `game.setBossbarProgress();` | |
+| `game.readDataFromChannel();` | |
+| `game.sendDataThroughChannel();` | |
+| `game.sendArrayThroughChannel();` | |
