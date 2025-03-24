@@ -28,7 +28,7 @@
      - [Действие игрока](documentation/actions.md#действие-игрока---playeractionargs-)
      - [Игровое действие](documentation/actions.md#игровое-действие---gameactionargs-)
      - [Установить переменную](documentation/actions.md#установить-переменную---varactionargs-)
-     - [Работа с массивами](documentation/actions.md)
+     - [Работа с массивами](documentation/actions.md#работа-с-массивами---arrayactionargs-)
      - [Выбрать объект](documentation/actions.md)
    - [Условия](documentation/conditions.md)
      - [Если игрок](documentation/conditions.md)
