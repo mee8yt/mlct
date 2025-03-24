@@ -154,13 +154,13 @@
 | `WorldEvent(furnaceSmelt)` | Печь закончила плавку |
 | `WorldEvent(furnaceBurn)` | Печь использует топливо |
 
-### Циклы - **`Loop(`\``name`\``, 0) { none; }`**
+### Циклы - **```Loop(`name`, 0) { none; }```**
 
 ```
 пример кода
 ```
 
-### Функции - **`Function(`name`) { none; }`**
+### Функции - **```Function(`name`) { none; }```**
 
 ```
 пример кода
