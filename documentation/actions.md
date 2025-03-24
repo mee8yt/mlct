@@ -1,12 +1,12 @@
 ## Действия
 К действиям относятся все блоки, которые позволяют изменять игровой мир,  значения переменных, параметры игроков, а также выбирать этих игроков.
 
-   - [Действия](actions.md)
-     - [Действие игрока](actions.md#действие-игрока---playeractionargs)
-     - [Игровое действие](actions.md#игровое-действие---gameactionargs)
-     - [Установить переменную](actions.md#установить-переменную---varactionargs)
-     - [Работа с массивами](actions.md#)
-     - [Выбрать объект](actions.md#)
+   - [Действия](documentation/actions.md)
+     - [Действие игрока](documentation/actions.md#действие-игрока---playeractionargs)
+     - [Игровое действие](documentation/actions.md#игровое-действие---gameactionargs)
+     - [Установить переменную](documentation/actions.md#установить-переменную---varactionargs)
+     - [Работа с массивами](documentation/actions.md#)
+     - [Выбрать объект](documentation/actions.md#)
 
 ### Действие игрока - **`player.action(args)`**
 | **Код** | **Название** |
