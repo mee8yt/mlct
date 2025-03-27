@@ -11,5 +11,5 @@
 ### Если игрок - **`ifPlayer.condition(args) { none; }`** [🔝](#условия)
 | **Код** | **Название** |
 | --- | --- |
-| ifPlayer.nameEquals() |  |
-| ifPlayer.() |  |
+| `ifPlayer.nameEquals()` |  |
+| `ifPlayer.()` |  |
