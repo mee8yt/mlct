@@ -264,6 +264,6 @@
 Доступные блоки условий для объектов:
 |  **Объект** | **Блоки условий** |
 | --- | ---|
-| `player` | `ifPlayer`, `if` |
-| `` |  |
-| `` |  |
+| `player` | `ifPlayer`, `ifVar` |
+| `mob` | `ifEntity`, `ifVar` |
+| `entity` | `ifEntity`, `ifVar` |
