@@ -48,7 +48,7 @@
 | `ifVar.notEquals()` | Значение не равно |
 | `ifVar.compareNumber()` | Сравнить числа (облег.) |
 | `ifVar.compareInterval()` | Сравнить числа |
-| `ifVar.textEquals()` | Текст равняетс |
+| `ifVar.textEquals()` | Текст равняется |
 | `ifVar.textContains()` | Текст содержит |
 | `ifVar.exists()` | Переменная существует |
 | `ifVar.locationInRegion()` | Если местоположение в регионе |
