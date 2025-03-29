@@ -263,7 +263,8 @@ Function() {}
    - [Прочее](documentation/other.md)
      - [Константы](documentation/other.md)
      - [Модули](documentation/other.md)
-     - [Глобальные комментарии](documentation/other.md)
+     - [Ошибки](documentation/other.md)
+     - [Комментарии](documentation/other.md)
 # Примеры 📧
 код на топы, на гм, на cex м прочую фигню
 
