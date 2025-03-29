@@ -264,7 +264,6 @@ import "module.txt" end; // Модуль вставится не вместо im
      - [Зелье](documentation/values.md)
    - [Прочее](documentation/other.md)
      - [Константы](documentation/other.md)
-     - [Модули](documentation/other.md)
      - [Ошибки](documentation/other.md)
      - [Комментарии](documentation/other.md)
 # Примеры 📧
