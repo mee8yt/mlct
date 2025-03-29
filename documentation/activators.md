@@ -124,6 +124,7 @@ Loop(give_item, 150) {
 
 ### Функции - **```Function(`name`) { none; }```** [🔝](#активаторы)
 
+Пример кода:
 ```js
 WorldEvent(start) {
     game.startFunction("give_item");
