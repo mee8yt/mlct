@@ -11,5 +11,32 @@
 ### Если игрок - **`ifPlayer.condition(args) { none; }`** [🔝](#условия)
 | **Код** | **Название** |
 | --- | --- |
-| `ifPlayer.nameEquals()` |  |
-| `ifPlayer.()` |  |
+| `ifPlayer.nameEquals()` | Имя равно |
+| `ifPlayer.messageEquals()` | Сообщение равно |
+| `ifPlayer.interactionType()` | Тип взаимодействия с блоком |
+| `ifPlayer.handUsedEquals()` | Тип слота снаряжения |
+| `ifPlayer.hasGoldTransaction()` | Имеет транзакцию золота |
+| `ifPlayer.gamemodeEquals()` | Проверить режим игры |
+| `ifPlayer.havePermissions()` | Проверить права игрока |
+| `ifPlayer.holdingItem()` | Держит предмет |
+| `ifPlayer.hasItem()` | Имеет предмет |
+| `ifPlayer.wearingItem()` | Надет предмет |
+| `ifPlayer.itemEquals()` | Предмет равен |
+| `ifPlayer.itemInCursorEquals()` | Предмет в курсоре равен |
+| `ifPlayer.itemHasDelay()` | Предмет имеет задержку |
+| `ifPlayer.clickType()` | Тип клика |
+| `ifPlayer.clickedSlotEquals()` | Кликнутый слот равен |
+| `ifPlayer.hotbarSlotEquals()` | Выбранный слот равен |
+| `ifPlayer.openInventoryNameEquals()` | Название открытого инвентаря равен |
+| `ifPlayer.inventoryFull()` | Заполнен ли инвентарь игрока |
+| `ifPlayer.lookAtBlock()` | Смотрит на блок |
+| `ifPlayer.standOnBlock()` | Стоит на блоке |
+| `ifPlayer.nearLocation()` | Находится рядом |
+| `ifPlayer.blockEquals()` | Блок равен |
+| `ifPlayer.isSneaking()` | Крадётся |
+| `ifPlayer.isBlocking()` | Использует щит |
+| `ifPlayer.isGliding()` | Летит на элитрах |
+| `ifPlayer.isSprinting()` | Бежит |
+| `ifPlayer.isFlying()` | Летает |
+| `ifPlayer.isSwimming()` | Плавает |
+| `ifPlayer.isLiked()` | Голосовал |
