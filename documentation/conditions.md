@@ -78,9 +78,9 @@
 
 Пример кода:
 ```js
-ifVar.equals(`gameStatus`, "started") {
+if (...) {
    pass;
 } else {
-   player.send("Игра ещё не началась!");
+   player.send("Код, если не сработало условие до иначе");
 }
 ```
