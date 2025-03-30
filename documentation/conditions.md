@@ -78,5 +78,10 @@
 
 Пример кода:
 ```js
-privet
+ifVar.equals(`gameStatus`, "started") {
+   pass;
+}
+else {
+   player.send("Игра ещё не началась!");
+}
 ```
