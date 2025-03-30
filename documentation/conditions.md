@@ -80,8 +80,7 @@
 ```js
 ifVar.equals(`gameStatus`, "started") {
    pass;
-}
-else {
+} else {
    player.send("Игра ещё не началась!");
 }
 ```
