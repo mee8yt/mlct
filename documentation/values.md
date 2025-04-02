@@ -187,30 +187,30 @@
 
 | **Код** | **Название** |
 | --- | --- |
-| ``` potion`speed` ``` |  |
-| ``` potion`slowness` ``` |  |
-| ``` potion`haste` ``` |  |
-| ``` potion`fatigue` ``` |  |
-| ``` potion`strength` ``` |  |
-| ``` potion`healing` ``` |  |
-| ``` potion`harming` ``` |  |
-| ``` potion`leaping` ``` |  |
-| ``` potion`nausea` ``` |  |
-| ``` potion`regeneration` ``` |  |
-| ``` potion`resistance` ``` |  |
-| ``` potion`fire_resistance` ``` |  |
-| ``` potion`water_breathing` ``` |  |
-| ``` potion`invisible` ``` |  |
-| ``` potion`blindness` ``` |  |
-| ``` potion`night_vision` ``` |  |
-| ``` potion`hunger` ``` |  |
-| ``` potion`weakness` ``` |  |
-| ``` potion`poison` ``` |  |
-| ``` potion`wither` ``` |  |
-| ``` potion`health_boost` ``` |  |
-| ``` potion`absorption` ``` |  |
-| ``` potion`saturation` ``` |  |
-| ``` potion`glowing` ``` |  |
-| ``` potion`levitation` ``` |  |
-| ``` potion`luck` ``` |  |
-| ``` potion`bad_luck` ``` |  |
+| ``` potion`speed` ``` | Скорость |
+| ``` potion`slowness` ``` | Медлительность |
+| ``` potion`haste` ``` | Спешка |
+| ``` potion`fatigue` ``` | Утомление |
+| ``` potion`strength` ``` | Сила |
+| ``` potion`healing` ``` | Лечение |
+| ``` potion`harming` ``` | Моментальный урон |
+| ``` potion`leaping` ``` | Прыжок |
+| ``` potion`nausea` ``` | Тошнота |
+| ``` potion`regeneration` ``` | Регенерация |
+| ``` potion`resistance` ``` | Сопротивление к урону |
+| ``` potion`fire_resistance` ``` | Огнестойкость |
+| ``` potion`water_breathing` ``` | Подводное дыхание |
+| ``` potion`invisible` ``` | Невидимость |
+| ``` potion`blindness` ``` | Слепота |
+| ``` potion`night_vision` ``` | Ночное видение |
+| ``` potion`hunger` ``` | Голод |
+| ``` potion`weakness` ``` | Слабость |
+| ``` potion`poison` ``` | Отравление |
+| ``` potion`wither` ``` | Иссушение |
+| ``` potion`health_boost` ``` | Увеличение здоровья |
+| ``` potion`absorption` ``` | Поглощение |
+| ``` potion`saturation` ``` | Насыщение |
+| ``` potion`glowing` ``` | Свечение |
+| ``` potion`levitation` ``` | Левитация |
+| ``` potion`luck` ``` | Удача |
+| ``` potion`bad_luck` ``` | Неудачник! |
