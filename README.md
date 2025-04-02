@@ -269,7 +269,24 @@ import "module.txt" end; // Модуль вставится не вместо im
      - [Ошибки](documentation/other.md)
      - [Комментарии](documentation/other.md)
 # Примеры 📧
-код на топы, на гм, на cex м прочую фигню
+
+Векторное оружие:
+```js
+PlayerEvent(rightClick) {
+   ifPlayer.holdingItem(i`golden_hoe`) {
+      ifPlayer.itemHasDelay<not>(i`golden_hoe`) {
+         ifVar.notEquals(`%player% vector.status`, 1) {
+            player.setDelay(i`golden_hoe`, 10);
+            var `%player% vector.status` = 1;
+            var `%player% vector.speed` = 0;
+            var `%player% vector.particle` = particle`CRIT`;
+            var `%player% vector.final_pos` = v`targetBlockLocation`;
+            var.setLocation(`%player% vector.pos`, v`currentLocation`);
+         }
+      }
+   }
+}
+```
 
 # Подсветка кода 💡
 тут гайд про вс код
