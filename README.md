@@ -282,10 +282,38 @@ PlayerEvent(rightClick) {
             var `%player% vector.speed` = 0;
             var `%player% vector.particle` = particle`CRIT`;
             var `%player% vector.final_pos` = v`targetBlockLocation`;
-            var.setLocation(`%player% vector.pos`, v`currentLocation`);
+            var.setLocation(`%player% vector.pos`, v`currentLocation`, y_mode = 1, y = 0.6);
+            game.startFunction("gun.vector");
+            game.startFunction("gun.raycast");
          }
       }
    }
+}
+
+Function(`gun.vector`) {
+      @comment("GUN / Create vector", 9, "gun.vector", 13, "Создаёт &3&l&nвектор&f из взгляда.");
+
+      var `%player% vector.pos.ray_coefficient` = 1;
+      var.getLocationValue(`%player% vector.pos.yaw`, `%player% vector.pos`, 3);
+      var.getLocationValue(`%player% vector.pos.pitch`, `%player% vector.pos`, 4);
+      var.radians(`%player% vector.pos.rad(yaw)`, `%player% vector.pos.yaw`);
+      var.radians(`%player% vector.pos.rad(pitch)`, `%player% vector.pos.pitch`);
+      var.sinus(`%player% vector.pos.sin(yaw)`, `%player% vector.pos.rad(yaw)`);
+      var.sinus(`%player% vector.pos.sin(pitch)`, `%player% vector.pos.rad(pitch)`);
+      var.cosinus(`%player% vector.pos.cosinus(yaw)`, `%player% vector.pos.rad(yaw)`);
+      var.cosinus(`%player% vector.pos.cosinus(pitch)`, `%player% vector.pos.rad(pitch)`);
+
+      var.multiply(`%player% vector.pos.vector_x`, -1, [`%player% vector.pos.sin(yaw)`, `%player% vector.pos.sin(yaw)`, `%player% vector.pos.cosinus(pitch)`, `%player% vector.pos.ray_coefficient`]);
+      var.multiply(`%player% vector.pos.vector_y`, -1, [`%player% vector.pos.sin(pitch)`, `%player% vector.pos.ray_coefficient`]);
+      var.multiply(`%player% vector.pos.vector_z`, `%player% vector.pos.cosinus(yaw)`, [`%player% vector.pos.cosinus(pitch)`, `%player% vector.pos.ray_coefficient`]);
+}
+
+Function(`gun.raycast`) {
+   pass;
+}
+
+PlayerEvent(takeDamagePlayer) {
+   pass;
 }
 ```
 
