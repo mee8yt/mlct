@@ -187,3 +187,30 @@
 
 | **Код** | **Название** |
 | --- | --- |
+| ``` potion`speed` ``` |  |
+| ``` potion`slowness` ``` |  |
+| ``` potion`haste` ``` |  |
+| ``` potion`fatigue` ``` |  |
+| ``` potion`strength` ``` |  |
+| ``` potion`healing` ``` |  |
+| ``` potion`harming` ``` |  |
+| ``` potion`leaping` ``` |  |
+| ``` potion`nausea` ``` |  |
+| ``` potion`regeneration` ``` |  |
+| ``` potion`resistance` ``` |  |
+| ``` potion`fire_resistance` ``` |  |
+| ``` potion`water_breathing` ``` |  |
+| ``` potion`invisible` ``` |  |
+| ``` potion`blindness` ``` |  |
+| ``` potion`night_vision` ``` |  |
+| ``` potion`hunger` ``` |  |
+| ``` potion`weakness` ``` |  |
+| ``` potion`poison` ``` |  |
+| ``` potion`wither` ``` |  |
+| ``` potion`health_boost` ``` |  |
+| ``` potion`absorption` ``` |  |
+| ``` potion`saturation` ``` |  |
+| ``` potion`glowing` ``` |  |
+| ``` potion`levitation` ``` |  |
+| ``` potion`luck` ``` |  |
+| ``` potion`bad_luck` ``` |  |
