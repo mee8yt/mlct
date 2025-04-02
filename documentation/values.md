@@ -127,50 +127,50 @@
 
 | **Код** | **Название** |
 | --- | --- |
-| ``` particle`EXPLOSION_LARGE` ``` |  |
-| ``` particle`EXPLOSION_HUGE` ``` |  |
-| ``` particle`FIREWORKS_SPARK` ``` |  |
-| ``` particle`WATER_BUBBLE` ``` |  |
-| ``` particle`WATER_SPLASH` ``` |  |
-| ``` particle`WATER_WAKE` ``` |  |
-| ``` particle`SUSPENDED` ``` |  |
-| ``` particle`SUSPENDED_DEPTH` ``` |  |
-| ``` particle`CRIT` ``` |  |
-| ``` particle`CRIT_MAGIC` ``` |  |
-| ``` particle`SMOKE_NORMAL` ``` |  |
-| ``` particle`SMOKE_LARGE` ``` |  |
-| ``` particle`SPELL` ``` |  |
-| ``` particle`SPELL_INSTANT` ``` |  |
-| ``` particle`SPELL_MOB` ``` |  |
-| ``` particle`SPELL_MOB_AMBIENT` ``` |  |
-| ``` particle`SPELL_WITCH` ``` |  |
-| ``` particle`DRIP_WATER` ``` |  |
-| ``` particle`DRIP_LAVA` ``` |  |
-| ``` particle`VILLAGER_ANGRY` ``` |  |
-| ``` particle`VILLAGER_HAPPY` ``` |  |
-| ``` particle`TOWN_AURA` ``` |  |
-| ``` particle`NOTE` ``` |  |
-| ``` particle`PORTAL` ``` |  |
-| ``` particle`ENCHANTMENT_TABLE` ``` |  |
-| ``` particle`FLAME` ``` |  |
-| ``` particle`LAVA` ``` |  |
-| ``` particle`FOOTSTEP` ``` |  |
-| ``` particle`CLOUD` ``` |  |
-| ``` particle`REDSTONE` ``` |  |
-| ``` particle`SNOWBALL` ``` |  |
-| ``` particle`SNOW_SHOVEL` ``` |  |
-| ``` particle`SLIME` ``` |  |
-| ``` particle`HEART` ``` |  |
-| ``` particle`BARRIER` ``` |  |
-| ``` particle`WATER_DROP` ``` |  |
-| ``` particle`ITEM_TAKE` ``` |  |
-| ``` particle`MOB_APPEARANCE` ``` |  |
-| ``` particle`DRAGON_BREATH` ``` |  |
-| ``` particle`END_ROD` ``` |  |
-| ``` particle`DAMAGE_INDICATOR` ``` |  |
-| ``` particle`SWEEP_ATTACK` ``` |  |
-| ``` particle`TOTEM` ``` |  |
-| ``` particle`SPIT` ``` |  |
+| ``` particle`EXPLOSION_LARGE` ``` | Большой взрыв |
+| ``` particle`EXPLOSION_HUGE` ``` | Взрыв |
+| ``` particle`FIREWORKS_SPARK` ``` | След от фейерверка |
+| ``` particle`WATER_BUBBLE` ``` | Пузырьки воды |
+| ``` particle`WATER_SPLASH` ``` | Брызги воды |
+| ``` particle`WATER_WAKE` ``` | Следы от воды |
+| ``` particle`SUSPENDED` ``` | Туман |
+| ``` particle`SUSPENDED_DEPTH` ``` | Туман из глубин |
+| ``` particle`CRIT` ``` | Критический удар |
+| ``` particle`CRIT_MAGIC` ``` | Магический удар |
+| ``` particle`SMOKE_NORMAL` ``` | Дым |
+| ``` particle`SMOKE_LARGE` ``` | Большой дым |
+| ``` particle`SPELL` ``` | Белый аромат |
+| ``` particle`SPELL_INSTANT` ``` | Блёстки |
+| ``` particle`SPELL_MOB` ``` | Тёмные силы |
+| ``` particle`SPELL_MOB_AMBIENT` ``` | Серое воздуховление |
+| ``` particle`SPELL_WITCH` ``` | Частицы ведьмы |
+| ``` particle`DRIP_WATER` ``` | Капающая вода |
+| ``` particle`DRIP_LAVA` ``` | Капающая лава |
+| ``` particle`VILLAGER_ANGRY` ``` | Гнев жителя |
+| ``` particle`VILLAGER_HAPPY` ``` | Счастье жителя |
+| ``` particle`TOWN_AURA` ``` | Туманный бедрок |
+| ``` particle`NOTE` ``` | Нота |
+| ``` particle`PORTAL` ``` | Портал |
+| ``` particle`ENCHANTMENT_TABLE` ``` | Символы стола зачарований |
+| ``` particle`FLAME` ``` | Огонёк |
+| ``` particle`LAVA` ``` | Капли лавы |
+| ``` particle`FOOTSTEP` ``` | Следы |
+| ``` particle`CLOUD` ``` | Облачко |
+| ``` particle`REDSTONE` ``` | Редстоун |
+| ``` particle`SNOWBALL` ``` | Куски снежка |
+| ``` particle`SNOW_SHOVEL` ``` | Падающий снег |
+| ``` particle`SLIME` ``` | Куски слизи |
+| ``` particle`HEART` ``` | Сердце |
+| ``` particle`BARRIER` ``` | Барьер |
+| ``` particle`WATER_DROP` ``` | Капли воды |
+| ``` particle`ITEM_TAKE` ``` | Пустующий предмет |
+| ``` particle`MOB_APPEARANCE` ``` | Появление древнего стража |
+| ``` particle`DRAGON_BREATH` ``` | Драконье дыхание |
+| ``` particle`END_ROD` ``` | Стержень энда |
+| ``` particle`DAMAGE_INDICATOR` ``` | Тёмные сердечки |
+| ``` particle`SWEEP_ATTACK` ``` | Удар по площади |
+| ``` particle`TOTEM` ``` | Таинственный тотем |
+| ``` particle`SPIT` ``` | Плевок от ламы |
 
 ### Зелье - **``` v`id d f` ```** [🔝](#значения)
 Вид значения, который представляет собой конкретную точку на карте /build. В кодинге представлен в виде "бумаги".
