@@ -1,7 +1,7 @@
 # Значения
 К значениям относятся все метки для установки параметров блоков кода. Это все предметы из вкладки "Переменные" в /dev
 
-   - [Значения](documentation/values.md)
+   - [Значения](values.md)
      - [Игровое значение](documentation/values.md)
      - [Местоположение](documentation/values.md)
      - [Предмет](documentation/values.md)
