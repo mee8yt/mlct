@@ -127,6 +127,50 @@
 
 | **Код** | **Название** |
 | --- | --- |
+| ``` particle`EXPLOSION_LARGE` ``` |  |
+| ``` particle`EXPLOSION_HUGE` ``` |  |
+| ``` particle`FIREWORKS_SPARK` ``` |  |
+| ``` particle`WATER_BUBBLE` ``` |  |
+| ``` particle`WATER_SPLASH` ``` |  |
+| ``` particle`WATER_WAKE` ``` |  |
+| ``` particle`SUSPENDED` ``` |  |
+| ``` particle`SUSPENDED_DEPTH` ``` |  |
+| ``` particle`CRIT` ``` |  |
+| ``` particle`CRIT_MAGIC` ``` |  |
+| ``` particle`SMOKE_NORMAL` ``` |  |
+| ``` particle`SMOKE_LARGE` ``` |  |
+| ``` particle`SPELL` ``` |  |
+| ``` particle`SPELL_INSTANT` ``` |  |
+| ``` particle`SPELL_MOB` ``` |  |
+| ``` particle`SPELL_MOB_AMBIENT` ``` |  |
+| ``` particle`SPELL_WITCH` ``` |  |
+| ``` particle`DRIP_WATER` ``` |  |
+| ``` particle`DRIP_LAVA` ``` |  |
+| ``` particle`VILLAGER_ANGRY` ``` |  |
+| ``` particle`VILLAGER_HAPPY` ``` |  |
+| ``` particle`TOWN_AURA` ``` |  |
+| ``` particle`NOTE` ``` |  |
+| ``` particle`PORTAL` ``` |  |
+| ``` particle`ENCHANTMENT_TABLE` ``` |  |
+| ``` particle`FLAME` ``` |  |
+| ``` particle`LAVA` ``` |  |
+| ``` particle`FOOTSTEP` ``` |  |
+| ``` particle`CLOUD` ``` |  |
+| ``` particle`REDSTONE` ``` |  |
+| ``` particle`SNOWBALL` ``` |  |
+| ``` particle`SNOW_SHOVEL` ``` |  |
+| ``` particle`SLIME` ``` |  |
+| ``` particle`HEART` ``` |  |
+| ``` particle`BARRIER` ``` |  |
+| ``` particle`WATER_DROP` ``` |  |
+| ``` particle`ITEM_TAKE` ``` |  |
+| ``` particle`MOB_APPEARANCE` ``` |  |
+| ``` particle`DRAGON_BREATH` ``` |  |
+| ``` particle`END_ROD` ``` |  |
+| ``` particle`DAMAGE_INDICATOR` ``` |  |
+| ``` particle`SWEEP_ATTACK` ``` |  |
+| ``` particle`TOTEM` ``` |  |
+| ``` particle`SPIT` ``` |  |
 
 ### Зелье - **``` v`id d f` ```** [🔝](#значения)
 Вид значения, который представляет собой конкретную точку на карте /build. В кодинге представлен в виде "бумаги".
