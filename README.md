@@ -265,9 +265,10 @@ import "module.txt" end; // Модуль вставится не вместо im
      - [Частица](documentation/values.md#частица---particlevariant-)
      - [Зелье](documentation/values.md#зелье---vid-d-f-)
    - [Прочее](documentation/other.md)
-     - [Константы](documentation/other.md)
-     - [Ошибки](documentation/other.md)
-     - [Комментарии](documentation/other.md)
+     - [Константы](documentation/other.md#константы-)
+     - [Ошибки](documentation/other.md#ошибки-)
+     - [Комментарии](documentation/other.md#комментарии-)
+     - [Языковой модуль](documentation/other.md#языковой-модуль-)
 # Примеры 📧
 
 Векторное оружие:
