@@ -142,3 +142,29 @@ Function(give_item) {
 >[!TIP]
 >Если имя функции или цикла не содержит пробел или спец. символы (кроме цифр и нижних подчёркиваний) то можно писать без спец. символов ``
 
+# Документация 📜
+Посмотрите информацию по другим элементам кода.
+
+   - [Действия](documentation/actions.md)
+     - [Действие игрока](documentation/actions.md#действие-игрока---playeractionargs-)
+     - [Игровое действие](documentation/actions.md#игровое-действие---gameactionargs-)
+     - [Установить переменную](documentation/actions.md#установить-переменную---varactionargs-)
+     - [Работа с массивами](documentation/actions.md#работа-с-массивами---arrayactionargs-)
+     - [Выбрать объект](documentation/actions.md#выбрать-объект---selectaction-)
+   - [Условия](documentation/conditions.md)
+     - [Если игрок](documentation/conditions.md#если-игрок---ifplayerconditionargs--none--)
+     - [Если значение](documentation/conditions.md#если-значение---ifvalueconditionargs--none--)
+     - [Если существо](documentation/conditions.md#если-существо---ifentityconditionargs--none--)
+     - [Если игра](documentation/conditions.md#если-игра---ifgameconditionargs--none--)
+     - [Иначе](documentation/conditions.md#иначе---else--none--)
+   - [Значения](documentation/values.md)
+     - [Игровое значение](documentation/values.md#игровое-значение---vvalue-)
+     - [Местоположение](documentation/values.md#местоположение---lx-y-z-y-p-)
+     - [Предмет](documentation/values.md#предмет---imaterial-c-m-)
+     - [Частица](documentation/values.md#частица---particlevariant-)
+     - [Зелье](documentation/values.md#зелье---vid-d-f-)
+   - [Прочее](documentation/other.md)
+     - [Константы](documentation/other.md#константы-)
+     - [Ошибки](documentation/other.md#ошибки-)
+     - [Комментарии](documentation/other.md#комментарии-)
+     - [Языковой модуль](documentation/other.md#языковой-модуль-)
