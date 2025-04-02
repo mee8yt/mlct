@@ -25,7 +25,8 @@ const items = [i`diamond`, i`emerald`];
 const items = [i`diamond`, i`emerald`];
 
 player.setItems(items = @env(items));                // Аргумент "items" заполнился полностью списком из константы items
-player.setItems(items = [@env(items), i`book`]);     // Тут аргумент имеет значение: [i`diamond`, i`emerald`, i`book`], то есть константа "развернулась"
+player.setItems(items = [@env(items), i`book`]);     // Fргумент имеет значение: [i`diamond`, i`emerald`, i`book`]
+                                                     // то есть константа "развернулась"
 ```
 
 Чтобы не мусорить в файлах константы можно импортировать из других файлов:
@@ -40,7 +41,6 @@ PlayerEvent(like) {
    player.send<all>(@env(message));
    player.playSound<all>(@env(sound), 1000, 2);
 }
-
 ```
 
 ### Ошибки [🔝](#прочее)
