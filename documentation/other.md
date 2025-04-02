@@ -266,3 +266,30 @@ var `test` = 0; // Это комментарий
 - в хендлерах и вариантах можно писать свои имена (в ключе `customName`)
 - в аргументах можно добавлять свои аллиасы (ВАЖНО! нельзя менять ключ, можно добавлять только в `aliases`)
 - в кастомных параметрах можно менять в ключе `values` значение подзначения
+
+# Документация 📜
+Посмотрите информацию по другим элементам кода.
+
+   - [Активаторы](documentation/activators.md) 
+     -  [Событие игрока](documentation/activators.md#событие-игрока---playereventevent--none--)
+     -  [Событие мира](documentation/activators.md#событие-мира---worldeventevent--none--)
+     -  [Циклы](documentation/activators.md#циклы---loopname-0--none--)
+     -  [Функции](documentation/activators.md#функции---functionname--none--)
+   - [Действия](documentation/actions.md)
+     - [Действие игрока](documentation/actions.md#действие-игрока---playeractionargs-)
+     - [Игровое действие](documentation/actions.md#игровое-действие---gameactionargs-)
+     - [Установить переменную](documentation/actions.md#установить-переменную---varactionargs-)
+     - [Работа с массивами](documentation/actions.md#работа-с-массивами---arrayactionargs-)
+     - [Выбрать объект](documentation/actions.md#выбрать-объект---selectaction-)
+   - [Условия](documentation/conditions.md)
+     - [Если игрок](documentation/conditions.md#если-игрок---ifplayerconditionargs--none--)
+     - [Если значение](documentation/conditions.md#если-значение---ifvalueconditionargs--none--)
+     - [Если существо](documentation/conditions.md#если-существо---ifentityconditionargs--none--)
+     - [Если игра](documentation/conditions.md#если-игра---ifgameconditionargs--none--)
+     - [Иначе](documentation/conditions.md#иначе---else--none--)
+   - [Значения](documentation/values.md)
+     - [Игровое значение](documentation/values.md#игровое-значение---vvalue-)
+     - [Местоположение](documentation/values.md#местоположение---lx-y-z-y-p-)
+     - [Предмет](documentation/values.md#предмет---imaterial-c-m-)
+     - [Частица](documentation/values.md#частица---particlevariant-)
+     - [Зелье](documentation/values.md#зелье---vid-d-f-)
