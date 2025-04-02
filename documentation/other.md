@@ -59,12 +59,12 @@ PlayerEvent(like) {
 ```json
 {
    "variable1": {
-      "token": "PLAIN_VARIABLE,
+      "token": "PLAIN_VARIABLE",
       "shell": null,
       "value": "переменная"
    },
    "variable2": {
-      "token": "PLAIN_VARIABLE,
+      "token": "PLAIN_VARIABLE",
       "shell": "a",
       "value": "это уже массив"
    }
