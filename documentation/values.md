@@ -19,6 +19,72 @@
 ```
 | **Код** | **Название** |
 | --- | --- |
+| ``` v`health` ``` |  |
+| ``` v`maxHealth` ``` |  |
+| ``` v`food` ``` |  |
+| ``` v`saturation` ``` |  |
+| ``` v`exhaustion` ``` |  |
+| ``` v`xpLevel` ``` |  |
+| ``` v`xp` ``` |  |
+| ``` v`armor` ``` |  |
+| ``` v`fire` ``` |  |
+| ``` v`air` ``` |  |
+| ``` v`maxAir` ``` |  |
+| ``` v`heldSlot` ``` |  |
+| ``` v`ping` ``` |  |
+| ``` v`name` ``` |  |
+| ``` v`entityType` ``` |  |
+| ``` v`inventoryType` ``` |  |
+| ``` v`inventoryTitle` ``` |  |
+| ``` v`inventorySlots` ``` |  |
+| ``` v`langClient` ``` |  |
+| ``` v`langServer` ``` |  |
+| ``` v`version` ``` |  |
+| ``` v`damage` ``` |  |
+| ``` v`clickedSlot` ``` |  |
+| ``` v`newSlot` ``` |  |
+| ``` v`oldSlot` ``` |  |
+| ``` v`message` ``` |  |
+| ``` v`eventBlockLocation` ``` |  |
+| ``` v`clickedItem` ``` |  |
+| ``` v`eventBlock` ``` |  |
+| ``` v`fishingState` ``` |  |
+| ``` v`fishingCaught` ``` |  |
+| ``` v`damageReason` ``` |  |
+| ``` v`deathReason` ``` |  |
+| ``` v`eventItem` ``` |  |
+| ``` v`interaction` ``` |  |
+| ``` v`clickType` ``` |  |
+| ``` v`cursorItem` ``` |  |
+| ``` v`inventoryInteraction` ``` |  |
+| ``` v`eventSlotType` ``` |  |
+| ``` v`regainHealth` ``` |  |
+| ``` v`regainHealthReason` ``` |  |
+| ``` v`expCount` ``` |  |
+| ``` v`purchasedPoints` ``` |  |
+| ``` v`goldTransactionCount` ``` |  |
+| ``` v`goldTransactionName` ``` |  |
+| ``` v`goldTransactionDisplayName` ``` |  |
+| ``` v`shopTransactionKey` ``` |  |
+| ``` v`shopTransactionDisplayName` ``` |  |
+| ``` v`location` ``` |  |
+| ``` v`eyeLocation` ``` |  |
+| ``` v`facing` ``` |  |
+| ``` v`targetBlockLocation` ``` |  |
+| ``` v`mainHandItem` ``` |  |
+| ``` v`offhandItem` ``` |  |
+| ``` v`helmet` ``` |  |
+| ``` v`chestplate` ``` |  |
+| ``` v`leggings` ``` |  |
+| ``` v`boots` ``` |  |
+| ``` v`players` ``` |  |
+| ``` v`votes` ``` |  |
+| ``` v`visitors` ``` |  |
+| ``` v`variables` ``` |  |
+| ``` v`points` ``` |  |
+| ``` v`blocksLimit` ``` |  |
+| ``` v`codeLimit` ``` |  |
+| ``` v`plotId` ``` |  |
 
 ### Местоположение - **``` l`x y z y p` ```** [🔝](#значения)
 Вид значения, который представляет собой конкретную точку на карте /build. В кодинге представлен в виде "бумаги".
