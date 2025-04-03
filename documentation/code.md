@@ -1,4 +1,4 @@
-## `player.send();`
+## `player.send();` [↩️](actions.md)
 **Пример:**
 ```js
 player.send(["Игрок зашёл в игру", "Поприветствуем его"], sep=2);
