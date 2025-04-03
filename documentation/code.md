@@ -1,4 +1,4 @@
-## `player.send();` [↩️](actions.md)
+## `player.send();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
 player.send(["Игрок зашёл в игру", "Поприветствуем его"], sep=2);
