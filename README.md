@@ -300,7 +300,7 @@ PlayerEvent(rightClick) {
             var `%player% vector.speed` = 0;
             var `%player% vector.particle` = particle`CRIT`;
             var `%player% vector.final_pos` = v`targetBlockLocation`;
-            var.setLocation(`%player% vector.pos`, v`currentLocation`, y_mode = 1, y = 0.6);
+            var.setLocation(`%player% vector.pos`, v`location`, y_mode = 1, y = 0.6);
             game.startFunction("gun.vector");
             game.startFunction("gun.raycast");
          }
