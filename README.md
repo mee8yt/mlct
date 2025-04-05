@@ -301,8 +301,8 @@ PlayerEvent(rightClick) {
             var `%player% vector.particle` = particle`CRIT`;
             var `%player% vector.final_pos` = v`targetBlockLocation`;
             var.setLocation(`%player% vector.pos`, v`location`, y_mode = 1, y = 0.6);
-            game.startFunction("gun.vector");
-            game.startFunction("gun.raycast");
+            game.callFunction("gun.vector");
+            game.callFunction("gun.raycast");
          }
       }
    }
