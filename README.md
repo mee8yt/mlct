@@ -16,7 +16,7 @@
 1. Необходимо иметь Python версии не ниже 3.11.1 \(Установить можно [тут](https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe)\)
 2. Откройте раздел [релизов](https://github.com/mee8yt/mlct-compiler/releases/latest ) и нажмите "Download ZIP"
 3. Распакуйте архив
-4. Запустите `Main.py`
+4. Запустите `Setup.py`
 
 > [!IMPORTANT]
 > Без Python вы банально не сможете скомпилировать ваш код
