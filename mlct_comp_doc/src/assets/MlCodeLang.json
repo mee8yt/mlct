@@ -1,0 +1,3058 @@
+{
+    "HANDLERS": [
+        {
+            "name": "PLAYER_EVENT",
+            "customName": "PlayerEvent",
+            "type": "activator",
+            "noVariants": false
+        },
+        {
+            "name": "WORLD_EVENT",
+            "customName": "WorldEvent",
+            "type": "activator",
+            "noVariants": false
+        },
+        {
+            "name": "FUNCTION",
+            "customName": "Function",
+            "type": "activator",
+            "noVariants": true
+        },
+        {
+            "name": "LOOP",
+            "customName": "Loop",
+            "type": "activator",
+            "noVariants": true
+        },
+        {
+            "name": "PLAYER_ACTION",
+            "customName": "player",
+            "type": "action",
+            "noVariants": false
+        },
+        {
+            "name": "VARIABLE_ACTION",
+            "customName": "var",
+            "type": "action",
+            "noVariants": false
+        },
+        {
+            "name": "GAME_ACTION",
+            "customName": "game",
+            "type": "action",
+            "noVariants": false
+        },
+        {
+            "name": "ARRAY_ACTION",
+            "customName": "array",
+            "type": "action",
+            "noVariants": false
+        },
+        {
+            "name": "IF_GAME",
+            "customName": "ifGame",
+            "type": "condition",
+            "noVariants": false
+        },
+        {
+            "name": "IF_VARIABLE",
+            "customName": "ifVar",
+            "type": "condition",
+            "noVariants": false
+        },
+        {
+            "name": "IF_ENTITY",
+            "customName": "ifEntity",
+            "type": "condition",
+            "noVariants": false
+        },
+        {
+            "name": "IF_PLAYER",
+            "customName": "ifPlayer",
+            "type": "condition",
+            "noVariants": false
+        },
+        {
+            "name": "ELSE",
+            "customName": "else",
+            "type": "condition",
+            "noVariants": true
+        },
+        {
+            "name": "SELECT_OBJECT",
+            "customName": "select",
+            "type": "action",
+            "noVariants": false
+        }
+    ],
+    "PLAYER_EVENT": [
+        {
+            "name": "JOIN",
+            "customName": "join"
+        },
+        {
+            "name": "LEAVE",
+            "customName": "leave"
+        },
+        {
+            "name": "REJOIN",
+            "customName": "rejoin"
+        },
+        {
+            "name": "INTERACTION",
+            "customName": "interaction"
+        },
+        {
+            "name": "RIGHT_CLICK",
+            "customName": "rightClick"
+        },
+        {
+            "name": "LEFT_CLICK",
+            "customName": "leftClick"
+        },
+        {
+            "name": "RIGHT_CLICK_ENTITY",
+            "customName": "rightClickEntity"
+        },
+        {
+            "name": "LEASH_ENTITY",
+            "customName": "leashEntity"
+        },
+        {
+            "name": "TAME_ENTITY",
+            "customName": "tameEntity"
+        },
+        {
+            "name": "PLACE_BLOCK",
+            "customName": "placeBlock"
+        },
+        {
+            "name": "BREAK_BLOCK",
+            "customName": "breakBlock"
+        },
+        {
+            "name": "PLAYER_FISHING",
+            "customName": "playerFishing"
+        },
+        {
+            "name": "DAMAGE_BLOCK",
+            "customName": "damageBlock"
+        },
+        {
+            "name": "EXPERIENCE_CHANGE",
+            "customName": "expChange"
+        },
+        {
+            "name": "LIKE",
+            "customName": "like"
+        },
+        {
+            "name": "GOLD_TRANSACTION",
+            "customName": "goldTransaction"
+        },
+        {
+            "name": "BUY_ADVERT",
+            "customName": "buyAdvert"
+        },
+        {
+            "name": "BUY_POINT",
+            "customName": "buyPoint"
+        },
+        {
+            "name": "STUDIO_TRANSACTION",
+            "customName": "studioTransaction"
+        },
+        {
+            "name": "OPENED_INVENTORY",
+            "customName": "openedInventory"
+        },
+        {
+            "name": "CLOSED_INVENTORY",
+            "customName": "closedInventory"
+        },
+        {
+            "name": "EDIT_BOOK",
+            "customName": "editBook"
+        },
+        {
+            "name": "DAMAGE_ITEM",
+            "customName": "damageItem"
+        },
+        {
+            "name": "BREAK_ITEM",
+            "customName": "breakItem"
+        },
+        {
+            "name": "CLICK_INVENTORY",
+            "customName": "clickInventory"
+        },
+        {
+            "name": "MOVE_INVENTORY",
+            "customName": "moveInventory"
+        },
+        {
+            "name": "PICKUP_ITEM",
+            "customName": "pickupItem"
+        },
+        {
+            "name": "DROP_ITEM",
+            "customName": "dropItem"
+        },
+        {
+            "name": "EXTRACT_FURNACE",
+            "customName": "extractFurnace"
+        },
+        {
+            "name": "SWAP_HANDS",
+            "customName": "swapHands"
+        },
+        {
+            "name": "CRAFTED",
+            "customName": "crafted"
+        },
+        {
+            "name": "CHANGE_SLOT",
+            "customName": "changeSlot"
+        },
+        {
+            "name": "KILL_PLAYER",
+            "customName": "killPlayer"
+        },
+        {
+            "name": "DEATH_PLAYER",
+            "customName": "deathPlayer"
+        },
+        {
+            "name": "DAMAGE_PLAYER",
+            "customName": "damagePlayer"
+        },
+        {
+            "name": "PROJECTILE_DAMAGE_PLAYER",
+            "customName": "projectileDamagePlayer"
+        },
+        {
+            "name": "TAKE_DAMAGE_PLAYER",
+            "customName": "takeDamagePlayer"
+        },
+        {
+            "name": "TAKE_FALL_DAMAGE_PLAYER",
+            "customName": "takeFallDamagePlayer"
+        },
+        {
+            "name": "KILL_MOB_BY_PLAYER",
+            "customName": "killMobByPlayer"
+        },
+        {
+            "name": "KILL_PLAYER_BY_MOB",
+            "customName": "killPlayerByMob"
+        },
+        {
+            "name": "DAMAGE_MOB_BY_PLAYER",
+            "customName": "damageMobByPlayer"
+        },
+        {
+            "name": "DAMAGE_PLAYER_BY_MOB",
+            "customName": "damagePlayerByMob"
+        },
+        {
+            "name": "PROJECTILE_DAMAGE_MOB_BY_PLAYER",
+            "customName": "projectileDamageMobByPlayer"
+        },
+        {
+            "name": "PROJECTILE_KILL_MOB_BY_PLAYER",
+            "customName": "projectileKillMobByPlayer"
+        },
+        {
+            "name": "DEATH_MOB",
+            "customName": "deathMob"
+        },
+        {
+            "name": "TAKE_DAMAGE_MOB",
+            "customName": "takeDamageMob"
+        },
+        {
+            "name": "RESTORED_HEALTH_ENTITY",
+            "customName": "restoredHealthEntity"
+        },
+        {
+            "name": "SNEAK",
+            "customName": "sneak"
+        },
+        {
+            "name": "UNSNEAK",
+            "customName": "unsneak"
+        },
+        {
+            "name": "START_SPRINT",
+            "customName": "startSprint"
+        },
+        {
+            "name": "JUMP",
+            "customName": "jump"
+        },
+        {
+            "name": "STOP_SPRINT",
+            "customName": "stopSprint"
+        },
+        {
+            "name": "MOVE",
+            "customName": "move"
+        },
+        {
+            "name": "ROTATE",
+            "customName": "rotate"
+        },
+        {
+            "name": "MESSAGE",
+            "customName": "message"
+        },
+        {
+            "name": "LAUNCH_PROJECTILE",
+            "customName": "launchProjectile"
+        },
+        {
+            "name": "CONSUME_ITEM",
+            "customName": "consumeItem"
+        },
+        {
+            "name": "CHANGE_FOOD_LVL",
+            "customName": "changeFoodLvl"
+        }
+    ],
+    "WORLD_EVENT": [
+        {
+            "name": "GAME_START",
+            "customName": "start"
+        },
+        {
+            "name": "GAME_STOP",
+            "customName": "stop"
+        },
+        {
+            "name": "RECEIVE_DATA",
+            "customName": "receiveData"
+        },
+        {
+            "name": "BLOCK_IGNITE",
+            "customName": "blockIgnite"
+        },
+        {
+            "name": "BLOCK_BURN",
+            "customName": "blockBurn"
+        },
+        {
+            "name": "BLOCK_FADE",
+            "customName": "blockFade"
+        },
+        {
+            "name": "PISTON_EXTEND",
+            "customName": "pistonExtend"
+        },
+        {
+            "name": "PISTON_RETRACT",
+            "customName": "pistonRetract"
+        },
+        {
+            "name": "BLOCK_EXPLODE",
+            "customName": "blockExplode"
+        },
+        {
+            "name": "ENTITY_SPAWN",
+            "customName": "entitySpawn"
+        },
+        {
+            "name": "ENTITY_EXPLODE",
+            "customName": "entityExplode"
+        },
+        {
+            "name": "ENTITY_EXPLOSION_PRIME",
+            "customName": "entityExplosionPrime"
+        },
+        {
+            "name": "LEAVES_DECAY",
+            "customName": "leavesDecay"
+        },
+        {
+            "name": "TREE_GROW",
+            "customName": "treeGrow"
+        },
+        {
+            "name": "BLOCK_GROW",
+            "customName": "blockGrow"
+        },
+        {
+            "name": "BLOCK_MOVED",
+            "customName": "blockMoved"
+        },
+        {
+            "name": "BLOCK_BREW",
+            "customName": "blockBrew"
+        },
+        {
+            "name": "BREWING_STAND_FUEL",
+            "customName": "brewingStandFuel"
+        },
+        {
+            "name": "BLOCK_FORM",
+            "customName": "blockForm"
+        },
+        {
+            "name": "ENTITY_BLOCK_FORM",
+            "customName": "entityBlockForm"
+        },
+        {
+            "name": "BLOCK_SPREAD",
+            "customName": "blockSpread"
+        },
+        {
+            "name": "BLOCK_PHYSICS",
+            "customName": "blockPhysics"
+        },
+        {
+            "name": "PORTAL_ACTIVATION",
+            "customName": "portalActivation"
+        },
+        {
+            "name": "NOTE_PLAY",
+            "customName": "notePlay"
+        },
+        {
+            "name": "BLOCK_DISPENSE",
+            "customName": "blockDispense"
+        },
+        {
+            "name": "ITEM_DESPAWN",
+            "customName": "itemDespawn"
+        },
+        {
+            "name": "ITEM_MERGE",
+            "customName": "itemMerge"
+        },
+        {
+            "name": "CAULDRON_LEVEL_CHANGE",
+            "customName": "cauldronChange"
+        },
+        {
+            "name": "SIGN_CHANGE",
+            "customName": "signChange"
+        },
+        {
+            "name": "BLOCK_EXP",
+            "customName": "blockExp"
+        },
+        {
+            "name": "ITEM_MOVE_TO_INVENTORY",
+            "customName": "itemMoveToInventory"
+        },
+        {
+            "name": "INVENTORY_PICKUP_ITEM",
+            "customName": "inventoryPickupItem"
+        },
+        {
+            "name": "FURNACE_SMELT",
+            "customName": "furnaceSmelt"
+        },
+        {
+            "name": "FURNACE_BURN",
+            "customName": "furnaceBurn"
+        }
+    ],
+    "PLAYER_ACTION": [
+        {
+            "name": "GIVE_ITEM",
+            "customName": "giveItems",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "SET_ITEM",
+            "customName": "setItems",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "SET_ITEM_IN_ENDERCHEST",
+            "customName": "setItemsEnder",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "SET_ARMOR",
+            "customName": "setArmor",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 4},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "SET_ITEM_IN_HAND",
+            "customName": "setItemHand",
+            "args": {
+                "item": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["hand"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_IN_CURSOR",
+            "customName": "setItemCursor",
+            "args": {
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "REMOVE_ITEM",
+            "customName": "removeItem",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "CLEAR_INVENTORY",
+            "customName": "clearInventory"
+        },
+        {
+            "name": "CLEAR_ENDERCHEST",
+            "customName": "clearEnder"
+        },
+        {
+            "name": "SET_HOTBAR_SLOT",
+            "customName": "setHotbar",
+            "args": {
+                "number": {"type": "value", "aliases": ["slot"]}
+            }
+        },
+        {
+            "name": "GIVE_RANDOM_ITEM",
+            "customName": "giveRandomItem",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "SAVE_INVENTORY",
+            "customName": "saveInventory"
+        },
+        {
+            "name": "LOAD_INVENTORY",
+            "customName": "loadInventory"
+        },
+        {
+            "name": "SET_DELAY_ITEM",
+            "customName": "setDelay",
+            "args": {
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["time", "ticks", "delay"]}
+            }
+        },
+        {
+            "name": "GET_ITEM",
+            "customName": "getItem",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result"]},
+                "number": {"type": "value", "aliases": ["slot"]}
+            }
+        },
+        {
+            "name": "SET_ITEM",
+            "customName": "setItem",
+            "args": {
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["slot", "slots"]}
+            }
+        },
+        {
+            "name": "GET_ITEM_COOLDOWN",
+            "customName": "getItemCooldown",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result"]}
+            }
+        },
+        {
+            "name": "SEND_MESSAGE",
+            "customName": "send",
+            "args": {
+                "texts": {"type":  "value", "listed": true, "max": 27, "aliases": ["message"]},
+                "switch": {"type": "switch", "aliases": ["separator", "sep"]}
+            }
+        },
+        {
+            "name": "SEND_COMPONENT_MESSAGE",
+            "customName": "sendComponent",
+            "args": {
+                "components": {"type": "value", "listed": true, "max": 27},
+                "switch": {"type": "switch", "aliases": ["separator", "switch"]}
+            }
+        },
+        {
+            "name": "SEND_DIALOGUE",
+            "customName": "sendDialogue",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 27, "aliases": ["messages"]},
+                "number": {"type": "value", "aliases": ["time", "delay", "ticks"]}
+            }
+        },
+        {
+            "name": "CLEAR_CHAT",
+            "customName": "clearChat"
+        },
+        {
+            "name": "PLAY_SOUND",
+            "customName": "playSound",
+            "args": {
+                "text": {"type": "value", "aliases": ["sound"]},
+                "number1": {"type": "value", "aliases": ["volume"]},
+                "number2": {"type": "value", "aliases": ["pitch"]},
+                "location": {"type": "value", "aliases": ["fromHere", "from"]},
+                "switch": {"type": "switch", "aliases": ["category", "sounding", "mode"]}
+            }
+        },
+        {
+            "name": "STOP_SOUND",
+            "customName": "stopSound",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 27, "aliases": ["sounds", "sound"]}
+            }
+        },
+        {
+            "name": "SEND_TITLE",
+            "customName": "title",
+            "args": {
+                "text1": {"type": "value", "aliases": ["title"]},
+                "text2": {"type": "value", "aliases": ["subtitle"]},
+                "number1": {"type": "value", "aliases": ["in", "fadeIn", "appear", "time1"]},
+                "number2": {"type": "value", "aliases": ["show", "show", "hold", "time2"]},
+                "number3": {"type": "value", "aliases": ["out", "fadeOut", "disappear", "time3"]}
+            }
+        },
+        {
+            "name": "SEND_ACTIONBAR",
+            "customName": "actionbar",
+            "args": {
+                "text": {"type": "value", "aliases": ["message", "actionbar"]}
+            }
+        },
+        {
+            "name": "SHOW_LINK",
+            "customName": "showLink",
+            "args": {
+                "text": {"type": "value", "aliases": ["message", "link", "url"]}
+            }
+        },
+        {
+            "name": "OPEN_BOOK",
+            "customName": "openBook",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 27, "aliases": ["pages", "messages", "page"]}
+            }
+        },
+        {
+            "name": "OPEN_MENU",
+            "customName": "openMenu",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27, "aliases": ["content", "item"]},
+                "text": {"type": "value", "aliases": ["mame", "display", "displayName", "title"]},
+                "switch": {"type": "switch", "aliases": ["inventoryType", "type"]}
+            }
+        },
+        {
+            "name": "EXPAND_MENU",
+            "customName": "expandMenu",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27, "aliases": ["item", "content"]},
+                "number": {"type": "value", "aliases": ["count", "lines", "quantity"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_IN_MENU",
+            "customName": "setItemInMenu",
+            "args": {
+                "item": {"type": "value"},
+                "count": {"type": "value", "listed": true, "listed_limits": 27, "aliases": ["slot", "slots"]}
+            }
+        },
+        {
+            "name": "SET_MENU_NAME",
+            "customName": "setMenuName",
+            "args": {
+                "text": {"type": "value", "aliases": ["name", "display", "title"]}
+            }
+        },
+        {
+            "name": "ADD_LINE_IN_MENU",
+            "customName": "addLineInMenu",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 9, "aliases": ["content", "item"]},
+                "switch": {"type": "switch", "aliases": ["position"]}
+            }
+        },
+        {
+            "name": "DELETE_LINE_IN_MENU",
+            "customName": "deleteLineMenu",
+            "args": {
+                "number": {"type": "value", "aliases": ["count", "lines"]},
+                "switch": {"type": "switch", "aliases": ["position"]}
+            }
+        },
+        {
+            "name": "CLOSE_INVENTORY",
+            "customName": "closeInventory"
+        },
+        {
+            "name": "OPEN_BLOCK_INVENTORY",
+            "customName": "openBlock",
+            "args": {
+                "location": {"type": "value", "aliases": ["block"]},
+                "switch": {"type": "switch", "aliases": ["mode", "type"]}
+            }
+        },
+        {
+            "name": "OPEN_ENTITY_INVENTORY",
+            "customName": "openEntity",
+            "location": {"type": "value", "aliases": ["block"]},
+            "number": {"type": "number", "aliases": ["radius", "distance"]},
+            "switch": {"type": "switch", "aliases": ["mode", "type"]}
+        },
+        {
+            "name": "TELEPORT",
+            "customName": "teleport",
+            "args": {
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "ROTATE_TO_LOCATION",
+            "customName": "rotateToLocation",
+            "args": {
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "RANDOM_TELEPORT",
+            "customName": "randomTeleport",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "TELEPORT_SEQUENCE",
+            "customName": "teleportSequence",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 27},
+                "switch": {"type": "switch", "aliases": ["mode"]},
+                "number": {"type": "value", "aliases": ["ticks", "delay", "time"]}
+            }
+
+        },
+        {
+            "name": "LAUNCH_VERTICALLY",
+            "customName": "launchVertically",
+            "args": {
+                "number": {"type": "value", "aliases": ["power"]}
+            }
+        },
+        {
+            "name": "LAUNCH_FORWARD",
+            "customName": "launchForward",
+            "args": {
+                "number": {"type": "value", "aliases": ["power"]}
+            }
+        },
+        {
+            "name": "LAUNCH_TOWARD",
+            "customName": "launchToward",
+            "args": {
+                "number1": {"type": "value", "aliases": ["power1", "x"]},
+                "number2": {"type": "value", "aliases": ["power2", "y"]},
+                "number3": {"type": "value", "aliases": ["power3", "z"]}
+            }
+        },
+        {
+            "name": "LAUNCH_TO_LOCATION",
+            "customName": "launchToLocation",
+            "args": {
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "KICK_PLAYER",
+            "customName": "kick"
+        },
+        {
+            "name": "MOVE_TO_GAME",
+            "customName": "moveToGame",
+            "args": {
+                "number": {"type": "value", "aliases": ["world", "id"]}
+            }
+        },
+        {
+            "name": "DAMAGE",
+            "customName": "damage",
+            "args": {
+                "number": {"type": "value", "aliases": ["damage", "hp"]}
+            }
+        },
+        {
+            "name": "SET_HEALTH",
+            "customName": "setHealth",
+            "args": {
+                "number": {"type": "value", "aliases": ["hp"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "GIVE_POTION_EFFECT",
+            "customName": "givePotionEffect",
+            "args": {
+                "potions": {"type": "value", "listed": true, "max": 18, "aliases": ["potion"]},
+                "switch1": {"type": "switch", "aliases": ["particles", "trash"]},
+                "switch2": {"type": "switch", "aliases": ["replace"]},
+                "number1": {"type": "value", "aliases": ["time", "ticks", "duration"]},
+                "number2": {"type": "value", "aliases": ["power", "force", "level"]}
+            }
+        },
+        {
+            "name": "CLEAR_POTION_EFFECT",
+            "customName": "clearPotionEffect"
+        },
+        {
+            "name": "REMOVE_POTION_EFFECT",
+            "customName": "removePotionEffect",
+            "args": {
+                "potions": {"type": "value", "listed": true, "max": 18, "aliases": ["potion"]}
+            }
+        },
+        {
+            "name": "SET_XP_LVL",
+            "customName": "setXpLvl",
+            "args": {
+                "number": {"type": "value", "aliases": ["level"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_XP_PROGRESS",
+            "customName": "setXpProgress",
+            "args": {
+                "number": {"type": "value", "aliases": ["exp"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_HUNGER",
+            "customName": "setHunger",
+            "args": {
+                "number": {"type": "value", "aliases": ["hunger"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_SATURATION",
+            "customName": "setSaturation",
+            "args": {
+                "number": {"type": "value", "aliases": ["saturation"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_EXHAUSTION",
+            "customName": "setExhaustion",
+            "args": {
+                "number": {"type": "value", "aliases": ["exhaustion"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_MAXIMUM_HEALTH",
+            "customName": "setMaxHealth",
+            "args": {
+                "number": {"type": "value", "aliases": ["hp"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_ON_FIRE",
+            "customName": "setOnFire",
+            "args": {
+                "number": {"type": "value", "aliases": ["duration", "ticks", "time"]}
+            }
+        },
+        {
+            "name": "SET_FLIGHT_SPEED",
+            "customName": "setFlightSpeed",
+            "args": {
+                "number": {"type": "value", "aliases": ["speed"]}
+            }
+        },
+        {
+            "name": "SET_WALK_SPEED",
+            "customName": "setWalkSpeed",
+            "args": {
+                "number": {"type": "value", "aliases": ["speed"]}
+            }
+        },
+        {
+            "name": "SET_REMAINING_AIR",
+            "customName": "setRemainingAir",
+            "args": {
+                "number": {"type": "value", "aliases": ["air"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_MAXIMUM_AIR",
+            "customName": "setMaximumAir",
+            "args": {
+                "number": {"type": "value", "aliases": ["air"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "SET_NAME",
+            "customName": "setName",
+            "args": {
+                "text": {"type": "value", "aliases": ["name", "nick"]}
+            }
+        },
+        {
+            "name": "SET_DAMAGE",
+            "customName": "setDamage",
+            "args": {
+                "number": {"type": "value", "aliases": ["damage"]}
+            }
+        },
+        {
+            "name": "SET_SIZE",
+            "customName": "setSize",
+            "args": {
+                "number": {"type": "value", "aliases": ["damage"]}
+            }
+        },
+        {
+            "name": "SET_SOUND",
+            "customName": "setSound",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_GLOW",
+            "customName": "setGlow",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_VISIBILITY",
+            "customName": "setVisibility",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_GRAVITY",
+            "customName": "setGravity",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_INVINCIBILITY",
+            "customName": "setInvincibility",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "DELETE_ENTITY",
+            "customName": "deleteEntity"
+        },
+        {
+            "name": "SET_FLIGHT",
+            "customName": "setFlight",
+            "args": {
+                "switch1": {"type": "value", "aliases": ["action"]},
+                "switch2": {"type": "value", "aliases": ["permission", "right", "access"]}
+            }
+        },
+        {
+            "name": "SET_GAMEMODE",
+            "customName": "setGamemode",
+            "args": {
+                "switch": {"type": "value", "aliases": ["gamemode", "mode"]}
+            }
+        },
+        {
+            "name": "SET_KEEP_INVENTORY",
+            "customName": "setKeepInventory",
+            "args": {
+                "switch": {"type": "value"}
+            }
+        },
+        {
+            "name": "SHOW_SCOREBOARD",
+            "customName": "showScoreboard",
+            "args": {
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "HIDE_SCOREBOARD",
+            "customName": "hideScoreboard"
+        },
+        {
+            "name": "SHOW_BOSSBAR",
+            "customName": "showBossbar",
+            "args": {
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "HIDE_BOSSBAR",
+            "customName": "hideBossbar"
+        },
+        {
+            "name": "LAY_ON_BED",
+            "customName": "layOnBed",
+            "args": {
+                "location": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["mode", "view", "type"]}
+            }
+        },
+        {
+            "name": "WAKE_UP",
+            "customName": "wakeUp"
+        },
+        {
+            "name": "HAND_ANIMATION",
+            "customName": "handAnimation",
+            "args": {
+                "switch": {"type": "switch", "aliases": ["hand"]}
+            }
+        },
+        {
+            "name": "SNEAKING_STATE",
+            "customName": "sneakingState",
+            "args": {
+                "switch": {"type": "switch", "aliases": ["state", "stage", "variant"]}
+            }
+        },
+        {
+            "name": "DAMAGE_ANIMATION",
+            "customName": "damageAnimation",
+            "args": {
+                "switch": {"type": "switch", "aliases": ["animation", "type"]}
+            }
+        },
+        {
+            "name": "GOLD_TRANSACTION",
+            "customName": "goldTransaction",
+            "args": {
+                "text1": {"type": "value", "aliases": ["id"]},
+                "text2": {"type": "value", "aliases": ["name", "display"]},
+                "number": {"type": "value", "aliases": ["price", "cost", "gold"]},
+                "switch": {"type": "switch", "aliases": ["save"]}
+            }
+        }
+    ],
+    "VARIABLE_ACTION": [
+        {
+            "name": "SET_VARIABLE",
+            "customName": "set",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "values": {"type": "value", "listed": true, "max": 27},
+                "switch": {"type": "switch", "aliases": ["separator"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_TO_VARIABLE",
+            "customName": "setItemToVariable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_RANDOM_VALUE",
+            "customName": "setRandomValue",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "SET_TIMESTAMP",
+            "customName": "setTimestamp",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]}
+            }
+        },
+        {
+            "name": "SET_UNIX",
+            "customName": "setUnix",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]}
+            }
+        },
+        {
+            "name": "SUM",
+            "customName": "sum",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "amount"]},
+                "number": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "DIFFERENCE",
+            "customName": "difference",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "difference"]},
+                "number": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "MULTIPLY",
+            "customName": "multiply",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "product"]},
+                "number": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "DIVISION",
+            "customName": "division",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "quotient"]},
+                "number": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "REMAINDER",
+            "customName": "remainder",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "remainder"]},
+                "number1": {"type": "value", "aliases": ["divisible"]},
+                "number2": {"type": "value", "aliases": ["divider"]}
+            }
+        },
+        {
+            "name": "INCREMENT",
+            "customName": "plus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "DECREMENT",
+            "customName": "minus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_RANDOM_NUMBER",
+            "customName": "setRandomNumber",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "random"]},
+                "number1": {"type": "value", "aliases": ["lower"]},
+                "number2": {"type": "value", "aliases": ["upper"]}
+            }
+        },
+        {
+            "name": "ROUND_NUMBER",
+            "customName": "roundNumber",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "round"]},
+                "number1": {"type": "value"},
+                "number2": {"type": "value", "aliases": ["decimal_places"]},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "MODULE",
+            "customName": "module",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "module", "abs"]},
+                "number": {"type": "value", "aliases": ["divisible"]}
+            }
+        },
+        {
+            "name": "MIN_NUMBER",
+            "customName": "minNumber",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"},
+                "number2": {"type": "value"}
+            }
+        },
+        {
+            "name": "MAX_NUMBER",
+            "customName": "maxNumber",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"},
+                "number2": {"type": "value"}
+            }
+        },
+        {
+            "name": "DEGREE_EXPANSION",
+            "customName": "pow",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value", "aliases": ["base"]},
+                "number2": {"type": "value", "aliases": ["exp"]}
+            }
+        },
+        {
+            "name": "COSINUS",
+            "customName": "cosinus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "SINUS",
+            "customName": "sinus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "TANGENT",
+            "customName": "tangent",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "ARC_SINUS",
+            "customName": "arcSinus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "ARC_COSINUS",
+            "customName": "arcCosinus",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "ARC_TANGENT",
+            "customName": "arcTangent",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "DEGREES",
+            "customName": "deg",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "LOGARITHM",
+            "customName": "logarithm",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "SQUARE_ROOT",
+            "customName": "sqrt",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "EXPONENTIAL",
+            "customName": "exp",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "RADIANS",
+            "customName": "radians",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "PERLIN_NOISE",
+            "customName": "perlin",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"},
+                "number1": {"type": "value", "aliases": ["seed"]},
+                "number2": {"type": "value", "aliases": ["frequency"]},
+                "number3": {"type": "value", "aliases": ["octaves"]},
+                "number4": {"type": "value", "aliases": ["lacunarity"]},
+                "number5": {"type": "value", "aliases": ["persistence"]},
+                "switch": {"type": "switch", "aliases": ["normalize", "mode"]}
+            }
+        },
+        {
+            "name": "SIMPLEX_NOISE",
+            "customName": "simplex",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"},
+                "number1": {"type": "value", "aliases": ["seed"]},
+                "number2": {"type": "value", "aliases": ["frequency"]},
+                "number3": {"type": "value", "aliases": ["octaves"]},
+                "number4": {"type": "value", "aliases": ["lacunarity"]},
+                "number5": {"type": "value", "aliases": ["persistence"]},
+                "switch": {"type": "switch", "aliases": ["normalize", "mode"]}
+            }
+        },
+        {
+            "name": "COMBINE_TEXT",
+            "customName": "combine",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch": {"type": "switch", "aliases": ["separator"]}
+            }
+        },
+        {
+            "name": "PARSE_NUMBER",
+            "customName": "parseNumber",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "texts": {"type": "value"}
+            }
+        },
+        {
+            "name": "TRUNCATE_TEXT",
+            "customName": "truncate",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"},
+                "number1": {"type": "value", "aliases": ["begin"]},
+                "number2": {"type": "value", "aliases": ["end"]},
+                "switch": {"type": "switch", "aliases": ["mode", "type"]}
+            }
+        },
+        {
+            "name": "SPLIT_TEXT",
+            "customName": "splitText",
+            "args": {
+                "array": {"type": "value", "aliases": ["result", "output", "array"]},
+                "text1": {"type": "value"},
+                "text2": {"type": "value", "aliases": ["separator"]}
+            }
+        },
+        {
+            "name": "GET_TEXT_LENGTH",
+            "customName": "getTextLength",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "length"]},
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "REPLACE_TEXT",
+            "customName": "replaceText",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text1": {"type": "value"},
+                "text2": {"type": "value"},
+                "text3": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_TEXT_CASE",
+            "customName": "setTextCase",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["mode", "type", "case"]}
+            }
+        },
+        {
+            "name": "TIME_FORMAT",
+            "customName": "timeFormat",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value", "aliases": ["unix", "time", "ms"]},
+                "text1": {"type": "value", "aliases": ["formating"]},
+                "text2": {"type": "value", "aliases": ["lang"]},
+                "switch": {"type": "switch", "aliases": ["type", "format"]}
+            }
+        },
+        {
+            "name": "GET_LOCATION_VALUE",
+            "customName": "getLocationValue",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["value"]}
+            }
+        },
+        {
+            "name": "GET_LOCATION_DISTANCE",
+            "customName": "getLocationDistance",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "distance"]},
+                "location1": {"type": "value"},
+                "location2": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_LOCATION",
+            "customName": "setLocation",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"},
+                "number1": {"type": "value", "aliases": ["yaw"]},
+                "number2": {"type": "value", "aliases": ["pitch"]},
+                "number3": {"type": "value", "aliases": ["x"]},
+                "number4": {"type": "value", "aliases": ["y"]},
+                "number5": {"type": "value", "aliases": ["z"]},
+                "switch1": {"type": "switch", "aliases": ["yaw_mode", "yawMode", "YawMode"]},
+                "switch2": {"type": "switch", "aliases": ["pitch_mode", "pitchMode", "PitchMode"]},
+                "switch3": {"type": "switch", "aliases": ["x_mode", "xMode", "XMode"]},
+                "switch4": {"type": "switch", "aliases": ["y_mode", "yMode","YMode"]},
+                "switch5": {"type": "switch", "aliases": ["z_mode", "zMode", "ZMode"]}
+            }
+        },
+        {
+            "name": "GET_BLOCK",
+            "customName": "getBlock",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "item", "block"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_ITEM_VALUE",
+            "customName": "getItemValue",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["value"]}
+            }
+        },
+        {
+            "name": "GET_ITEM_LORE",
+            "customName": "getItemLore",
+            "args": {
+                "array": {"type": "value", "aliases": ["result", "output", "array", "lore"]},
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_ITEM_AMOUNT",
+            "customName": "setItemAmount",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["count", "amount"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_DURABILITY",
+            "customName": "setItemDurability",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["durability"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_LORE",
+            "customName": "setItemLore",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["string"]},
+                "number": {"type": "value", "aliases": ["line"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_NAME",
+            "customName": "setItemName",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["name"]}
+            }
+        },
+        {
+            "name": "ADD_ITEM_LORE",
+            "customName": "addItemLore",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["lore", "line", "string"]}
+            }
+        },
+        {
+            "name": "DELETE_ITEM_LORE",
+            "customName": "deleteItemLore",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["line"]}
+            }
+        },
+        {
+            "name": "GET_PAGE_BOOK",
+            "customName": "getPageBook",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "number": {"type": "value", "aliases": ["page"]}
+            }
+        },
+        {
+            "name": "SET_PAGE_BOOK",
+            "customName": "setPageBook",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["content"]},
+                "number": {"type": "value", "aliases": ["page"]}
+            }
+        },
+        {
+            "name": "SET_POPUP_TEXT",
+            "customName": "setPopupText",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text_component": {"type": "value", "aliases": ["component"]},
+                "text": {"type": "value", "aliases": ["popup"]}
+            }
+        },
+        {
+            "name": "SET_CLICK_EVENT_TEXT",
+            "customName": "setClickEventText",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text_component": {"type": "value", "aliases": ["component"]},
+                "text": {"type": "value", "aliases": ["content"]},
+                "switch": {"type": "switch","aliases": ["type"]}
+            }
+        },
+        {
+            "name": "COMBINE_TEXT_COMPONENT",
+            "customName": "combineTextComponent",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text_components": {"type": "value", "listed": true, "max": 27, "aliases": ["components", "texts"]},
+                "switch": {"type": "switch","aliases": ["separator"]}
+            }
+        }
+    ],
+    "GAME_ACTION": [
+        {
+            "name": "SPAWN_ENTITY",
+            "customName": "spawnEntity",
+            "args": {
+                "item1": {"type": "value", "aliases": ["entity"]},
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "switch1": {"type": "switch", "aliases": ["sounds"]},
+                "switch2": {"type": "switch", "aliases": ["glow"]},
+                "switch3": {"type": "switch", "aliases": ["despawn", "disappearance"]},
+                "switch4": {"type": "switch", "aliases": ["gravity"]},
+                "switch5": {"type": "switch", "aliases": ["invincibility", "immortal", "invulnerability"]},
+                "text": {"type": "value", "aliases": ["name", "nick"]},
+                "number1": {"type": "value", "aliases": ["maxHealth"]},
+                "number2": {"type": "value", "aliases": ["currentHealth", "health"]},
+                "number3": {"type": "value", "aliases": ["movementSpeed", "speed"]},
+                "number4": {"type": "value", "aliases": ["damage"]},
+                "number5": {"type": "value", "aliases": ["radiusView", "view", "radius"]},
+                "number6": {"type": "value", "aliases": ["age"]},
+                "switch6": {"type": "switch", "aliases": ["nameVisible", "nameVisibility"]},
+                "switch7": {"type": "switch", "aliases": ["intelligence", "intellect", "nous"]},
+                "switch8": {"type": "switch", "aliases": ["tamed"]},
+                "switch9": {"type": "switch", "aliases": ["growing"]},
+                "potions": {"type": "value", "listed": true, "max": 9},
+                "number7": {"type": "value", "aliases": ["ticks", "time", "duration"]},
+                "number8": {"type": "value", "aliases": ["level"]},
+                "switch10": {"type": "switch", "aliases": ["particles", "potionParticles"]},
+                "item2": {"type": "value", "aliases": ["helmet"]},
+                "item3": {"type": "value", "aliases": ["chestplate"]},
+                "item4": {"type": "value", "aliases": ["leggings"]},
+                "item5": {"type": "value", "aliases": ["boots"]},
+                "number9": {"type": "value", "aliases": ["helmetDropChance"]},
+                "number10": {"type": "value", "aliases": ["chestplateDropChance"]},
+                "number11": {"type": "value", "aliases": ["leggingsDropChance"]},
+                "number12": {"type": "value", "aliases": ["bootsDropChance"]},
+                "item6": {"type": "value", "aliases": ["mainHand"]},
+                "item7": {"type": "value", "aliases": ["offHand"]},
+                "number13": {"type": "value", "aliases": ["mainHandDropChance"]},
+                "number14": {"type": "value", "aliases": ["offHandDropChance"]},
+                "switch11": {"type": "switch", "aliases": ["canPickUpItems", "pickUp", "pickUpItems"]}
+            }
+        },
+        {
+            "name": "SPAWN_NPC",
+            "customName": "spawnNpc",
+            "args": {
+                "item1": {"type": "value", "aliases": ["entity"]},
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "switch1": {"type": "switch", "aliases": ["mute"]},
+                "switch2": {"type": "switch", "aliases": ["glow"]},
+                "switch3": {"type": "switch", "aliases": ["despawn", "disappearance"]},
+                "switch4": {"type": "switch", "aliases": ["gravity"]},
+                "switch5": {"type": "switch", "aliases": ["invincibility", "immortal", "invulnerability"]},
+                "text1": {"type": "value", "aliases": ["name", "nick"]},
+                "text2": {"type": "value", "aliases": ["skinName", "skin"]},
+                "number1": {"type": "value", "aliases": ["maxHealth"]},
+                "number2": {"type": "value", "aliases": ["currentHealth", "health"]},
+                "number3": {"type": "value", "aliases": ["movementSpeed", "speed"]},
+                "number4": {"type": "value", "aliases": ["damage"]},
+                "number5": {"type": "value", "aliases": ["radiusView", "view", "radius"]},
+                "number6": {"type": "value", "aliases": ["age"]},
+                "switch7": {"type": "switch", "aliases": ["intelligence", "intellect", "nous"]},
+                "switch8": {"type": "switch", "aliases": ["tamed"]},
+                "switch9": {"type": "switch", "aliases": ["growing"]},
+                "potions": {"type": "value", "listed": true, "max": 9},
+                "number7": {"type": "value", "aliases": ["ticks", "time", "duration"]},
+                "number8": {"type": "value", "aliases": ["level"]},
+                "switch10": {"type": "switch", "aliases": ["particles", "potionParticles"]},
+                "item2": {"type": "value", "aliases": ["helmet"]},
+                "item3": {"type": "value", "aliases": ["chestplate"]},
+                "item4": {"type": "value", "aliases": ["leggings"]},
+                "item5": {"type": "value", "aliases": ["boots"]},
+                "number9": {"type": "value", "aliases": ["helmetDropChance"]},
+                "number10": {"type": "value", "aliases": ["chestplateDropChance"]},
+                "number11": {"type": "value", "aliases": ["leggingsDropChance"]},
+                "number12": {"type": "value", "aliases": ["bootsDropChance"]},
+                "item6": {"type": "value", "aliases": ["mainHand"]},
+                "item7": {"type": "value", "aliases": ["offHand"]},
+                "number13": {"type": "value", "aliases": ["mainHandDropChance"]},
+                "number14": {"type": "value", "aliases": ["offHandDropChance"]},
+                "switch11": {"type": "switch", "aliases": ["canPickUpItems", "pickUp", "pickUpItems"]}
+            }
+        },
+        {
+            "name": "SPAWN_ITEM",
+            "customName": "spawnItem",
+            "args": {
+                "item": {"type": "value"},
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "text": {"type": "value", "aliases": ["name", "display"]},
+                "number": {"type": "value", "aliases": ["ticks", "time", "delayLifting"]},
+                "switch1": {"type": "switch", "aliases": ["glow", "glowing"]},
+                "switch2": {"type": "switch", "aliases": ["gravity"]}
+            }
+        },
+        {
+            "name": "LAUNCH_FIREWORK",
+            "customName": "launchFirework",
+            "args": {
+                "item": {"type": "value"},
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "text": {"type": "value", "aliases": ["name", "display"]},
+                "number": {"type": "value", "aliases": ["power", "force"]},
+                "switch": {"type": "switch", "aliases": ["glow", "glowing"]}
+            }
+        },
+        {
+            "name": "SPAWN_TNT",
+            "customName": "spawnTnt",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 9, "aliases": ["location"]},
+                "text": {"type": "value", "aliases": ["name", "display"]},
+                "number1": {"type": "value", "aliases": ["power", "force"]},
+                "number2": {"type": "value", "aliases": ["ticks", "time", "delayLifting"]},
+                "switch1": {"type": "switch", "aliases": ["glow", "glowing"]},
+                "switch2": {"type": "switch", "aliases": ["gravity"]}
+            }
+        },
+        {
+            "name": "SPAWN_VEHICLE",
+            "customName": "spawnVehicle",
+            "args": {
+                "item": {"type": "value"},
+                "locations": {"type": "value", "listed": true, "max": 9, "aliases": ["location"]},
+                "text": {"type": "value", "aliases": ["name", "display"]},
+                "number": {"type": "value", "aliases": ["speed", "maxSpeed"]},
+                "block": {"type": "value"},
+                "switch1": {"type": "switch", "aliases": ["glow", "glowing"]},
+                "switch2": {"type": "switch", "aliases": ["gravity"]},
+                "switch3": {"type": "switch", "aliases": ["invincibility", "immortal", "invulnerability"]},
+                "switch4": {"type": "switch", "aliases": ["slowDown"]},
+                "switch5": {"type": "switch", "aliases": ["mute"]}
+            }
+        },
+        {
+            "name": "SPAWN_XP_ORB",
+            "customName": "spawnXpOrb",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "text": {"type": "value", "aliases": ["name", "display"]},
+                "number": {"type": "value", "aliases": ["count"]},
+                "switch": {"type": "switch", "aliases": ["gravity"]}
+            }
+        },
+        {
+            "name": "SPAWN_LIGHTNING",
+            "customName": "spawnLightning",
+            "args": {
+                "location": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["type"]}
+            }
+        },
+        {
+            "name": "WAIT",
+            "customName": "wait",
+            "args": {
+                "number": {"type": "value", "aliases": ["ticks", "time", "duration", "delay"]},
+                "switch": {"type": "switch", "aliases": ["type", "unit"]}
+            }
+
+        },
+        {
+            "name": "START_LOOP",
+            "customName": "startLoop",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 18, "aliases": ["loops", "loop"]}
+            }
+        },
+        {
+            "name": "STOP_LOOP",
+            "customName": "stopLoop",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 18, "aliases": ["loops", "loop"]}
+            }
+        },
+        {
+            "name": "CANCEL_EVENT",
+            "customName": "cancelEvent"
+        },
+        {
+            "name": "CALL_FUNCTION",
+            "customName": "callFunction",
+            "args": {
+                "number": {"type": "value", "aliases": ["ticks", "time", "duration", "delay"]},
+                "switch": {"type": "switch", "aliases": ["type", "mode"]}
+            }
+        },
+        {
+            "name": "SET_BLOCK",
+            "customName": "setBlock",
+            "args": {
+                "block": {"type": "value", "aliases": ["item"]},
+                "locations": {"type": "value", "listed": true, "max": 36, "aliases": ["location"]},
+                "number": {"type": "value", "aliases": ["meta", "data"]}
+            }
+        },
+        {
+            "name": "FILL_REGION",
+            "customName": "fillRegion",
+            "args": {
+                "block": {"type": "value", "aliases": ["item"]},
+                "location": {"type": "value", "aliases": ["first", "begin"]},
+                "location2": {"type": "value", "aliases": ["second", "end"]},
+                "number": {"type": "value", "aliases": ["meta", "data"]}
+            }
+        },
+        {
+            "name": "BREAK_BLOCK",
+            "customName": "breakBlock",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 36, "aliases": ["location"]},
+                "item": {"type": "value", "aliases": ["tool"]}
+            }
+        },
+        {
+            "name": "COPY_BLOCK",
+            "customName": "copyBlock",
+            "args": {
+                "location1": {"type": "value", "aliases": ["first"]},
+                "location2": {"type": "value", "aliases": ["second"]},
+                "location3": {"type": "value", "aliases": ["from"]},
+                "location4": {"type": "value", "aliases": ["there"]}
+            }
+        },
+        {
+            "name": "FILL_CONTAINER",
+            "customName": "fillContainer",
+            "args": {
+                "location": {"type": "value"},
+                "items": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "DELETE_ITEM_FROM_CONTAINER",
+            "customName": "deleteItemFromContainer",
+            "args": {
+                "location": {"type": "value"},
+                "items": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "SET_ITEM_FROM_CONTAINER",
+            "customName": "setItemFromContainer",
+            "args": {
+                "location": {"type": "value"},
+                "item": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "CLEAR_ITEMS_FROM_CONTAINER",
+            "customName": "clearContainer",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 18}
+            }
+        },
+        {
+            "name": "CHANGE_SIGN",
+            "customName": "changeSign",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value"},
+                "number": {"type": "value", "aliases": ["line"]}
+            }
+        },
+        {
+            "name": "CHANGE_CONTAINER_NAME",
+            "customName": "changeContainerName",
+            "args": {
+                "text": {"type": "value"},
+                "locations": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "GET_ITEM_FROM_CONTAINER",
+            "customName": "getItemFromContainer",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value", "aliases": ["slot"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_ITEM_IN_ENDER_CHEST",
+            "customName": "setItemInEnderChest",
+            "args": {
+                "item": {"type": "value"},
+                "numbers": {"type": "value", "listed": true, "max": 27, "aliases": ["slot", "slots"]}
+            }
+        },
+        {
+            "name": "GET_ITEM_FROM_ENDER_CHEST",
+            "customName": "getItemFromEnderChest",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value", "aliases": ["slot"]}
+            }
+        },
+        {
+            "name": "GET_ITEMS_FROM_CONTAINER",
+            "customName": "getItemsFromContainer",
+            "args": {
+                "array": {"type": "value", "aliases": ["result", "output", "array"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_SIGN_VALUE",
+            "customName": "getSignValue",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"},
+                "number": {"type": "value", "aliases": ["line"]}
+            }
+        },
+        {
+            "name": "CREATE_EXPLOSION",
+            "customName": "createExplosion",
+            "args": {
+                "locations": {"type": "value", "max": 9, "listed": true},
+                "number": {"type": "value"},
+                "switch1": {"type": "switch"},
+                "switch2": {"type": "switch"}
+            }
+        },
+        {
+            "name": "PLAY_FIREWORK_EXPLOSION",
+            "customName": "playFireworkExplosion",
+            "args": {
+                "item": {"type": "value"},
+                "locations": {"type": "value", "max": 9, "listed": true}
+            }
+        },
+        {
+            "name": "PLAY_PARTICLE",
+            "customName": "playParticle",
+            "args": {
+                "locations": {"type": "value", "max": 18, "listed": true},
+                "particle": {"type": "value"},
+                "number1": {"type": "value"},
+                "number2": {"type": "value"},
+                "number3": {"type": "value"},
+                "number4": {"type": "value"},
+                "number5": {"type": "value"}
+            }
+        },
+        {
+            "name": "PLAY_PARTICLE_LINE",
+            "customName": "playParticleLine",
+            "args": {
+                "particle": {"type": "value"},
+                "location1": {"type": "value"},
+                "location2": {"type": "value"}
+            }
+
+        },
+        {
+            "name": "CREATE_HOLOGRAM",
+            "customName": "createHologram",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value", "aliases": ["id", "name"]},
+                "texts": {"type": "value", "listed": true, "max": 27, "aliases": ["lines"]}
+            }
+        },
+        {
+            "name": "DELETE_HOLOGRAM",
+            "customName": "deleteHologram",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 18}
+            }
+
+        },
+        {
+            "name": "CREATE_SCOREBOARD",
+            "customName": "createScoreboard",
+            "args": {
+                "text1": {"type": "value"},
+                "text2": {"type": "value"}
+            }
+        },
+        {
+            "name": "DELETE_SCOREBOARD",
+            "customName": "deleteScoreboard",
+            "args": {
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_SCOREBOARD_SCORE",
+            "customName": "setScoreboardScore",
+            "args": {
+                "text1": {"type": "value"},
+                "text2": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "REMOVE_SCOREBOARD_SCORE",
+            "customName": "removeScoreboardScore",
+            "args": {
+                "text1": {"type": "value"},
+                "text2": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_WEATHER",
+            "customName": "setWeather",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "SET_GAME_TIME",
+            "customName": "setGameTime",
+            "args": {
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "CREATE_BOSSBAR",
+            "customName": "createBossbar",
+            "args": {
+                "text1": {"type": "value"},
+                "text2": {"type": "value"},
+                "switch1": {"type": "switch", "aliases": ["color"]},
+                "switch2": {"type": "switch", "aliases": ["type", "style"]}
+            }
+        },
+        {
+            "name": "DELETE_BOSSBAR",
+            "customName": "deleteBossbar",
+            "args": {
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BOSSBAR_TITLE",
+            "customName": "setBossbarTitle",
+            "args": {
+                "text1": {"type": "value"},
+                "text2": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BOSSBAR_COLOR",
+            "customName": "setBossbarColor",
+            "args": {
+                "text": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["color"]}
+            }
+        },
+        {
+            "name": "SET_BOSSBAR_STYLE",
+            "customName": "setBossbarStyle",
+            "args": {
+                "text": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["type", "style"]}
+            }
+        },
+        {
+            "name": "SET_BOSSBAR_PROGRESS",
+            "customName": "setBossbarProgress",
+            "args": {
+                "text": {"type": "value"},
+                "number": {"type": "switch"}
+            }
+        },
+        {
+            "name": "READ_DATA_FROM_CHANNEL",
+            "customName": "readDataFromChannel",
+            "args": {
+                "text": {"type": "value"},
+                "value": {"type": "value"}
+            }
+        },
+        {
+            "name": "SEND_DATA_THROUGH_CHANNEL",
+            "customName": "sendDataThroughChannel",
+            "args": {
+                "number": {"type": "value"},
+                "text": {"type": "value"},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "SEND_ARRAY_THROUGH_CHANNEL",
+            "customName": "sendArrayThroughChannel",
+            "args": {
+                "number": {"type": "value"},
+                "text": {"type": "value"},
+                "array": {"type": "value"}
+            }
+        }
+    ],
+    "ARRAY_ACTION": [
+        {
+            "name": "CREATE_ARRAY",
+            "customName": "create",
+            "args": {
+                "array": {"type": "value"},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "GET_ELEMENT",
+            "customName": "get",
+            "args": {
+                "array": {"type": "value"},
+                "number": {"type": "value", "aliases": ["index"]},
+                "variable": {"type": "value"}
+            }
+        },
+        {
+            "name": "INSERT_ELEMENT",
+            "customName": "insert",
+            "args": {
+                "array": {"type": "value"},
+                "number": {"type": "value", "aliases": ["index"]},
+                "value": {"type": "value"}
+            }
+        },
+        {
+            "name": "REPLACE_ELEMENT",
+            "customName": "replace",
+            "args": {
+                "array": {"type": "value"},
+                "number": {"type": "value", "aliases": ["index"]},
+                "value": {"type": "value"}
+            }
+        },
+        {
+            "name": "DELETE_ELEMENT",
+            "customName": "delete",
+            "args": {
+                "array": {"type": "value"},
+                "number": {"type": "value", "aliases": ["index"]}
+            }
+        },
+        {
+            "name": "APPEND_ELEMENT",
+            "customName": "put",
+            "args": {
+                "array": {"type": "value"},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "COMBINE_ARRAY",
+            "customName": "combine",
+            "args": {
+                "array1": {"type": "value"},
+                "array2": {"type": "value"}
+            }
+        },
+        {
+            "name": "COPY_ARRAY",
+            "customName": "copy",
+            "args": {
+                "array1": {"type": "value"},
+                "array2": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_LENGTH",
+            "customName": "getLength",
+            "args": {
+                "array": {"type": "value"},
+                "variable": {"type": "value"}
+            }
+        },
+        {
+            "name": "SORT_ARRAY",
+            "customName": "sort",
+            "args": {
+                "array1": {"type": "value"},
+                "array2": {"type": "value"},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "CONVERT_ARRAY_TO_STRING",
+            "customName": "toString",
+            "args": {
+                "array": {"type": "value"},
+                "variable": {"type": "value"}
+            }
+        }
+    ],
+    "IF_GAME": [
+        {
+            "name": "BLOCK_EQUALS",
+            "customName": "blockEquals",
+            "args": {
+                "location": {"type": "value"},
+                "blocks": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "CONTAINER_HAS_ITEM",
+            "customName": "containerHasItem",
+            "args": {
+                "location": {"type": "value"},
+                "items": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "SIGN_CONTAINS",
+            "customName": "signContains",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value"},
+                "number": {"type": "value", "aliases": ["line"]},
+                "switch1": {"type": "switch"},
+                "switch2": {"type": "switch"}
+            }
+        }
+    ],
+    "IF_VARIABLE": [
+        {
+            "name": "VAlUE_EQUALS",
+            "customName": "equals",
+            "args": {
+                "value": {"type": "value"},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "VARIABLE_NOT_EQUALS",
+            "customName": "notEquals",
+            "args": {
+                "value": {"type": "value"},
+                "values": {"type": "value", "listed": true, "max": 27}
+            }
+        },
+        {
+            "name": "COMPARE_NUMBER",
+            "customName": "compareNumber",
+            "args": {
+                "number1": {"type": "value"},
+                "number2": {"type": "value"},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "COMPARE_INTERVAL",
+            "customName": "compareInterval",
+            "args": {
+                "number1": {"type": "value"},
+                "number2": {"type": "value", "aliases": ["first"]},
+                "number3": {"type": "value", "aliases": ["second"]},
+                "switch1": {"type": "switch", "aliases": ["more"]},
+                "switch2": {"type": "switch", "aliases": ["less"]}
+            }
+        },
+        {
+            "name": "TEXT_EQUALS",
+            "customName": "textEquals",
+            "args": {
+                "text": {"type": "value"},
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        },
+        {
+            "name": "TEXT_CONTAINS",
+            "customName": "textContains",
+            "args": {
+                "text": {"type": "value"},
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        },
+        {
+            "name": "VARIABLE_EXISTS",
+            "customName": "exists",
+            "args": {
+                "variable": {"type": "value"}
+            }
+        },
+        {
+            "name": "LOCATION_IN_REGION",
+            "customName": "locationInRegion",
+            "args": {
+                "location1": {"type": "value"},
+                "location2": {"type": "value"},
+                "location3": {"type": "value"}
+
+            }
+        },
+        {
+            "name": "TEXT_START_WITH",
+            "customName": "textStartWith",
+            "args": {
+                "text": {"type": "value"},
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        },
+        {
+            "name": "TEXT_END_WITH",
+            "customName": "textEndWith",
+            "args": {
+                "text": {"type": "value"},
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        }
+    ],
+    "IF_ENTITY": [
+        {
+            "name": "ENTITY_TYPE_EQUALS",
+            "customName": "typeEquals",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 36}
+            }
+        },
+        {
+            "name": "ENTITY_NAME_EQUALS",
+            "customName": "nameEquals",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 36},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        },
+        {
+            "name": "ENTITY_STAND_ON_BLOCK",
+            "customName": "standOnBlock",
+            "args": {
+                "blocks": {"type": "value", "listed": true, "max": 18},
+                "switch": {"type": "switch", "aliases": ["ignoreBlockData", "blockData"]},
+                "locations": {"type": "value", "listed": true, "max": 18}
+            }
+        },
+        {
+            "name": "ENTITY_NEAR_LOCATION",
+            "customName": "nearLocation",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 27},
+                "number": {"type": "value", "aliases": ["radius"]}
+            }
+        },
+        {
+            "name": "ENTITY_IS_MOB",
+            "customName": "isMob"
+        },
+        {
+            "name": "ENTITY_IS_NPC",
+            "customName": "isNpc"
+        },
+        {
+            "name": "ENTITY_IS_PROJECTILE",
+            "customName": "isProjectile"
+        },
+        {
+            "name": "ENTITY_HAS_POTION_EFFECT",
+            "customName": "hasPotionEffect",
+            "args": {
+                "potion": {"type": "value"}
+            }
+        }
+    ],
+    "IF_PLAYER": [
+        {
+            "name": "PLAYER_NAME_EQUALS",
+            "customName": "nameEquals",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch", "aliases": ["case"]}
+            }
+        },
+        {
+            "name": "PLAYER_MESSAGE_EQUALS",
+            "customName": "messageEquals",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch", "aliases": ["case"]}
+            }
+        },
+        {
+            "name": "INTERACTION_TYPE",
+            "customName": "interactionType",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "HAND_USED_EQUALS",
+            "customName": "handUsedEquals",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "HAS_GOLD_TRANSACTION",
+            "customName": "hasGoldTransaction",
+            "args": {
+                "text": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "GAMEMODE_EQUALS",
+            "customName": "gamemodeEquals",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "HAVE_PERMISSIONS",
+            "customName": "havePermissions",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "HOLDING_ITEM",
+            "customName": "holdingItem",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCount"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreMeta", "ignoreDurability"]},
+                "switch3": {"type": "switch", "aliases": ["ignoreName"]},
+                "switch4": {"type": "switch", "aliases": ["ignoreLore", "ignoreDescription"]},
+                "switch5": {"type": "switch", "aliases": ["hand"]},
+                "switch6": {"type": "switch", "aliases": ["ignoreNBT"]},
+                "switch7": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"]},
+                "switch8": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"]},
+                "switch9": {"type": "switch", "aliases": ["ignoreFlags"]}
+
+            }
+        },
+        {
+            "name": "HAS_ITEM",
+            "customName": "hasItem",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 36},
+                "switch": {"type": "switch", "aliases": ["mode"]}
+            }
+        },
+        {
+            "name": "WEARING_ITEM",
+            "customName": "wearingItem",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCount"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreMeta", "ignoreDurability"]},
+                "switch3": {"type": "switch", "aliases": ["ignoreName"]},
+                "switch4": {"type": "switch", "aliases": ["ignoreLore", "ignoreDescription"]},
+                "switch5": {"type": "switch", "aliases": ["ignoreNBT"]},
+                "switch6": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"]},
+                "switch7": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"]},
+                "switch8": {"type": "switch", "aliases": ["ignoreFlags"]}
+            }
+        },
+        {
+            "name": "ITEM_EQUALS",
+            "customName": "itemEquals",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCount"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreMeta", "ignoreDurability"]},
+                "switch3": {"type": "switch", "aliases": ["ignoreName"]},
+                "switch4": {"type": "switch", "aliases": ["ignoreLore", "ignoreDescription"]},
+                "switch5": {"type": "switch", "aliases": ["ignoreNBT"]},
+                "switch6": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"]},
+                "switch7": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"]},
+                "switch8": {"type": "switch", "aliases": ["ignoreFlags"]}
+
+            }
+        },
+        {
+            "name": "ITEM_IN_CURSOR_EQUALS",
+            "customName": "itemInCursorEquals",
+            "args": {
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCount"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreMeta", "ignoreDurability"]},
+                "switch3": {"type": "switch", "aliases": ["ignoreName"]},
+                "switch4": {"type": "switch", "aliases": ["ignoreLore", "ignoreDescription"]},
+                "switch5": {"type": "switch", "aliases": ["ignoreNBT"]},
+                "switch6": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"]},
+                "switch7": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"]},
+                "switch8": {"type": "switch", "aliases": ["ignoreFlags"]}
+
+            }
+        },
+        {
+            "name": "ITEM_HAS_DELAY",
+            "customName": "itemHasDelay",
+            "args": {
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "CLICK_TYPE",
+            "customName": "clickType",
+            "args": {
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "CLICKED_SLOT_EQUALS",
+            "customName": "clickedSlotEquals",
+            "args": {
+                "numbers": {"type": "value", "listed": true, "max": 27, "aliases": ["slots", "slot", "number"]},
+                "switch": {"type": "switch"}
+            }
+        },
+        {
+            "name": "HOTBAR_SLOT_EQUALS",
+            "customName": "hotbarSlotEquals",
+            "args": {
+                "numbers": {"type": "value", "listed": true, "max": 9, "aliases": ["slots", "slot", "number"]}
+            }
+        },
+        {
+            "name": "OPEN_INVENTORY_NAME_EQUALS",
+            "customName": "openInventoryNameEquals",
+            "args": {
+                "texts": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"]}
+            }
+        },
+        {
+            "name": "INVENTORY_FULL",
+            "customName": "inventoryFull"
+        },
+        {
+            "name": "LOOK_AT_BLOCK",
+            "customName": "lookAtBlock",
+            "args": {
+                "blocks": {"type": "value", "listed": true, "max": 9, "aliases": ["block", "item", "items"]},
+                "locations": {"type": "value", "listed": true, "max": 9, "aliases": ["location"]},
+                "number": {"type": "value", "aliases": ["distance"]},
+                "switch": {"type": "switch", "aliases": ["ignoreBlockData"]}
+            }
+        },
+        {
+            "name": "STAND_ON_BLOCK",
+            "customName": "standOnBlock",
+            "args": {
+                "blocks": {"type": "value", "listed": true, "max": 9, "aliases": ["block", "item", "items"]},
+                "locations": {"type": "value", "listed": true, "max": 9, "aliases": ["location"]},
+                "switch": {"type": "switch", "aliases": ["ignoreBlockData"]}
+            }
+        },
+        {
+            "name": "PLAYER_NEAR_LOCATION",
+            "customName": "nearLocation",
+            "args": {
+                "locations": {"type": "value", "listed": true, "max": 27, "aliases": ["location"]},
+                "number": {"type": "value", "aliases": ["distance"]}
+            }
+        },
+        {
+            "name": "BLOCK_EQUALS",
+            "customName": "blockEquals",
+            "args": {
+                "blocks": {"type": "value", "listed": true, "max": 18, "aliases": ["block", "item", "items"]},
+                "locations": {"type": "value", "listed": true, "max": 18, "aliases": ["location"]},
+                "switch": {"type": "switch", "aliases": ["ignoreBlockData"]}
+            }
+        },
+        {
+            "name": "IS_SNEAKING",
+            "customName": "isSneaking"
+        },
+        {
+            "name": "IS_BLOCKING",
+            "customName": "isBlocking"
+        },
+        {
+            "name": "IS_GLIDING",
+            "customName": "isGliding"
+        },
+        {
+            "name": "IS_SPRINTING",
+            "customName": "isSprinting"
+        },
+        {
+            "name": "IS_FLYING",
+            "customName": "isFlying"
+        },
+        {
+            "name": "IS_SWIMMING",
+            "customName": "isSwimming"
+        },
+        {
+            "name": "IS_LIKED",
+            "customName": "isLiked"
+        }
+    ],
+    "SELECT_OBJECT": [
+        {
+            "name": "DEFAULT_PLAYER",
+            "customName": "default"
+        },
+        {
+            "name": "DEFAULT_ENTITY",
+            "customName": "defaultEntity"
+        },
+        {
+            "name": "RANDOM_PLAYER",
+            "customName": "randomPlayer"
+        },
+        {
+            "name": "RANDOM_MOB",
+            "customName": "randomMob"
+        },
+        {
+            "name": "RANDOM_ENTITY",
+            "customName": "randomEntity"
+        },
+        {
+            "name": "ALL_PLAYERS",
+            "customName": "all"
+        },
+        {
+            "name": "ALL_MOBS",
+            "customName": "allMobs"
+        },
+        {
+            "name": "ALL_ENTITIES",
+            "customName": "allEntity"
+        },
+        {
+            "name": "LAST_SPAWNED_MOB",
+            "customName": "lastMob"
+        },
+        {
+            "name": "RANDOMLY_FILTER_SELECTION",
+            "customName": "randomFilter",
+            "args": {
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "IF_VARIABLE_VAlUE_EQUALS",
+            "customName": "equals",
+            "parent": "VAlUE_EQUALS"
+        },
+        {
+            "name": "IF_VARIABLE_VARIABLE_NOT_EQUALS",
+            "customName": "notEquals",
+            "parent": "VARIABLE_NOT_EQUALS"
+        },
+        {
+            "name": "IF_VARIABLE_COMPARE_NUMBER",
+            "customName": "compareNumber",
+            "parent": "COMPARE_NUMBER"
+        },
+        {
+            "name": "IF_VARIABLE_COMPARE_INTERVAL",
+            "customName": "compareInterval",
+            "parent": "COMPARE_INTERVAL"
+        },
+        {
+            "name": "IF_VARIABLE_TEXT_EQUALS",
+            "customName": "textEquals",
+            "parent": "TEXT_EQUALS"
+        },
+        {
+            "name": "IF_VARIABLE_TEXT_CONTAINS",
+            "customName": "textContains",
+            "parent": "TEXT_CONTAINS"
+        },
+        {
+            "name": "IF_VARIABLE_VARIABLE_EXISTS",
+            "customName": "exists",
+            "parent": "VARIABLE_EXISTS"
+        },
+        {
+            "name": "IF_VARIABLE_LOCATION_IN_REGION",
+            "customName": "locationInRegion",
+            "parent": "LOCATION_IN_REGION"
+        },
+        {
+            "name": "IF_VARIABLE_TEXT_START_WITH",
+            "customName": "textStartWith",
+            "parent": "TEXT_START_WITH"
+        },
+        {
+            "name": "IF_VARIABLE_TEXT_END_WITH",
+            "customName": "textEndWith",
+            "parent": "TEXT_END_WITH"
+        },
+        {
+            "name": "IF_PLAYER_PLAYER_NAME_EQUALS",
+            "customName": "playerNameEquals",
+            "parent": "PLAYER_NAME_EQUALS"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_TYPE_EQUALS",
+            "customName": "typeEquals",
+            "parent": "ENTITY_TYPE_EQUALS"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_NAME_EQUALS",
+            "customName": "nameEquals",
+            "parent": "ENTITY_NAME_EQUALS"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_STAND_ON_BLOCK",
+            "customName": "standOnBlock",
+            "parent": "ENTITY_STAND_ON_BLOCK"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_NEAR_LOCATION",
+            "customName": "nearLocation",
+            "parent": "ENTITY_NEAR_LOCATION"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_IS_MOB",
+            "customName": "isMob"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_IS_NPC",
+            "customName": "isNpc"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_IS_PROJECTILE",
+            "customName": "isProjectile"
+        },
+        {
+            "name": "IF_ENTITY_ENTITY_HAS_POTION_EFFECT",
+            "customName": "hasPotionEffect",
+            "parent": "ENTITY_HAS_POTION_EFFECT"
+        },
+        {
+            "name": "IF_PLAYER_PLAYER_NAME_EQUALS",
+            "customName": "nameEquals",
+            "parent": "PLAYER_NAME_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_PLAYER_MESSAGE_EQUALS",
+            "customName": "messageEquals",
+            "parent": "PLAYER_MESSAGE_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_INTERACTION_TYPE",
+            "customName": "interactionType",
+            "parent": "INTERACTION_TYPE"
+        },
+        {
+            "name": "IF_PLAYER_HAND_USED_EQUALS",
+            "customName": "handUsedEquals",
+            "parent": "HAND_USED_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_HAS_GOLD_TRANSACTION",
+            "customName": "hasGoldTransaction",
+            "parent": "HAS_GOLD_TRANSACTION"
+        },
+        {
+            "name": "IF_PLAYER_GAMEMODE_EQUALS",
+            "customName": "gamemodeEquals",
+            "parent": "GAMEMODE_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_HAVE_PERMISSIONS",
+            "customName": "havePermissions",
+            "parent": "HAVE_PERMISSIONS"
+        },
+        {
+            "name": "IF_PLAYER_HOLDING_ITEM",
+            "customName": "holdingItem",
+            "parent": "HOLDING_ITEM"
+        },
+        {
+            "name": "IF_PLAYER_HAS_ITEM",
+            "customName": "hasItem",
+            "parent": "HAS_ITEM"
+        },
+        {
+            "name": "IF_PLAYER_WEARING_ITEM",
+            "customName": "wearingItem",
+            "parent": "WEARING_ITEM"
+        },
+        {
+            "name": "IF_PLAYER_ITEM_EQUALS",
+            "customName": "itemEquals",
+            "parent": "ITEM_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_ITEM_IN_CURSOR_EQUALS",
+            "customName": "itemInCursorEquals",
+            "parent": "ITEM_IN_CURSOR_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_ITEM_HAS_DELAY",
+            "customName": "itemHasDelay",
+            "parent": "ITEM_HAS_DELAY"
+        },
+        {
+            "name": "IF_PLAYER_CLICK_TYPE",
+            "customName": "clickType",
+            "parent": "CLICK_TYPE"
+        },
+        {
+            "name": "IF_PLAYER_CLICKED_SLOT_EQUALS",
+            "customName": "clickedSlotEquals",
+            "parent": "CLICKED_SLOT_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_HOTBAR_SLOT_EQUALS",
+            "customName": "hotbarSlotEquals",
+            "parent": "HOTBAR_SLOT_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_OPEN_INVENTORY_NAME_EQUALS",
+            "customName": "openInventoryNameEquals",
+            "parent": "OPEN_INVENTORY_NAME_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_INVENTORY_FULL",
+            "customName": "inventoryFull" 
+        },
+        {
+            "name": "IF_PLAYER_LOOK_AT_BLOCK",
+            "customName": "lookAtBlock",
+            "parent": "LOOK_AT_BLOCK"
+        },
+        {
+            "name": "IF_PLAYER_STAND_ON_BLOCK",
+            "customName": "standOnBlock",
+            "parent": "STAND_ON_BLOCK"
+        },
+        {
+            "name": "IF_PLAYER_PLAYER_NEAR_LOCATION",
+            "customName": "nearLocation",
+            "parent": "PLAYER_NEAR_LOCATION"
+        },
+        {
+            "name": "IF_PLAYER_BLOCK_EQUALS",
+            "customName": "blockEquals",
+            "parent": "BLOCK_EQUALS"
+        },
+        {
+            "name": "IF_PLAYER_IS_SNEAKING",
+            "customName": "isSneaking" 
+        },
+        {
+            "name": "IF_PLAYER_IS_BLOCKING",
+            "customName": "isBlocking" 
+        },
+        {
+            "name": "IF_PLAYER_IS_GLIDING",
+            "customName": "isGliding" 
+        },
+        {
+            "name": "IF_PLAYER_IS_SPRINTING",
+            "customName": "isSprinting" 
+        },
+        {
+            "name": "IF_PLAYER_IS_FLYING",
+            "customName": "isFlying" 
+        },
+        {
+            "name": "IF_PLAYER_IS_SWIMMING",
+            "customName": "isSwimming" 
+        },
+        {
+            "name": "IS_LIKED",
+            "customName": "isLiked" 
+        }
+    ],
+    "CUSTOM": [
+        {
+            "name": "CODE_NAMES",
+            "values": {
+                "PASS": "pass",
+                "ENVIRONMENT_SHELL": "env",
+                "CREATE_VARIABLE": "var",
+                "CREATE_CONSTANT": "const",
+                "GLOBAL_COMMENT": "comment",
+                "IMPORT_MODULE": "import",
+                "LOAD_MODULE_TO_END": "end"
+            }
+        },
+        {
+            "name": "SELECT_OBJECT_PATH_VARIANTS",
+            "values": {
+                "PLAYER": "player",
+                "ENTITY": "entity",
+                "MOB": "mob"
+            }
+        },
+        {
+            "name": "VARIABLE_SHELLS",
+            "values": {
+                "ITEM": "i",
+                "ARRAY": "a",
+                "LOCATION": "l",
+                "GAME_VALUE": "v",
+                "SAVED_ARRAY": "as",
+                "SAVED_VARIABLE": "s",
+                "PARTICLE": "particle",
+                "POTION": "potion"
+            }
+        },
+        {
+            "name": "TEXT_SHELLS",
+            "values": {
+                "COLORLESS": "cls",
+                "TEXT_COMPONENT": "c"
+            }
+        },
+        {
+            "name": "BRACE_PARAMS",
+            "values":
+            {
+                "CONDITION_REVERSE": "not",
+                "SELECTION_SELECTED": "selected",
+                "SELECTION_DEFAULT": "default",
+                "SELECTION_RANDOM_PLAYER": "random",
+                "SELECTION_ALL_PLAYERS": "all",
+                "SELECTION_KILLER": "killer",
+                "SELECTION_DAMAGER": "damage",
+                "SELECTION_SHOOTER": "shooter",
+                "SELECTION_VICTIM": "victim"
+            }
+        },
+        {
+            "name": "POTION_EFFECTS",
+            "values": {
+                "1b": "speed",
+                "2b": "slowness",
+                "3b": "haste",
+                "4b": "fatigue",
+                "5b": "strength",
+                "6b": "healing",
+                "7b": "harming",
+                "8b": "leaping",
+                "9b": "nausea",
+                "10b": "regeneration",
+                "11b": "resistance",
+                "12b": "fire_resistance",
+                "13b": "water_breathing",
+                "14b": "invisible",
+                "15b": "blindness",
+                "16b": "night_vision",
+                "17b": "hunger",
+                "18b": "weakness",
+                "19b": "poison",
+                "20b": "wither",
+                "21b": "health_boost",
+                "22b": "absorption",
+                "23b": "saturation",
+                "24b": "glowing",
+                "25b": "levitation",
+                "26b": "luck",
+                "27b": "bad_luck"
+            }
+        },
+        {
+            "name": "GAME_VALUES",
+            "values": {
+                "CURRENT_HEALTH": "health",
+                "MAX_HEALTH": "maxHealth",
+                "CURRENT_FOOD_LEVEL": "food",
+                "CURRENT_SATURATION_LEVEL": "saturation",
+                "CURRENT_EXHAUSTION_VALUE": "exhaustion",
+                "CURRENT_XP_LEVEL": "xpLevel",
+                "CURRENT_XP": "xp",
+                "CURRENT_ARMOR_POINTS": "armor",
+                "CURRENT_FIRE_TICKS": "fire",
+                "CURRENT_AIR_REMAINING": "air",
+                "CURRENT_AIR_MAXIMUM_VALUE": "maxAir",
+                "CURRENT_HELD_SLOT": "heldSlot",
+                "PING": "ping",
+                "CURRENT_NAME": "name",
+                "CURRENT_ENTITY_TYPE_EQUALS": "entityType",
+                "OPEN_INVENTORY_TITLE": "inventoryType",
+                "OPEN_INVENTORY_TYPE": "inventoryTitle",
+                "OPEN_INVENTORY_SLOTS_VALUE": "inventorySlots",
+                "GET_LOCALE_OF_PLAYER": "langClient",
+                "GET_LANGUAGE_OF_PLAYER": "langServer",
+                "GET_VERSION_OF_PLAYER": "version",
+                "EVENT_DAMAGE": "damage",
+                "CLICKED_SLOT": "clickedSlot",
+                "NEW_SLOT": "newSlot",
+                "OLD_SLOT": "oldSlot",
+                "MESSAGE": "message",
+                "EVENT_BLOCK_LOCATION": "eventBlockLocation",
+                "CLICKED_ITEM": "clickedItem",
+                "EVENT_BLOCK_ITEM_VALUE": "eventBlock",
+                "GET_FISHING_STATE": "fishingState",
+                "GET_FISHING_CAUGHT": "fishingCaught",
+                "GET_DAMAGE_CAUSE": "damageReason",
+                "GET_DEATH_CAUSE": "deathReason",
+                "EVENT_ITEM_VALUE": "eventItem",
+                "EVENT_ACTION_VALUE": "interaction",
+                "EVENT_CLICK_TYPE": "clickType",
+                "CURRENT_CURSOR_ITEM_VALUE": "cursorItem",
+                "EVENT_INVENTORY_ACTION": "inventoryInteraction",
+                "EVENT_SLOT_TYPE": "eventSlotType",
+                "EVENT_REGAIN_HEALTH_AMOUNT": "regainHealth",
+                "EVENT_REGAIN_HEALTH_REASON": "regainHealthReason",
+                "EVENT_EXP_AMOUNT": "expCount",
+                "POINTS_PURCHASE_AMOUNT_VALUE": "purchasedPoints",
+                "GOLD_TRANSACTION_AMOUNT": "goldTransactionCount",
+                "GOLD_TRANSACTION_NAME": "goldTransactionName",
+                "GOLD_TRANSACTION_DISPLAY_NAME": "goldTransactionDisplayName",
+                "SHOP_TRANSACTION_KEY": "shopTransactionKey",
+                "SHOP_TRANSACTION_DISPLAY_NAME": "shopTransactionDisplayName",
+                "CURRENT_LOCATION": "location",
+                "CURRENT_EYE_LOCATION": "eyeLocation",
+                "CURRENT_PLAYER_FACING_VALUE": "facing",
+                "TARGET_BLOCK_LOCATION": "targetBlockLocation",
+                "MAIN_HAND_ITEM": "mainHandItem",
+                "OFFHAND_ITEM": "offhandItem",
+                "GET_HELMET_ITEM": "helmet",
+                "GET_CHESTPLATE_ITEM": "chestplate",
+                "GET_LEGGINGS_ITEM": "leggings",
+                "GET_BOOTS_ITEM": "boots",
+                "TOTAL_PLAYER_COUNT": "players",
+                "VOTES_COUNT": "votes",
+                "UNIQUE_JOINS_VALUE": "visitors",
+                "VARIABLES_COUNT": "variables",
+                "TOTAL_POINTS_AMOUNT_VALUE": "points",
+                "BLOCKS_LIMIT_REMAIN": "blocksLimit",
+                "ACTION_COUNTER": "codeLimit",
+                "PLOT_ID": "plotId"
+            }
+        },
+        {
+            "name": "PARTICLES",
+            "values": {
+                "EXPLOSION_LARGE": "EXPLOSION_LARGE",
+                "EXPLOSION_HUGE": "EXPLOSION_HUGE",
+                "FIREWORKS_SPARK": "FIREWORKS_SPARK",
+                "WATER_BUBBLE": "WATER_BUBBLE",
+                "WATER_SPLASH": "WATER_SPLASH",
+                "WATER_WAKE": "WATER_WAKE",
+                "SUSPENDED": "SUSPENDED",
+                "SUSPENDED_DEPTH": "SUSPENDED_DEPTH",
+                "CRIT": "CRIT",
+                "CRIT_MAGIC": "CRIT_MAGIC",
+                "SMOKE_NORMAL": "SMOKE_NORMAL",
+                "SMOKE_LARGE": "SMOKE_LARGE",
+                "SPELL": "SPELL",
+                "SPELL_INSTANT": "SPELL_INSTANT",
+                "SPELL_MOB": "SPELL_MOB",
+                "SPELL_MOB_AMBIENT": "SPELL_MOB_AMBIENT",
+                "SPELL_WITCH": "SPELL_WITCH",
+                "DRIP_WATER": "DRIP_WATER",
+                "DRIP_LAVA": "DRIP_LAVA",
+                "VILLAGER_ANGRY": "VILLAGER_ANGRY",
+                "VILLAGER_HAPPY": "VILLAGER_HAPPY",
+                "TOWN_AURA": "TOWN_AURA",
+                "NOTE": "NOTE",
+                "PORTAL": "PORTAL",
+                "ENCHANTMENT_TABLE": "ENCHANTMENT_TABLE",
+                "FLAME": "FLAME",
+                "LAVA": "LAVA",
+                "FOOTSTEP": "FOOTSTEP",
+                "CLOUD": "CLOUD",
+                "REDSTONE": "REDSTONE",
+                "SNOWBALL": "SNOWBALL",
+                "SNOW_SHOVEL": "SNOW_SHOVEL",
+                "SLIME": "SLIME",
+                "HEART": "HEART",
+                "BARRIER": "BARRIER",
+                "WATER_DROP": "WATER_DROP",
+                "ITEM_TAKE": "ITEM_TAKE",
+                "MOB_APPEARANCE": "MOB_APPEARANCE",
+                "DRAGON_BREATH": "DRAGON_BREATH",
+                "END_ROD": "END_ROD",
+                "DAMAGE_INDICATOR": "DAMAGE_INDICATOR",
+                "SWEEP_ATTACK": "SWEEP_ATTACK",
+                "TOTEM": "TOTEM",
+                "SPIT": "SPIT"
+            }
+        }
+    ]
+}

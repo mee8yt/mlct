@@ -1,0 +1,1815 @@
+{
+    "game.breakBlock": {
+        "descriptions": {
+            "locations": "",
+            "item": ""
+        },
+        "example": "Олд"
+    },
+    "player.goldTransaction": {
+        "descriptions": {
+            "text1": "",
+            "text2": "",
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.giveItems": {
+        "descriptions": {
+            "items": ""
+        },
+        "example": ""
+    },
+    "player.setItem": {
+        "descriptions": {
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setItemsEnder": {
+        "descriptions": {
+            "items": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setArmor": {
+        "descriptions": {
+            "items": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setItemHand": {
+        "descriptions": {
+            "item": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setItemCursor": {
+        "descriptions": {
+            "item": ""
+        },
+        "example": ""
+    },
+    "player.removeItem": {
+        "descriptions": {
+            "items": ""
+        },
+        "example": ""
+    },
+    "player.clearInventory": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.clearEnder": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.setHotbar": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.giveRandomItem": {
+        "descriptions": {
+            "items": ""
+        },
+        "example": ""
+    },
+    "player.saveInventory": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.loadInventory": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.setDelay": {
+        "descriptions": {
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.getItem": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.getItemCooldown": {
+        "descriptions": {
+            "variable": ""
+        },
+        "example": ""
+    },
+    "player.send": {
+        "descriptions": {
+            "texts": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.sendComponent": {
+        "descriptions": {
+            "components": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.sendDialogue": {
+        "descriptions": {
+            "texts": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.clearChat": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.playSound": {
+        "descriptions": {
+            "text": "",
+            "number1": "",
+            "number2": "",
+            "location": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.stopSound": {
+        "descriptions": {
+            "texts": ""
+        },
+        "example": ""
+    },
+    "player.title": {
+        "descriptions": {
+            "text1": "",
+            "text2": "",
+            "number1": "",
+            "number2": "",
+            "number3": ""
+        },
+        "example": ""
+    },
+    "player.actionbar": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.showLink": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.openBook": {
+        "descriptions": {
+            "texts": ""
+        },
+        "example": ""
+    },
+    "player.openMenu": {
+        "descriptions": {
+            "items": "",
+            "text": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.expandMenu": {
+        "descriptions": {
+            "items": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setItemInMenu": {
+        "descriptions": {
+            "item": "",
+            "count": ""
+        },
+        "example": ""
+    },
+    "player.setMenuName": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.addLineInMenu": {
+        "descriptions": {
+            "items": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.deleteLineMenu": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.closeInventory": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.openBlock": {
+        "descriptions": {
+            "location": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.openEntity": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.teleport": {
+        "descriptions": {
+            "location": ""
+        },
+        "example": ""
+    },
+    "player.rotateToLocation": {
+        "descriptions": {
+            "location": ""
+        },
+        "example": ""
+    },
+    "player.randomTeleport": {
+        "descriptions": {
+            "locations": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.teleportSequence": {
+        "descriptions": {
+            "locations": "",
+            "switch": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.launchVertically": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.launchForward": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.launchToward": {
+        "descriptions": {
+            "number1": "",
+            "number2": "",
+            "number3": ""
+        },
+        "example": ""
+    },
+    "player.launchToLocation": {
+        "descriptions": {
+            "location": ""
+        },
+        "example": ""
+    },
+    "player.kick": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.moveToGame": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.damage": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setHealth": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.givePotionEffect": {
+        "descriptions": {
+            "potions": "",
+            "switch1": "",
+            "switch2": "",
+            "number1": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "player.clearPotionEffect": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.removePotionEffect": {
+        "descriptions": {
+            "potions": ""
+        },
+        "example": ""
+    },
+    "player.setXpLvl": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setXpProgress": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setHunger": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setSaturation": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setExhaustion": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setMaxHealth": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setOnFire": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setFlightSpeed": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setWalkSpeed": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setRemainingAir": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setMaximumAir": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setName": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.setDamage": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setSize": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "player.setSound": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setGlow": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setVisibility": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setGravity": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setInvincibility": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.deleteEntity": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.setFlight": {
+        "descriptions": {
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "player.setGamemode": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.setKeepInventory": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.showScoreboard": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.hideScoreboard": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.showBossbar": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "player.hideBossbar": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.layOnBed": {
+        "descriptions": {
+            "location": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.wakeUp": {
+        "descriptions": {},
+        "example": ""
+    },
+    "player.handAnimation": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.sneakingState": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "player.damageAnimation": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.set": {
+        "descriptions": {
+            "variable": "",
+            "values": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.setItemToVariable": {
+        "descriptions": {
+            "variable": "",
+            "item": ""
+        },
+        "example": ""
+    },
+    "var.setRandomValue": {
+        "descriptions": {
+            "variable": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "var.setTimestamp": {
+        "descriptions": {
+            "variable": ""
+        },
+        "example": ""
+    },
+    "var.setUnix": {
+        "descriptions": {
+            "variable": ""
+        },
+        "example": ""
+    },
+    "var.sum": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "var.difference": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "var.multiply": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "var.division": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "var.remainder": {
+        "descriptions": {
+            "variable": "",
+            "number1": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "var.plus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.minus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setRandomNumber": {
+        "descriptions": {
+            "variable": "",
+            "number1": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "var.roundNumber": {
+        "descriptions": {
+            "variable": "",
+            "number1": "",
+            "number2": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.module": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.minNumber": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "var.maxNumber": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "var.pow": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "number2": ""
+        },
+        "example": ""
+    },
+    "var.cosinus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.sinus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.tangent": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.arcSinus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.arcCosinus": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.arcTangent": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.deg": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.logarithm": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.sqrt": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.exp": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.radians": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.perlin": {
+        "descriptions": {
+            "variable": "",
+            "location": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.simplex": {
+        "descriptions": {
+            "variable": "",
+            "location": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "array.combine": {
+        "descriptions": {
+            "array1": "",
+            "array2": ""
+        },
+        "example": ""
+    },
+    "var.parseNumber": {
+        "descriptions": {
+            "variable": "",
+            "texts": ""
+        },
+        "example": ""
+    },
+    "var.truncate": {
+        "descriptions": {
+            "variable": "",
+            "text": "",
+            "number1": "",
+            "number2": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.splitText": {
+        "descriptions": {
+            "array": "",
+            "text1": "",
+            "text2": ""
+        },
+        "example": ""
+    },
+    "var.getTextLength": {
+        "descriptions": {
+            "variable": "",
+            "text": ""
+        },
+        "example": ""
+    },
+    "var.replaceText": {
+        "descriptions": {
+            "variable": "",
+            "text1": "",
+            "text2": "",
+            "text3": ""
+        },
+        "example": ""
+    },
+    "var.setTextCase": {
+        "descriptions": {
+            "variable": "",
+            "text": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.timeFormat": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "text1": "",
+            "text2": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.getLocationValue": {
+        "descriptions": {
+            "variable": "",
+            "location": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.getLocationDistance": {
+        "descriptions": {
+            "variable": "",
+            "location1": "",
+            "location2": ""
+        },
+        "example": ""
+    },
+    "var.setLocation": {
+        "descriptions": {
+            "variable": "",
+            "location": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": ""
+        },
+        "example": ""
+    },
+    "var.getBlock": {
+        "descriptions": {
+            "variable": "",
+            "location": ""
+        },
+        "example": ""
+    },
+    "var.getItemValue": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.getItemLore": {
+        "descriptions": {
+            "array": "",
+            "item": ""
+        },
+        "example": ""
+    },
+    "var.setItemAmount": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setItemDurability": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setItemLore": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "text": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setItemName": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "text": ""
+        },
+        "example": ""
+    },
+    "var.addItemLore": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "text": ""
+        },
+        "example": ""
+    },
+    "var.deleteItemLore": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.getPageBook": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setPageBook": {
+        "descriptions": {
+            "variable": "",
+            "item": "",
+            "text": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "var.setPopupText": {
+        "descriptions": {
+            "variable": "",
+            "text_component": "",
+            "text": ""
+        },
+        "example": ""
+    },
+    "var.setClickEventText": {
+        "descriptions": {
+            "variable": "",
+            "text_component": "",
+            "text": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "var.combineTextComponent": {
+        "descriptions": {
+            "variable": "",
+            "text_components": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.spawnEntity": {
+        "descriptions": {
+            "item1": "",
+            "locations": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "text": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": "",
+            "number6": "",
+            "switch6": "",
+            "switch7": "",
+            "switch8": "",
+            "switch9": "",
+            "potions": "",
+            "number7": "",
+            "number8": "",
+            "switch10": "",
+            "item2": "",
+            "item3": "",
+            "item4": "",
+            "item5": "",
+            "number9": "",
+            "number10": "",
+            "number11": "",
+            "number12": "",
+            "item6": "",
+            "item7": "",
+            "number13": "",
+            "number14": "",
+            "switch11": ""
+        },
+        "example": ""
+    },
+    "game.spawnNpc": {
+        "descriptions": {
+            "item1": "",
+            "locations": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "text1": "",
+            "text2": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": "",
+            "number6": "",
+            "switch7": "",
+            "switch8": "",
+            "switch9": "",
+            "potions": "",
+            "number7": "",
+            "number8": "",
+            "switch10": "",
+            "item2": "",
+            "item3": "",
+            "item4": "",
+            "item5": "",
+            "number9": "",
+            "number10": "",
+            "number11": "",
+            "number12": "",
+            "item6": "",
+            "item7": "",
+            "number13": "",
+            "number14": "",
+            "switch11": ""
+        },
+        "example": ""
+    },
+    "game.spawnItem": {
+        "descriptions": {
+            "item": "",
+            "locations": "",
+            "text": "",
+            "number": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "game.launchFirework": {
+        "descriptions": {
+            "item": "",
+            "locations": "",
+            "text": "",
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.spawnTnt": {
+        "descriptions": {
+            "locations": "",
+            "text": "",
+            "number1": "",
+            "number2": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "game.spawnVehicle": {
+        "descriptions": {
+            "item": "",
+            "locations": "",
+            "text": "",
+            "number": "",
+            "block": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": ""
+        },
+        "example": ""
+    },
+    "game.spawnXpOrb": {
+        "descriptions": {
+            "locations": "",
+            "text": "",
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.spawnLightning": {
+        "descriptions": {
+            "location": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.wait": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.startLoop": {
+        "descriptions": {
+            "texts": ""
+        },
+        "example": ""
+    },
+    "game.stopLoop": {
+        "descriptions": {
+            "texts": ""
+        },
+        "example": ""
+    },
+    "game.cancelEvent": {
+        "descriptions": {},
+        "example": ""
+    },
+    "game.callFunction": {
+        "descriptions": {
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.setBlock": {
+        "descriptions": {
+            "block": "",
+            "locations": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.fillRegion": {
+        "descriptions": {
+            "block": "",
+            "location": "",
+            "location2": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.copyBlock": {
+        "descriptions": {
+            "location1": "",
+            "location2": "",
+            "location3": "",
+            "location4": ""
+        },
+        "example": ""
+    },
+    "game.fillContainer": {
+        "descriptions": {
+            "location": "",
+            "items": ""
+        },
+        "example": ""
+    },
+    "game.deleteItemFromContainer": {
+        "descriptions": {
+            "location": "",
+            "items": ""
+        },
+        "example": ""
+    },
+    "game.setItemFromContainer": {
+        "descriptions": {
+            "location": "",
+            "item": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "game.clearContainer": {
+        "descriptions": {
+            "locations": ""
+        },
+        "example": ""
+    },
+    "game.changeSign": {
+        "descriptions": {
+            "location": "",
+            "text": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.changeContainerName": {
+        "descriptions": {
+            "text": "",
+            "locations": ""
+        },
+        "example": ""
+    },
+    "game.getItemFromContainer": {
+        "descriptions": {
+            "variable": "",
+            "number": "",
+            "location": ""
+        },
+        "example": ""
+    },
+    "game.setItemInEnderChest": {
+        "descriptions": {
+            "item": "",
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "game.getItemFromEnderChest": {
+        "descriptions": {
+            "variable": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.getItemsFromContainer": {
+        "descriptions": {
+            "array": "",
+            "location": ""
+        },
+        "example": ""
+    },
+    "game.getSignValue": {
+        "descriptions": {
+            "variable": "",
+            "location": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.createExplosion": {
+        "descriptions": {
+            "locations": "",
+            "number": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "game.playFireworkExplosion": {
+        "descriptions": {
+            "item": "",
+            "locations": ""
+        },
+        "example": ""
+    },
+    "game.playParticle": {
+        "descriptions": {
+            "locations": "",
+            "particle": "",
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "number4": "",
+            "number5": ""
+        },
+        "example": ""
+    },
+    "game.playParticleLine": {
+        "descriptions": {
+            "particle": "",
+            "location1": "",
+            "location2": ""
+        },
+        "example": ""
+    },
+    "game.createHologram": {
+        "descriptions": {
+            "location": "",
+            "text": "",
+            "texts": ""
+        },
+        "example": ""
+    },
+    "game.deleteHologram": {
+        "descriptions": {
+            "texts": ""
+        },
+        "example": ""
+    },
+    "game.createScoreboard": {
+        "descriptions": {
+            "text1": "",
+            "text2": ""
+        },
+        "example": ""
+    },
+    "game.deleteScoreboard": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "game.setScoreboardScore": {
+        "descriptions": {
+            "text1": "",
+            "text2": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.removeScoreboardScore": {
+        "descriptions": {
+            "text1": "",
+            "text2": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.setWeather": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.setGameTime": {
+        "descriptions": {
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.createBossbar": {
+        "descriptions": {
+            "text1": "",
+            "text2": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "game.deleteBossbar": {
+        "descriptions": {
+            "text": ""
+        },
+        "example": ""
+    },
+    "game.setBossbarTitle": {
+        "descriptions": {
+            "text1": "",
+            "text2": ""
+        },
+        "example": ""
+    },
+    "game.setBossbarColor": {
+        "descriptions": {
+            "text": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.setBossbarStyle": {
+        "descriptions": {
+            "text": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "game.setBossbarProgress": {
+        "descriptions": {
+            "text": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "game.readDataFromChannel": {
+        "descriptions": {
+            "text": "",
+            "value": ""
+        },
+        "example": ""
+    },
+    "game.sendDataThroughChannel": {
+        "descriptions": {
+            "number": "",
+            "text": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "game.sendArrayThroughChannel": {
+        "descriptions": {
+            "number": "",
+            "text": "",
+            "array": ""
+        },
+        "example": ""
+    },
+    "array.create": {
+        "descriptions": {
+            "array": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "array.get": {
+        "descriptions": {
+            "array": "",
+            "number": "",
+            "variable": ""
+        },
+        "example": ""
+    },
+    "array.insert": {
+        "descriptions": {
+            "array": "",
+            "number": "",
+            "value": ""
+        },
+        "example": ""
+    },
+    "array.replace": {
+        "descriptions": {
+            "array": "",
+            "number": "",
+            "value": ""
+        },
+        "example": ""
+    },
+    "array.delete": {
+        "descriptions": {
+            "array": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "array.put": {
+        "descriptions": {
+            "array": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "array.copy": {
+        "descriptions": {
+            "array1": "",
+            "array2": ""
+        },
+        "example": ""
+    },
+    "array.getLength": {
+        "descriptions": {
+            "array": "",
+            "variable": ""
+        },
+        "example": ""
+    },
+    "array.sort": {
+        "descriptions": {
+            "array1": "",
+            "array2": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "array.toString": {
+        "descriptions": {
+            "array": "",
+            "variable": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.blockEquals": {
+        "descriptions": {
+            "blocks": "",
+            "locations": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifGame.containerHasItem": {
+        "descriptions": {
+            "location": "",
+            "items": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifGame.signContains": {
+        "descriptions": {
+            "location": "",
+            "text": "",
+            "number": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifVar.equals": {
+        "descriptions": {
+            "value": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "ifVar.notEquals": {
+        "descriptions": {
+            "value": "",
+            "values": ""
+        },
+        "example": ""
+    },
+    "ifVar.compareNumber": {
+        "descriptions": {
+            "number1": "",
+            "number2": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifVar.compareInterval": {
+        "descriptions": {
+            "number1": "",
+            "number2": "",
+            "number3": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifVar.textEquals": {
+        "descriptions": {
+            "text": "",
+            "texts": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifVar.textContains": {
+        "descriptions": {
+            "text": "",
+            "texts": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifVar.exists": {
+        "descriptions": {
+            "variable": ""
+        },
+        "example": ""
+    },
+    "ifVar.locationInRegion": {
+        "descriptions": {
+            "location1": "",
+            "location2": "",
+            "location3": ""
+        },
+        "example": ""
+    },
+    "ifVar.textStartWith": {
+        "descriptions": {
+            "text": "",
+            "texts": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifVar.textEndWith": {
+        "descriptions": {
+            "text": "",
+            "texts": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifEntity.typeEquals": {
+        "descriptions": {
+            "items": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.nameEquals": {
+        "descriptions": {
+            "texts": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.standOnBlock": {
+        "descriptions": {
+            "blocks": "",
+            "locations": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.nearLocation": {
+        "descriptions": {
+            "locations": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "ifEntity.isMob": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifEntity.isNpc": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifEntity.isProjectile": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifEntity.hasPotionEffect": {
+        "descriptions": {
+            "potion": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.messageEquals": {
+        "descriptions": {
+            "texts": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.interactionType": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.handUsedEquals": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.hasGoldTransaction": {
+        "descriptions": {
+            "text": "",
+            "number": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.gamemodeEquals": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.havePermissions": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.holdingItem": {
+        "descriptions": {
+            "items": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "switch6": "",
+            "switch7": "",
+            "switch8": "",
+            "switch9": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.hasItem": {
+        "descriptions": {
+            "items": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.wearingItem": {
+        "descriptions": {
+            "items": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "switch6": "",
+            "switch7": "",
+            "switch8": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.itemEquals": {
+        "descriptions": {
+            "items": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "switch6": "",
+            "switch7": "",
+            "switch8": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.itemInCursorEquals": {
+        "descriptions": {
+            "items": "",
+            "switch1": "",
+            "switch2": "",
+            "switch3": "",
+            "switch4": "",
+            "switch5": "",
+            "switch6": "",
+            "switch7": "",
+            "switch8": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.itemHasDelay": {
+        "descriptions": {
+            "item": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.clickType": {
+        "descriptions": {
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.clickedSlotEquals": {
+        "descriptions": {
+            "numbers": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.hotbarSlotEquals": {
+        "descriptions": {
+            "numbers": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.openInventoryNameEquals": {
+        "descriptions": {
+            "texts": "",
+            "switch1": "",
+            "switch2": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.inventoryFull": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.lookAtBlock": {
+        "descriptions": {
+            "blocks": "",
+            "locations": "",
+            "number": "",
+            "switch": ""
+        },
+        "example": ""
+    },
+    "ifPlayer.isSneaking": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.isBlocking": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.isGliding": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.isSprinting": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.isFlying": {
+        "descriptions": {},
+        "example": ""
+    },
+    "ifPlayer.isSwimming": {
+        "descriptions": {},
+        "example": ""
+    }
+}
