@@ -47,8 +47,8 @@ def createGit():
         result = ("## `" + handlerCustom + "." + variantCustom + f"();` [↩️]({link})" +
                   "\n" + "**Пример:**" +
                   "\n" + "```js"
-                  "\n" + example + "```"
-                  "\n" + "\n**Аргументы**:")
+                  "\n" + example + "\n```"
+                  "\n" + "\n**Аргументы**:" + "\n")
         try:
             args = langvar["args" if not langvar.__contains__("parent") else "parent"]
             if isinstance(args, str):
