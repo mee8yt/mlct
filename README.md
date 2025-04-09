@@ -1,300 +1,353 @@
 # MLCT ✨
-**MLCT** *(**M**ine**L**and **C**ode **T**ranslator)* (эм эл кэ тэ) - Мод, для установки письменного варианта блочного кода на сервере Mineland.
+[English](README.md) | [Русский](README_ru.md)
 
+**MLCT** *(**M**ine**L**and **C**ode **T**ranslator)* - Mod for installing written version of block code on Mineland server.
 
+## Content 🗂️
 
-## Содержание 🗂️
+This repository is for compilator only
 
-Этот репозиторий только для компилятора
+1. [Installation](#installation-)
+2. [Syntax](#syntax-)
+	1. [Data types](#data-types)
+	2. [Setting variables](#setting-variables)
+	3. [Calling actions](#calling-actions)
+	4. [Selectors](#selectors)
+	5. [Events](#events)
+	6. [Functions](#functions)
+	7. [Loops](#functions)
+	8. [Environment variables](#environment-variables)
+	9. [Modules](#modules)
+3. [Documentation](#documentation-)
+4. [Examples](#examples-)
+5. [Syntax highlight](#syntax-highlight-)
+6. [Translation](#translation-)
 
-1. [Установка](#установка-)
-2. [Синтаксис](#синтаксис-)
-3. [Документация](#документация-)
-4. [Примеры](#примеры-)
-5. [Подсветка кода](#подсветка-кода-)
-6. [Перевод MLCT](#статус-перевода-mlct-)
+# Installation 🤙
 
-# Установка 🤙
-
-1. Необходимо иметь Python версии не ниже 3.11.1 \(Установить можно [тут](https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe)\)
-2. Откройте раздел [релизов](https://github.com/mee8yt/mlct-compiler/releases/latest ) и нажмите "Download ZIP"
-3. Распакуйте архив
-4. Запустите `Setup.py`
+1. Install Python version 3.11.1 or above
+2. Head to [releases](https://github.com/mee8yt/mlct-compiler/releases/latest) page and click "Download ZIP"
+3. Unzip the file
+4. Run `Setup.py`
 
 > [!IMPORTANT]
-> Без Python вы банально не сможете скомпилировать ваш код
+> You won't be able to compile the code without Python installed
 
 >[!NOTE]
-> После установки не перемешайте папку с компилятором, не меняйте и не удаляйте исходные файлы компилятора
-# Синтаксис 💻
+> After installation, dont make changes in compilator folder. Dont delete compilator source files
 
-> [!NOTE]
-> Перед использованием `MLCT` следует знать его синтаксис.
+# Syntax 💻
 
-Типы данных:
+## Data types
 ```js
-123          // Числовое значение
-"Текст"      // Текстовое значение
-`Переменная` // Переменная / сложное значение
+123 // Number
+"Text" // Text
+`Variable` // Variable / "complex" value
 ```
 
-Если перед переменной поставить букву(ы), то переменная может превратиться в сложное значение:
-```js
-`Переменная`                    // Так и осталось
-s`Сохранённая переменная`       // Переменная стала сохранённой
-a`Массив`                       // Теперь это массив
-as`Массив`                      // Массив тоже умеет сохраняться
-l`Местоположение`               // Набор из пяти чисел, или местоположение
-v`Значение`                     // Игровое значение, то есть яблочко
-i`Предмет`                      // Любой предмет
-potion`Зелье`                   // Эффект зелья
-particle`Частица`               // Эффект частицы
-
-"Текст"                         // Обычный текст
-c"Текстовый компонент"          // Текстовый компонент
-cls"Бесцветный текст"           // Символ & не заменится на цветной символ
-```
-
-Такая буква (буквы), делающая из одного значение другое называется "оболочка значения" (Value shell).
-
-Однако любые значения надо заполнять с умом. Например, снос текста на новую строку:
-```js
-"Намеренный снос \
-   строки"
-```
-Учитывайте, что на новой строке не будут учитываться все символы пропуска вплоть до твёрдых букв (табуляции, пробелы, и другие сносы строк).
-
-Так-же стоит учитывать, что если не поставить обратый слеш на конце первой строки, то компилятор посчитает этот текст незавершённым:
+You can put symbol(s) before variable to convert it in "complex" value:
 
 ```js
-"Снос без
-слеша" // -> LexerError: Токен STRING со значением "Снос без" не имеет конца
+`Variable` // Dynamic variable
+s`Saved variable` // It's now saved variable
+a`Array` // Array
+as`Saved array` // Array can also be saved
+l`Location` // Location: set of 5 numbers
+v`Value` // Game value
+i`Item` // Any item
+potion`Potion` // Potion effect
+particle`Particle` // Particle
+
+"Text" // Text
+c"Text component" // Text component
+cls"Text with no color" // "&" symbol wont covert to "§"
 ```
 
-Из свободного текста ("слов" не обёрнутых в переменную или текст) и разных типов данных могут рисоваться базовые структуры кодинга. Это обозначения блоков кода и событий, обозначения поршней условий, различные вне-блочные стуктуры, которые упрощают работу напрямую с компилятором. Разберём всё по-порядку.
+These symbols making a value from another one are called value shell.
 
-Установка переменных:
+However, you need to set values with mind. E.g. line break:
+
+```js
+"Line break \
+ on purpose"
+```
+
+Keep in mind that on the new line any symbol up to hard letters (tabulations, spaces and other line breaks) won't be taken into account.
+
+Also, if you don't put backslash ("\\") at the end of first line, compilator will count this text as not finished:
+
+```js
+"Line break with
+no backslash" 
+// -> LexerError: STRING token "Line break with" doesn't have the end
+```
+
+From free-form text ("words" not wrapped in variables or strings) and various data types, basic coding structures can be derived. These include code and event blocks, conditional piston notations, and various non-block structures that simplify direct interaction with compilator.
+
+## Setting variables
 ```js
 var `test` = 0;
 var s`%player% money` = 0;
 ```
-Установка переменной таким образом называется вне-блочной конструкцией, позже поймёте почему
 
-Вызов действий:
+Setting variables like this is called non-block structure. Later you'll understand why.
+
+## Calling actions
 ```js
-player.send("Привет!");
+player.send("Greetings!");
 ```
 
-Эта строка кода описывает "Действие игрока - Отправить сообщение"
+This line describes "Player action - Send message".
 
-Теперь разберём строение этой строки кода:
+Now let's figure out the structure:
 
 ```js
-   player.send("Привет!");
+   player.send("Greetings!");
 // ^^^^^^
-// Блок
+// Block
 
-player.send("Привет!");
+player.send("Greetings!");
 //    ^
-//    Разделитель
+//    Separator
 
-player.send("Привет!");
+player.send("Greetings!");
 //     ^^^^
-//     Имя действия
+//     Action name
 
-player.send("Привет!");
-//          ^^^^^^^^^
-//          Аргументы
+player.send("Greetings!");
+//          ^^^^^^^^^^^^
+//          Arguments
 
-player.send("Привет!");
-//                    ^
-//                   Конец блока
+player.send("Greetings!");
+//                       ^
+//                       Block end
 ```
 
 > [!IMPORTANT]
->Каждый блок кода должен оканчиваться знаком ";" (точка с запятой)
+> Every code block must end with semicolon (";")
 
-То есть блочной конструкцией является это: `блок.вид(аргументы);`, а вне-блочная конструкция это: `операция цель: аргументы;` (например *var*)
+Based on this, block structure is: `block.type(arguments);`, and non-block structure is: `operation target: arguments;` (e.g. var)
 
-На очереди заполнение аргументов блоков
+### Arguments
 
-Например возьмём действие "Отправить титул". У него есть аргументы "text1, text2, number1, number2, number3". Их можно указать разными способами:
+Let's take the "Send title" action for example. It has arguments "text1, text2, number1, number2, number3". You can set them in different ways:
 
-*Позиционный:*
+1. Positional
 ```js
-player.title("Привет", "Это мой мир", 20, 20, 20);
+player.title("Hello", "This is my world", 20, 20, 20);
 ```
 
-*По имени:*
+2. By name
 ```js
-player.title(text1="Привет", number1=0);
-```
-*Комбинированный:*
-```js
-player.title(text1="Привет", "Это мой мир");
-
-//Позиционные аргументы устанавливаются на следующее неустановленное значение:
-player.title(number2=5, "Привет", "Это мой мир"); // Тоже самое, что (text1="Привет", text2="Это мой мир", number2=5);
+player.title(text1="Hello", number1=0);
 ```
 
-Аргументы бывают двух видов: значение и переключатель. Переключатели задаются числом, которое отражает количество нажатий по переключателю:
+3. Combined
 ```js
-player.send(["Вы прошли паркур", "Хотите ещё раз? /play"], 2); // Переключатель нажмётся 2 раза, и будет "разделение на строки".
+player.title(text1="Hello", "This is my world");
+
+// Positional arguments are set on the next unspecified value:
+player.title(number2=5, "Hello", "This is my world"); // Same thing as (text1="Hello", text2="This is my world", number2=5);
 ```
 
-Аргументы, которые отражают значение могут принимать сразу много значений, для этого используется "список значений". В квадратных скобках `[]` через запятую устанавливаются несколько значений для одного аргумента
+#### Switch
+A switch is defined by number representing how many times it's clicked:
+
 ```js
-player.send(["Игрок лайкнул игру", "Хочешь так-же? /like"]);
+player.send(["You've completed the parkour", "Wanna try again? /play"], 2); // The switch will trigger 2 times and will be the "String splitting"
 ```
 
-У действий есть селекторы (когда нажимаешь по табличке ШИФТ + ПКМ):
+#### Value
+Arguments that represent the value can
+pass multiple values. You need to use the "value list" for this. Put the values in `[]` separated by commas.
+
 ```js
-player.send<all>("&fИгрок &e%player%&f зашёл в игру!");
+player.send(["Player liked the game", "Like it too? /like"]);
 ```
->[!WARNING]
->Селекторы можно ставить только *перед* круглыми скобками
 
+## Selectors
+Player actions and conditions can have selectors (These are when you click <KBD>Shift+RMB</KBD>).
 
-Теперь научимся писать код, посмотрим на события и условия:
 ```js
-PlayerEvent(join) {
-   player.send<all>("&fИгрок &e%player%&f зашёл в игру!");
-   ifPlayer.havePermissions() {
-      player.setGamemode(3);
-   }
-   game.startLoop("random_item");
-}
-
-Loop(random_item, 100) {
-   player.giveRandomItem<all>(i`diamond`, i`emeralnd`, i`stone`);
-}
+player.send<all>("&fPlayer &e%player%&f has joined the game!"); // Sends the message to all players
 ```
 
 >[!WARNING]
->Для циклов, функций и событий, у которых имя содержит пробелы используются спец. символы ``
->
->Например, если функция или цикл называется "анти гм", то в строке Loop() или Function()
-> имя пишется так: \`анти гм\`
+>You can put selectors only before round brackets
 
-У условий и выборок тоже есть селекторы, и не только:
+### "Not" parameter
+When you need to invert the condition, you use the "Not" parameter (same thing as "Not" arrow):
 
 ```js
-ifPlayer.nameEquals<not><selected>("Mee8YT") {
-    select.player.ifPlayer.gamemodeEquals(2);
-    player.setGamemode<selected>(1);
-} 
+ifPlayer.nameEquals("Mee8YT") {} // Returns true when player name IS Mee8YT
+ifPlayer.nameEquals<not>("Mee8YT") {} // Returns true when player name IS NOT Mee8YT
 ```
 
 >[!NOTE]
->Параметр `<not>` ставит стрелочку НЕ на условиях и выборке, и он также ставится перед круглыми скобками
+>You can use this parameter with other selectors. The order doesn't matter (`ifPlayer.holdingItem<killer><not>()` and `ifPlayer.holdingItem<not><killer>()` will work the same)
 
->[!TIP]
->Для условий можно комбинировать селектор и инверсию условия, и не важно в каком порядке они были указаны
+## Events
 
-Для оптимизации и повышения читабельности кода можно использовать переменные среды (или **константы**).
+### Player event
 
-Это переменные, которые доступны только для компилятора, и которые не требуют дополнительных блоков "Присв. Переменную":
 ```js
-const message = "Очень длинный текст"; // Создаём константу
+PlayerEvent(join) {} // join - event
+```
+
+### World event
+
+```js
+WorldEvent(start) {} // start - event
+```
+
+## Functions
+
+```js
+Function(func) {} // func - name
+
+game.startFunction("func"); // Call the function
+```
+
+## Loops
+```js
+Loop(loop, 20) {} // loop - name, 20 - iteration rate 
+
+game.startLoop("loop"); // Start the loop
+```
+
+>[!WARNING]
+> For functions, loops, and events that has space in their names, you should use the ``
+>
+> E.g. for the function "anti fly" you write: \`anti fly\`
+
+## Environment variables
+
+To optimize the code and increase readability, you can use environment variables (constants).
+
+These variables are accessible only for the compilator and don't require additional "Set variable" blocks:
+
+```js
+const message = "Made using MLCT"; // Creating the constant
 
 PlayerEvent(join) {
-    player.send(@env(message));
+    player.send(@env(message)); // "Made using MLCT"
 } 
 ```
 
 >[!IMPORTANT]
->Константу можно установить только вне линии кода
+> You can set the constant only before the first code block
 
-Константы могут хранить целый список значений::
+Constants can store list of values:
+
 ```js
 const items = [i`diamond`, i`emerald`];
 ```
 
-Как вы уже увидели, константа может хранить целый список значений. Их можно использовать по разному:
+You can use it differently:
+
 ```js
-player.giveItems(@env(items));
-player.giveItems([@env(items), i`stone`]);
+player.giveItems(@env(items)); // Diamond and emerald
+player.giveItems([@env(items), i`stone`]); // Diamond, emerald, and stone
 ```
 
-Чтобы не мусорить в файле млкт кода можно хранить их в файле `environments.json`:
+To keep the code clean, you can store constants in `enviroments.json` file:
+
 ```json
 {
-  "message": {
-    "token": "STRING",
-    "shell": null,
-    "value": "Очень длинный текст"
+   "message": {
+      "token": "STRING",
+      "shell": null,
+      "value": "Some text"
+   }
 } 
 ```
-*`code.txt`:*
+
+`code.txt`:
 ```js
 PlayerEvent(join) {
-  player.send(@env(message));
+  player.send(@env(message)); // "Some text"
 }
 ```
 
-Константы удобны тем, что они делают код читабельнее, а итоговый вариант траснлируемого кода не будет содержать лишние блоки кода.
+## Modules
 
-**Модули** могут сделать код *ещё читабельнее*. Модулем именуется содержимое любого файла, которое будет скомпилировано в 1 сеанс компиляции. 
+Modules can make code even more readable! Module is another code file that'll be compiled with the main file.
 
-Проще говоря, можно разделять код на несколько файлов. Модули можно импортировать и использовать:
+To use the code from the module, you need to import it:
 
+`module.txt`:
 ```js
-// main.txt
-import 'module.txt'; // Загружаем модуль
-
-PlayerEvent(join) {}
-
-// module.txt
-Function() {}
+Function(sayHi) {
+   player.send("Hello, %player%!");
+}
 ```
+
+`main.txt`:
+```js
+import "module.txt"; // Importing the module
+
+PlayerEvent(join) {
+   game.startFunction("sayHi"); // "Hello, %player%!"
+}
+```
+
 > [!IMPORTANT]
->`import` доступен только вне линий кода. 
+>You can use `import` only before the first code block
 
-При импорте компилятор устанавливает код вместо импорта, и в последствии обрабатывает его.
-
-В модули можно помещать код, и даже создавать константы. Константы, созданные в других модулях могут быть доступны и в других модулях, главное вовремя импортировать иодуль с константами.
-
-Так-же для удобства модули можно импортировать в конце:
+Compilator replaces import with file code and processes it later. So the final result will look like:
 
 ```js
-import "module.txt" end; // Модуль вставится не вместо import, а якобы в самом конце
+Function(sayHi) {
+   player.send("Hello, %player%!");
+}
 
+PlayerEvent(join) {
+   game.startFunction("sayHi");
+}
 ```
 
+You can also use constants from other modules. 
 
-# Документация 📜
-Более подробная информация по всем событиям, условиям и действиям кода.
-   - [Активаторы](documentation/activators.md) 
-     -  [Событие игрока](documentation/activators.md#событие-игрока---playereventevent--none--)
-     -  [Событие мира](documentation/activators.md#событие-мира---worldeventevent--none--)
-     -  [Циклы](documentation/activators.md#циклы---loopname-0--none--)
-     -  [Функции](documentation/activators.md#функции---functionname--none--)
-   - [Действия](documentation/actions.md)
-     - [Действие игрока](documentation/actions.md#действие-игрока---playeractionargs-)
-     - [Игровое действие](documentation/actions.md#игровое-действие---gameactionargs-)
-     - [Установить переменную](documentation/actions.md#установить-переменную---varactionargs-)
-     - [Работа с массивами](documentation/actions.md#работа-с-массивами---arrayactionargs-)
-     - [Выбрать объект](documentation/actions.md#выбрать-объект---selectaction-)
-   - [Условия](documentation/conditions.md)
-     - [Если игрок](documentation/conditions.md#если-игрок---ifplayerconditionargs--none--)
-     - [Если значение](documentation/conditions.md#если-значение---ifvalueconditionargs--none--)
-     - [Если существо](documentation/conditions.md#если-существо---ifentityconditionargs--none--)
-     - [Если игра](documentation/conditions.md#если-игра---ifgameconditionargs--none--)
-     - [Иначе](documentation/conditions.md#иначе---else--none--)
-   - [Значения](documentation/values.md)
-     - [Игровое значение](documentation/values.md#игровое-значение---vvalue-)
-     - [Местоположение](documentation/values.md#местоположение---lx-y-z-y-p-)
-     - [Предмет](documentation/values.md#предмет---imaterial-c-m-)
-     - [Частица](documentation/values.md#частица---particlevariant-)
-     - [Зелье](documentation/values.md#зелье---vid-d-f-)
-   - [Прочее](documentation/other.md)
-     - [Константы](documentation/other.md#константы-)
-     - [Ошибки](documentation/other.md#ошибки-)
-     - [Комментарии](documentation/other.md#комментарии-)
-     - [Языковой модуль](documentation/other.md#языковой-модуль-)
-# Примеры 📧
+Sometimes you may need to import the module at the end of the code:
 
-Векторное оружие:
+
+```js
+import "module.txt" end; // Module won't replace the import, but will be placed at the end of the code
+```
+
+# Documentation 📜
+You can find more information about the code here:
+   - [Activators](documentation/activators.md) 
+     -  [Player event](documentation/activators.md#событие-игрока---playereventevent--none--)
+     -  [World event](documentation/activators.md#событие-мира---worldeventevent--none--)
+     -  [Loops](documentation/activators.md#циклы---loopname-0--none--)
+     -  [Functions](documentation/activators.md#функции---functionname--none--)
+   - [Actions](documentation/actions.md)
+     - [Player action](documentation/actions.md#действие-игрока---playeractionargs-)
+     - [Game action](documentation/actions.md#игровое-действие---gameactionargs-)
+     - [Set variable](documentation/actions.md#установить-переменную---varactionargs-)
+     - [Working with arrays](documentation/actions.md#работа-с-массивами---arrayactionargs-)
+     - [Select the object](documentation/actions.md#выбрать-объект---selectaction-)
+   - [Conditions](documentation/conditions.md)
+     - [If player](documentation/conditions.md#если-игрок---ifplayerconditionargs--none--)
+     - [If value](documentation/conditions.md#если-значение---ifvalueconditionargs--none--)
+     - [If entity](documentation/conditions.md#если-существо---ifentityconditionargs--none--)
+     - [If game](documentation/conditions.md#если-игра---ifgameconditionargs--none--)
+     - [Else](documentation/conditions.md#иначе---else--none--)
+   - [Values](documentation/values.md)
+     - [Game value](documentation/values.md#игровое-значение---vvalue-)
+     - [Location](documentation/values.md#местоположение---lx-y-z-y-p-)
+     - [Item](documentation/values.md#предмет---imaterial-c-m-)
+     - [Particle](documentation/values.md#частица---particlevariant-)
+     - [Potion](documentation/values.md#зелье---vid-d-f-)
+   - [Other](documentation/other.md)
+     - [Constants](documentation/other.md#константы-)
+     - [Errors](documentation/other.md#ошибки-)
+     - [Comments](documentation/other.md#комментарии-)
+     - [Language module](documentation/other.md#языковой-модуль-)
+# Examples 📧
+
+Vector gun:
 ```js
 PlayerEvent(rightClick) {
    ifPlayer.holdingItem(i`golden_hoe`) {
@@ -314,7 +367,7 @@ PlayerEvent(rightClick) {
 }
 
 Function(`gun.vector`) {
-      @comment("GUN / Create vector", 9, "gun.vector", 13, "Создаёт &3&l&nвектор&f из взгляда.");
+      @comment("GUN / Create vector", 9, "gun.vector", 13, "Creates the &3&l&nvector&f from sight.");
 
       var `%player% vector.pos.ray_coefficient` = 1;
       var.getLocationValue(`%player% vector.pos.yaw`, `%player% vector.pos`, 3);
@@ -340,23 +393,14 @@ PlayerEvent(takeDamagePlayer) {
 }
 ```
 
-# Подсветка кода 💡
+# Syntax highlight 💡
 
-Есть 2 варианта:
+Official syntax highlight is only available in Visual Studio Code. Download [the extenstion](https://marketplace.visualstudio.com/items?itemName=Mee8YT.mlct) to make it work.
 
-### SublimeText (с синтаксисом JS)
+You may want to use JavaScript syntax/file type if you're using another code editor as it's the closest to MLCT syntax.
 
-1. Установите SublimeText
-2. Поставьте языковой режим JavaScript
-
-### VS Code (С ФИРМЕННЫЙ СИНТАКСИСОМ)
-
-1. Установите VS Code
-2. Скачайте [расширение](https://marketplace.visualstudio.com/items?itemName=Mee8YT.mlct)
-3. Готово!
-
-# Статус перевода MLCT 📄
-| Язык | Компилятор | Документация |
+# Translation 📄
+| Language | Compilator | Documentation |
 |---|:---:|:---:|
 | 🇷🇺 Русский | 🟩 | 🟩 |
 | 🇬🇧 English | 🟩 | 🟥 |
@@ -374,4 +418,4 @@ PlayerEvent(takeDamagePlayer) {
 | 🇬🇷 Ελληνικά | 🟨 | 🟥 |
 | 🇪🇬 اَلْعَرَبِيَّةُ | 🟩 | 🟥 |
 
-<sup>🟩 - 100% перевод, 🟨 - в процессе, 🟥 - не начат или не планируется.</sup>
+<sup>🟩 - 100% translated, 🟨 - in process, 🟥 - no translation.</sup>
