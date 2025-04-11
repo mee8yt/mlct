@@ -9,6 +9,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `location` |
+| `item` | Значение |  | `tool` |
 ## `player.goldTransaction();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -19,6 +21,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `id` |
+| `text2` | Значение |  | `name`, `display` |
+| `number` | Значение |  | `price`, `cost`, `gold` |
+| `switch` | Переключатель |  | `save` |
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -29,6 +35,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
 ## `player.setItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -39,6 +46,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `slot`, `slots` |
 ## `player.setItemsEnder();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -49,6 +58,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch` | Переключатель |  | `-` |
 ## `player.setArmor();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -59,6 +70,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch` | Переключатель |  | `-` |
 ## `player.setItemHand();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -69,6 +82,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `switch` | Переключатель |  | `hand` |
 ## `player.setItemCursor();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -79,6 +94,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
 ## `player.removeItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -89,6 +105,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
 ## `player.clearInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -115,6 +132,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `slot` |
 ## `player.giveRandomItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -125,6 +143,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
 ## `player.saveInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -151,6 +170,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `time`, `ticks`, `delay` |
 ## `player.getItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -161,6 +182,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result` |
+| `number` | Значение |  | `slot` |
 ## `player.getItemCooldown();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -171,6 +194,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result` |
 ## `player.send();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -181,6 +205,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `message` |
+| `switch` | Переключатель |  | `separator`, `sep` |
 ## `player.sendComponent();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -191,6 +217,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `components` | Значение |  | `-` |
+| `switch` | Переключатель |  | `separator`, `switch` |
 ## `player.sendDialogue();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -201,6 +229,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `messages` |
+| `number` | Значение |  | `time`, `delay`, `ticks` |
 ## `player.clearChat();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -219,6 +249,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `sound` |
+| `number1` | Значение |  | `volume` |
+| `number2` | Значение |  | `pitch` |
+| `location` | Значение |  | `fromHere`, `from` |
+| `switch` | Переключатель |  | `category`, `sounding`, `mode` |
 ## `player.stopSound();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -229,6 +264,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `sounds`, `sound` |
 ## `player.title();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -239,6 +275,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `title` |
+| `text2` | Значение |  | `subtitle` |
+| `number1` | Значение |  | `in`, `fadeIn`, `appear`, `time1` |
+| `number2` | Значение |  | `show`, `show`, `hold`, `time2` |
+| `number3` | Значение |  | `out`, `fadeOut`, `disappear`, `time3` |
 ## `player.actionbar();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -249,6 +290,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `message`, `actionbar` |
 ## `player.showLink();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -259,6 +301,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `message`, `link`, `url` |
 ## `player.openBook();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -269,6 +312,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `pages`, `messages`, `page` |
 ## `player.openMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -279,6 +323,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `content`, `item` |
+| `text` | Значение |  | `mame`, `display`, `displayName`, `title` |
+| `switch` | Переключатель |  | `inventoryType`, `type` |
 ## `player.expandMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -289,6 +336,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `item`, `content` |
+| `number` | Значение |  | `count`, `lines`, `quantity` |
 ## `player.setItemInMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -299,6 +348,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `count` | Значение |  | `slot`, `slots` |
 ## `player.setMenuName();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -309,6 +360,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `name`, `display`, `title` |
 ## `player.addLineInMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -319,6 +371,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `content`, `item` |
+| `switch` | Переключатель |  | `position` |
 ## `player.deleteLineMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -329,6 +383,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `count`, `lines` |
+| `switch` | Переключатель |  | `position` |
 ## `player.closeInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -347,6 +403,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `block` |
+| `switch` | Переключатель |  | `mode`, `type` |
 ## `player.openEntity();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -365,6 +423,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
 ## `player.rotateToLocation();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -375,6 +434,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
 ## `player.randomTeleport();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -385,6 +445,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.teleportSequence();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -395,6 +457,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode` |
+| `number` | Значение |  | `ticks`, `delay`, `time` |
 ## `player.launchVertically();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -405,6 +470,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `power` |
 ## `player.launchForward();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -415,6 +481,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `power` |
 ## `player.launchToward();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -425,6 +492,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number1` | Значение |  | `power1`, `x` |
+| `number2` | Значение |  | `power2`, `y` |
+| `number3` | Значение |  | `power3`, `z` |
 ## `player.launchToLocation();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -435,6 +505,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
 ## `player.kick();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -453,6 +524,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `world`, `id` |
 ## `player.damage();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -463,6 +535,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `damage`, `hp` |
 ## `player.setHealth();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -473,6 +546,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `hp` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.givePotionEffect();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -483,6 +558,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `potions` | Значение |  | `potion` |
+| `switch1` | Переключатель |  | `particles`, `trash` |
+| `switch2` | Переключатель |  | `replace` |
+| `number1` | Значение |  | `time`, `ticks`, `duration` |
+| `number2` | Значение |  | `power`, `force`, `level` |
 ## `player.clearPotionEffect();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -501,6 +581,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `potions` | Значение |  | `potion` |
 ## `player.setXpLvl();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -511,6 +592,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `level` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setXpProgress();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -521,6 +604,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `exp` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setHunger();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -531,6 +616,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `hunger` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setSaturation();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -541,6 +628,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `saturation` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setExhaustion();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -551,6 +640,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `exhaustion` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setMaxHealth();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -561,6 +652,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `hp` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setOnFire();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -571,6 +664,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `duration`, `ticks`, `time` |
 ## `player.setFlightSpeed();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -581,6 +675,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `speed` |
 ## `player.setWalkSpeed();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -591,6 +686,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `speed` |
 ## `player.setRemainingAir();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -601,6 +697,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `air` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setMaximumAir();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -611,6 +709,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `air` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.setName();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -621,6 +721,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `name`, `nick` |
 ## `player.setDamage();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -631,6 +732,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `damage` |
 ## `player.setSize();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -641,6 +743,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `damage` |
 ## `player.setSound();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -651,6 +754,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.setGlow();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -661,6 +765,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.setVisibility();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -671,6 +776,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.setGravity();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -681,6 +787,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.setInvincibility();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -691,6 +798,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.deleteEntity();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -709,6 +817,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch1` | Значение |  | `action` |
+| `switch2` | Значение |  | `permission`, `right`, `access` |
 ## `player.setGamemode();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -719,6 +829,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `gamemode`, `mode` |
 ## `player.setKeepInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -729,6 +840,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Значение |  | `-` |
 ## `player.showScoreboard();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -739,6 +851,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
 ## `player.hideScoreboard();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -757,6 +870,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
 ## `player.hideBossbar();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -775,6 +889,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode`, `view`, `type` |
 ## `player.wakeUp();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -793,6 +909,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `hand` |
 ## `player.sneakingState();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -803,6 +920,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `state`, `stage`, `variant` |
 ## `player.damageAnimation();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -813,6 +931,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `animation`, `type` |
 ## `var.set();` [↩️]()
 **Пример:**
 ```js
@@ -823,6 +942,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `values` | Значение |  | `-` |
+| `switch` | Переключатель |  | `separator` |
 ## `var.setItemToVariable();` [↩️]()
 **Пример:**
 ```js
@@ -833,6 +955,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
 ## `var.setRandomValue();` [↩️]()
 **Пример:**
 ```js
@@ -843,6 +967,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `values` | Значение |  | `-` |
 ## `var.setTimestamp();` [↩️]()
 **Пример:**
 ```js
@@ -853,6 +979,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
 ## `var.setUnix();` [↩️]()
 **Пример:**
 ```js
@@ -863,6 +990,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
 ## `var.sum();` [↩️]()
 **Пример:**
 ```js
@@ -873,6 +1001,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `amount` |
+| `number` | Значение |  | `-` |
+| `numbers` | Значение |  | `-` |
 ## `var.difference();` [↩️]()
 **Пример:**
 ```js
@@ -883,6 +1014,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `difference` |
+| `number` | Значение |  | `-` |
+| `numbers` | Значение |  | `-` |
 ## `var.multiply();` [↩️]()
 **Пример:**
 ```js
@@ -893,6 +1027,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `product` |
+| `number` | Значение |  | `-` |
+| `numbers` | Значение |  | `-` |
 ## `var.division();` [↩️]()
 **Пример:**
 ```js
@@ -903,6 +1040,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `quotient` |
+| `number` | Значение |  | `-` |
+| `numbers` | Значение |  | `-` |
 ## `var.remainder();` [↩️]()
 **Пример:**
 ```js
@@ -913,6 +1053,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `remainder` |
+| `number1` | Значение |  | `divisible` |
+| `number2` | Значение |  | `divider` |
 ## `var.plus();` [↩️]()
 **Пример:**
 ```js
@@ -923,6 +1066,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.minus();` [↩️]()
 **Пример:**
 ```js
@@ -933,6 +1078,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.setRandomNumber();` [↩️]()
 **Пример:**
 ```js
@@ -943,6 +1090,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `random` |
+| `number1` | Значение |  | `lower` |
+| `number2` | Значение |  | `upper` |
 ## `var.roundNumber();` [↩️]()
 **Пример:**
 ```js
@@ -953,6 +1103,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `round` |
+| `number1` | Значение |  | `-` |
+| `number2` | Значение |  | `decimal_places` |
+| `switch` | Переключатель |  | `mode` |
 ## `var.module();` [↩️]()
 **Пример:**
 ```js
@@ -963,6 +1117,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `module`, `abs` |
+| `number` | Значение |  | `divisible` |
 ## `var.minNumber();` [↩️]()
 **Пример:**
 ```js
@@ -973,6 +1129,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
+| `number2` | Значение |  | `-` |
 ## `var.maxNumber();` [↩️]()
 **Пример:**
 ```js
@@ -983,6 +1142,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
+| `number2` | Значение |  | `-` |
 ## `var.pow();` [↩️]()
 **Пример:**
 ```js
@@ -993,6 +1155,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `base` |
+| `number2` | Значение |  | `exp` |
 ## `var.cosinus();` [↩️]()
 **Пример:**
 ```js
@@ -1003,6 +1168,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.sinus();` [↩️]()
 **Пример:**
 ```js
@@ -1013,6 +1180,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.tangent();` [↩️]()
 **Пример:**
 ```js
@@ -1023,6 +1192,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.arcSinus();` [↩️]()
 **Пример:**
 ```js
@@ -1033,6 +1204,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.arcCosinus();` [↩️]()
 **Пример:**
 ```js
@@ -1043,6 +1216,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.arcTangent();` [↩️]()
 **Пример:**
 ```js
@@ -1053,6 +1228,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.deg();` [↩️]()
 **Пример:**
 ```js
@@ -1063,6 +1240,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.logarithm();` [↩️]()
 **Пример:**
 ```js
@@ -1073,6 +1252,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.sqrt();` [↩️]()
 **Пример:**
 ```js
@@ -1083,6 +1264,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.exp();` [↩️]()
 **Пример:**
 ```js
@@ -1093,6 +1276,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.radians();` [↩️]()
 **Пример:**
 ```js
@@ -1103,6 +1288,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `-` |
 ## `var.perlin();` [↩️]()
 **Пример:**
 ```js
@@ -1113,6 +1300,14 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `location` | Значение |  | `-` |
+| `number1` | Значение |  | `seed` |
+| `number2` | Значение |  | `frequency` |
+| `number3` | Значение |  | `octaves` |
+| `number4` | Значение |  | `lacunarity` |
+| `number5` | Значение |  | `persistence` |
+| `switch` | Переключатель |  | `normalize`, `mode` |
 ## `var.simplex();` [↩️]()
 **Пример:**
 ```js
@@ -1123,6 +1318,14 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `location` | Значение |  | `-` |
+| `number1` | Значение |  | `seed` |
+| `number2` | Значение |  | `frequency` |
+| `number3` | Значение |  | `octaves` |
+| `number4` | Значение |  | `lacunarity` |
+| `number5` | Значение |  | `persistence` |
+| `switch` | Переключатель |  | `normalize`, `mode` |
 ## `array.combine();` [↩️]()
 **Пример:**
 ```js
@@ -1133,6 +1336,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array1` | Значение |  | `-` |
+| `array2` | Значение |  | `-` |
 ## `var.parseNumber();` [↩️]()
 **Пример:**
 ```js
@@ -1143,6 +1348,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `texts` | Значение |  | `-` |
 ## `var.truncate();` [↩️]()
 **Пример:**
 ```js
@@ -1153,6 +1360,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text` | Значение |  | `-` |
+| `number1` | Значение |  | `begin` |
+| `number2` | Значение |  | `end` |
+| `switch` | Переключатель |  | `mode`, `type` |
 ## `var.splitText();` [↩️]()
 **Пример:**
 ```js
@@ -1163,6 +1375,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `result`, `output`, `array` |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `separator` |
 ## `var.getTextLength();` [↩️]()
 **Пример:**
 ```js
@@ -1173,6 +1388,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `length` |
+| `text` | Значение |  | `-` |
 ## `var.replaceText();` [↩️]()
 **Пример:**
 ```js
@@ -1183,6 +1400,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
+| `text3` | Значение |  | `-` |
 ## `var.setTextCase();` [↩️]()
 **Пример:**
 ```js
@@ -1193,6 +1414,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode`, `type`, `case` |
 ## `var.timeFormat();` [↩️]()
 **Пример:**
 ```js
@@ -1203,6 +1427,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `unix`, `time`, `ms` |
+| `text1` | Значение |  | `formating` |
+| `text2` | Значение |  | `lang` |
+| `switch` | Переключатель |  | `type`, `format` |
 ## `var.getLocationValue();` [↩️]()
 **Пример:**
 ```js
@@ -1213,6 +1442,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `location` | Значение |  | `-` |
+| `switch` | Переключатель |  | `value` |
 ## `var.getLocationDistance();` [↩️]()
 **Пример:**
 ```js
@@ -1223,6 +1455,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `distance` |
+| `location1` | Значение |  | `-` |
+| `location2` | Значение |  | `-` |
 ## `var.setLocation();` [↩️]()
 **Пример:**
 ```js
@@ -1233,6 +1468,18 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `location` | Значение |  | `-` |
+| `number1` | Значение |  | `yaw` |
+| `number2` | Значение |  | `pitch` |
+| `number3` | Значение |  | `x` |
+| `number4` | Значение |  | `y` |
+| `number5` | Значение |  | `z` |
+| `switch1` | Переключатель |  | `yaw_mode`, `yawMode`, `YawMode` |
+| `switch2` | Переключатель |  | `pitch_mode`, `pitchMode`, `PitchMode` |
+| `switch3` | Переключатель |  | `x_mode`, `xMode`, `XMode` |
+| `switch4` | Переключатель |  | `y_mode`, `yMode`, `YMode` |
+| `switch5` | Переключатель |  | `z_mode`, `zMode`, `ZMode` |
 ## `var.getBlock();` [↩️]()
 **Пример:**
 ```js
@@ -1243,6 +1490,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output`, `item`, `block` |
+| `location` | Значение |  | `-` |
 ## `var.getItemValue();` [↩️]()
 **Пример:**
 ```js
@@ -1253,6 +1502,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `switch` | Переключатель |  | `value` |
 ## `var.getItemLore();` [↩️]()
 **Пример:**
 ```js
@@ -1263,6 +1515,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `result`, `output`, `array`, `lore` |
+| `item` | Значение |  | `-` |
 ## `var.setItemAmount();` [↩️]()
 **Пример:**
 ```js
@@ -1273,6 +1527,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `count`, `amount` |
 ## `var.setItemDurability();` [↩️]()
 **Пример:**
 ```js
@@ -1283,6 +1540,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `durability` |
 ## `var.setItemLore();` [↩️]()
 **Пример:**
 ```js
@@ -1293,6 +1553,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `text` | Значение |  | `string` |
+| `number` | Значение |  | `line` |
 ## `var.setItemName();` [↩️]()
 **Пример:**
 ```js
@@ -1303,6 +1567,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `text` | Значение |  | `name` |
 ## `var.addItemLore();` [↩️]()
 **Пример:**
 ```js
@@ -1313,6 +1580,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `text` | Значение |  | `lore`, `line`, `string` |
 ## `var.deleteItemLore();` [↩️]()
 **Пример:**
 ```js
@@ -1323,6 +1593,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `line` |
 ## `var.getPageBook();` [↩️]()
 **Пример:**
 ```js
@@ -1333,6 +1606,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `number` | Значение |  | `page` |
 ## `var.setPageBook();` [↩️]()
 **Пример:**
 ```js
@@ -1343,6 +1619,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `item` | Значение |  | `-` |
+| `text` | Значение |  | `content` |
+| `number` | Значение |  | `page` |
 ## `var.setPopupText();` [↩️]()
 **Пример:**
 ```js
@@ -1353,6 +1633,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text_component` | Значение |  | `component` |
+| `text` | Значение |  | `popup` |
 ## `var.setClickEventText();` [↩️]()
 **Пример:**
 ```js
@@ -1363,6 +1646,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text_component` | Значение |  | `component` |
+| `text` | Значение |  | `content` |
+| `switch` | Переключатель |  | `type` |
 ## `var.combineTextComponent();` [↩️]()
 **Пример:**
 ```js
@@ -1373,6 +1660,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `text_components` | Значение |  | `components`, `texts` |
+| `switch` | Переключатель |  | `separator` |
 ## `game.spawnEntity();` [↩️]()
 **Пример:**
 ```js
@@ -1383,6 +1673,41 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item1` | Значение |  | `entity` |
+| `locations` | Значение |  | `location` |
+| `switch1` | Переключатель |  | `sounds` |
+| `switch2` | Переключатель |  | `glow` |
+| `switch3` | Переключатель |  | `despawn`, `disappearance` |
+| `switch4` | Переключатель |  | `gravity` |
+| `switch5` | Переключатель |  | `invincibility`, `immortal`, `invulnerability` |
+| `text` | Значение |  | `name`, `nick` |
+| `number1` | Значение |  | `maxHealth` |
+| `number2` | Значение |  | `currentHealth`, `health` |
+| `number3` | Значение |  | `movementSpeed`, `speed` |
+| `number4` | Значение |  | `damage` |
+| `number5` | Значение |  | `radiusView`, `view`, `radius` |
+| `number6` | Значение |  | `age` |
+| `switch6` | Переключатель |  | `nameVisible`, `nameVisibility` |
+| `switch7` | Переключатель |  | `intelligence`, `intellect`, `nous` |
+| `switch8` | Переключатель |  | `tamed` |
+| `switch9` | Переключатель |  | `growing` |
+| `potions` | Значение |  | `-` |
+| `number7` | Значение |  | `ticks`, `time`, `duration` |
+| `number8` | Значение |  | `level` |
+| `switch10` | Переключатель |  | `particles`, `potionParticles` |
+| `item2` | Значение |  | `helmet` |
+| `item3` | Значение |  | `chestplate` |
+| `item4` | Значение |  | `leggings` |
+| `item5` | Значение |  | `boots` |
+| `number9` | Значение |  | `helmetDropChance` |
+| `number10` | Значение |  | `chestplateDropChance` |
+| `number11` | Значение |  | `leggingsDropChance` |
+| `number12` | Значение |  | `bootsDropChance` |
+| `item6` | Значение |  | `mainHand` |
+| `item7` | Значение |  | `offHand` |
+| `number13` | Значение |  | `mainHandDropChance` |
+| `number14` | Значение |  | `offHandDropChance` |
+| `switch11` | Переключатель |  | `canPickUpItems`, `pickUp`, `pickUpItems` |
 ## `game.spawnNpc();` [↩️]()
 **Пример:**
 ```js
@@ -1393,6 +1718,41 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item1` | Значение |  | `entity` |
+| `locations` | Значение |  | `location` |
+| `switch1` | Переключатель |  | `mute` |
+| `switch2` | Переключатель |  | `glow` |
+| `switch3` | Переключатель |  | `despawn`, `disappearance` |
+| `switch4` | Переключатель |  | `gravity` |
+| `switch5` | Переключатель |  | `invincibility`, `immortal`, `invulnerability` |
+| `text1` | Значение |  | `name`, `nick` |
+| `text2` | Значение |  | `skinName`, `skin` |
+| `number1` | Значение |  | `maxHealth` |
+| `number2` | Значение |  | `currentHealth`, `health` |
+| `number3` | Значение |  | `movementSpeed`, `speed` |
+| `number4` | Значение |  | `damage` |
+| `number5` | Значение |  | `radiusView`, `view`, `radius` |
+| `number6` | Значение |  | `age` |
+| `switch7` | Переключатель |  | `intelligence`, `intellect`, `nous` |
+| `switch8` | Переключатель |  | `tamed` |
+| `switch9` | Переключатель |  | `growing` |
+| `potions` | Значение |  | `-` |
+| `number7` | Значение |  | `ticks`, `time`, `duration` |
+| `number8` | Значение |  | `level` |
+| `switch10` | Переключатель |  | `particles`, `potionParticles` |
+| `item2` | Значение |  | `helmet` |
+| `item3` | Значение |  | `chestplate` |
+| `item4` | Значение |  | `leggings` |
+| `item5` | Значение |  | `boots` |
+| `number9` | Значение |  | `helmetDropChance` |
+| `number10` | Значение |  | `chestplateDropChance` |
+| `number11` | Значение |  | `leggingsDropChance` |
+| `number12` | Значение |  | `bootsDropChance` |
+| `item6` | Значение |  | `mainHand` |
+| `item7` | Значение |  | `offHand` |
+| `number13` | Значение |  | `mainHandDropChance` |
+| `number14` | Значение |  | `offHandDropChance` |
+| `switch11` | Переключатель |  | `canPickUpItems`, `pickUp`, `pickUpItems` |
 ## `game.spawnItem();` [↩️]()
 **Пример:**
 ```js
@@ -1403,6 +1763,12 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `locations` | Значение |  | `location` |
+| `text` | Значение |  | `name`, `display` |
+| `number` | Значение |  | `ticks`, `time`, `delayLifting` |
+| `switch1` | Переключатель |  | `glow`, `glowing` |
+| `switch2` | Переключатель |  | `gravity` |
 ## `game.launchFirework();` [↩️]()
 **Пример:**
 ```js
@@ -1413,6 +1779,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `locations` | Значение |  | `location` |
+| `text` | Значение |  | `name`, `display` |
+| `number` | Значение |  | `power`, `force` |
+| `switch` | Переключатель |  | `glow`, `glowing` |
 ## `game.spawnTnt();` [↩️]()
 **Пример:**
 ```js
@@ -1423,6 +1794,12 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `location` |
+| `text` | Значение |  | `name`, `display` |
+| `number1` | Значение |  | `power`, `force` |
+| `number2` | Значение |  | `ticks`, `time`, `delayLifting` |
+| `switch1` | Переключатель |  | `glow`, `glowing` |
+| `switch2` | Переключатель |  | `gravity` |
 ## `game.spawnVehicle();` [↩️]()
 **Пример:**
 ```js
@@ -1433,6 +1810,16 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `locations` | Значение |  | `location` |
+| `text` | Значение |  | `name`, `display` |
+| `number` | Значение |  | `speed`, `maxSpeed` |
+| `block` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `glow`, `glowing` |
+| `switch2` | Переключатель |  | `gravity` |
+| `switch3` | Переключатель |  | `invincibility`, `immortal`, `invulnerability` |
+| `switch4` | Переключатель |  | `slowDown` |
+| `switch5` | Переключатель |  | `mute` |
 ## `game.spawnXpOrb();` [↩️]()
 **Пример:**
 ```js
@@ -1443,6 +1830,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `location` |
+| `text` | Значение |  | `name`, `display` |
+| `number` | Значение |  | `count` |
+| `switch` | Переключатель |  | `gravity` |
 ## `game.spawnLightning();` [↩️]()
 **Пример:**
 ```js
@@ -1453,6 +1844,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `switch` | Переключатель |  | `type` |
 ## `game.wait();` [↩️]()
 **Пример:**
 ```js
@@ -1463,6 +1856,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `ticks`, `time`, `duration`, `delay` |
+| `switch` | Переключатель |  | `type`, `unit` |
 ## `game.startLoop();` [↩️]()
 **Пример:**
 ```js
@@ -1473,6 +1868,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `loops`, `loop` |
 ## `game.stopLoop();` [↩️]()
 **Пример:**
 ```js
@@ -1483,6 +1879,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `loops`, `loop` |
 ## `game.cancelEvent();` [↩️]()
 **Пример:**
 ```js
@@ -1501,6 +1898,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `ticks`, `time`, `duration`, `delay` |
+| `switch` | Переключатель |  | `type`, `mode` |
 ## `game.setBlock();` [↩️]()
 **Пример:**
 ```js
@@ -1511,6 +1910,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `block` | Значение |  | `item` |
+| `locations` | Значение |  | `location` |
+| `number` | Значение |  | `meta`, `data` |
 ## `game.fillRegion();` [↩️]()
 **Пример:**
 ```js
@@ -1521,6 +1923,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `block` | Значение |  | `item` |
+| `location` | Значение |  | `first`, `begin` |
+| `location2` | Значение |  | `second`, `end` |
+| `number` | Значение |  | `meta`, `data` |
 ## `game.copyBlock();` [↩️]()
 **Пример:**
 ```js
@@ -1531,6 +1937,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location1` | Значение |  | `first` |
+| `location2` | Значение |  | `second` |
+| `location3` | Значение |  | `from` |
+| `location4` | Значение |  | `there` |
 ## `game.fillContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1541,6 +1951,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `items` | Значение |  | `-` |
 ## `game.deleteItemFromContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1551,6 +1963,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `items` | Значение |  | `-` |
 ## `game.setItemFromContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1561,6 +1975,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `item` | Значение |  | `-` |
+| `numbers` | Значение |  | `-` |
 ## `game.clearContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1571,6 +1988,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `-` |
 ## `game.changeSign();` [↩️]()
 **Пример:**
 ```js
@@ -1581,6 +1999,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `text` | Значение |  | `-` |
+| `number` | Значение |  | `line` |
 ## `game.changeContainerName();` [↩️]()
 **Пример:**
 ```js
@@ -1591,6 +2012,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `locations` | Значение |  | `-` |
 ## `game.getItemFromContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1601,6 +2024,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `slot` |
+| `location` | Значение |  | `-` |
 ## `game.setItemInEnderChest();` [↩️]()
 **Пример:**
 ```js
@@ -1611,6 +2037,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `numbers` | Значение |  | `slot`, `slots` |
 ## `game.getItemFromEnderChest();` [↩️]()
 **Пример:**
 ```js
@@ -1621,6 +2049,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `number` | Значение |  | `slot` |
 ## `game.getItemsFromContainer();` [↩️]()
 **Пример:**
 ```js
@@ -1631,6 +2061,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `result`, `output`, `array` |
+| `location` | Значение |  | `-` |
 ## `game.getSignValue();` [↩️]()
 **Пример:**
 ```js
@@ -1641,6 +2073,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `result`, `output` |
+| `location` | Значение |  | `-` |
+| `number` | Значение |  | `line` |
 ## `game.createExplosion();` [↩️]()
 **Пример:**
 ```js
@@ -1651,6 +2086,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `-` |
+| `number` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `-` |
+| `switch2` | Переключатель |  | `-` |
 ## `game.playFireworkExplosion();` [↩️]()
 **Пример:**
 ```js
@@ -1661,6 +2100,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
+| `locations` | Значение |  | `-` |
 ## `game.playParticle();` [↩️]()
 **Пример:**
 ```js
@@ -1671,6 +2112,13 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `-` |
+| `particle` | Значение |  | `-` |
+| `number1` | Значение |  | `-` |
+| `number2` | Значение |  | `-` |
+| `number3` | Значение |  | `-` |
+| `number4` | Значение |  | `-` |
+| `number5` | Значение |  | `-` |
 ## `game.playParticleLine();` [↩️]()
 **Пример:**
 ```js
@@ -1681,6 +2129,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `particle` | Значение |  | `-` |
+| `location1` | Значение |  | `-` |
+| `location2` | Значение |  | `-` |
 ## `game.createHologram();` [↩️]()
 **Пример:**
 ```js
@@ -1691,6 +2142,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `text` | Значение |  | `id`, `name` |
+| `texts` | Значение |  | `lines` |
 ## `game.deleteHologram();` [↩️]()
 **Пример:**
 ```js
@@ -1701,6 +2155,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `-` |
 ## `game.createScoreboard();` [↩️]()
 **Пример:**
 ```js
@@ -1711,6 +2166,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
 ## `game.deleteScoreboard();` [↩️]()
 **Пример:**
 ```js
@@ -1721,6 +2178,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
 ## `game.setScoreboardScore();` [↩️]()
 **Пример:**
 ```js
@@ -1731,6 +2189,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
+| `number` | Значение |  | `-` |
 ## `game.removeScoreboardScore();` [↩️]()
 **Пример:**
 ```js
@@ -1741,6 +2202,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
+| `number` | Значение |  | `-` |
 ## `game.setWeather();` [↩️]()
 **Пример:**
 ```js
@@ -1751,6 +2215,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `game.setGameTime();` [↩️]()
 **Пример:**
 ```js
@@ -1761,6 +2226,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `-` |
 ## `game.createBossbar();` [↩️]()
 **Пример:**
 ```js
@@ -1771,6 +2237,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `color` |
+| `switch2` | Переключатель |  | `type`, `style` |
 ## `game.deleteBossbar();` [↩️]()
 **Пример:**
 ```js
@@ -1781,6 +2251,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
 ## `game.setBossbarTitle();` [↩️]()
 **Пример:**
 ```js
@@ -1791,6 +2262,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text1` | Значение |  | `-` |
+| `text2` | Значение |  | `-` |
 ## `game.setBossbarColor();` [↩️]()
 **Пример:**
 ```js
@@ -1801,6 +2274,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `switch` | Переключатель |  | `color` |
 ## `game.setBossbarStyle();` [↩️]()
 **Пример:**
 ```js
@@ -1811,6 +2286,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `switch` | Переключатель |  | `type`, `style` |
 ## `game.setBossbarProgress();` [↩️]()
 **Пример:**
 ```js
@@ -1821,6 +2298,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `number` | Переключатель |  | `-` |
 ## `game.readDataFromChannel();` [↩️]()
 **Пример:**
 ```js
@@ -1831,6 +2310,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `value` | Значение |  | `-` |
 ## `game.sendDataThroughChannel();` [↩️]()
 **Пример:**
 ```js
@@ -1841,6 +2322,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `-` |
+| `text` | Значение |  | `-` |
+| `values` | Значение |  | `-` |
 ## `game.sendArrayThroughChannel();` [↩️]()
 **Пример:**
 ```js
@@ -1851,6 +2335,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number` | Значение |  | `-` |
+| `text` | Значение |  | `-` |
+| `array` | Значение |  | `-` |
 ## `array.create();` [↩️]()
 **Пример:**
 ```js
@@ -1861,6 +2348,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `values` | Значение |  | `-` |
 ## `array.get();` [↩️]()
 **Пример:**
 ```js
@@ -1871,6 +2360,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `number` | Значение |  | `index` |
+| `variable` | Значение |  | `-` |
 ## `array.insert();` [↩️]()
 **Пример:**
 ```js
@@ -1881,6 +2373,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `number` | Значение |  | `index` |
+| `value` | Значение |  | `-` |
 ## `array.replace();` [↩️]()
 **Пример:**
 ```js
@@ -1891,6 +2386,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `number` | Значение |  | `index` |
+| `value` | Значение |  | `-` |
 ## `array.delete();` [↩️]()
 **Пример:**
 ```js
@@ -1901,6 +2399,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `number` | Значение |  | `index` |
 ## `array.put();` [↩️]()
 **Пример:**
 ```js
@@ -1911,6 +2411,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `values` | Значение |  | `-` |
 ## `array.copy();` [↩️]()
 **Пример:**
 ```js
@@ -1921,6 +2423,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array1` | Значение |  | `-` |
+| `array2` | Значение |  | `-` |
 ## `array.getLength();` [↩️]()
 **Пример:**
 ```js
@@ -1931,6 +2435,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `variable` | Значение |  | `-` |
 ## `array.sort();` [↩️]()
 **Пример:**
 ```js
@@ -1941,6 +2447,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array1` | Значение |  | `-` |
+| `array2` | Значение |  | `-` |
+| `switch` | Переключатель |  | `-` |
 ## `array.toString();` [↩️]()
 **Пример:**
 ```js
@@ -1951,6 +2460,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `array` | Значение |  | `-` |
+| `variable` | Значение |  | `-` |
 ## `ifPlayer.blockEquals();` [↩️]()
 **Пример:**
 ```js
@@ -1961,6 +2472,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `blocks` | Значение |  | `block`, `item`, `items` |
+| `locations` | Значение |  | `location` |
+| `switch` | Переключатель |  | `ignoreBlockData` |
 ## `ifGame.containerHasItem();` [↩️]()
 **Пример:**
 ```js
@@ -1971,6 +2485,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `items` | Значение |  | `-` |
+| `switch` | Переключатель |  | `-` |
 ## `ifGame.signContains();` [↩️]()
 **Пример:**
 ```js
@@ -1981,6 +2498,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location` | Значение |  | `-` |
+| `text` | Значение |  | `-` |
+| `number` | Значение |  | `line` |
+| `switch1` | Переключатель |  | `-` |
+| `switch2` | Переключатель |  | `-` |
 ## `ifVar.equals();` [↩️]()
 **Пример:**
 ```js
@@ -1991,6 +2513,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `value` | Значение |  | `-` |
+| `values` | Значение |  | `-` |
 ## `ifVar.notEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2001,6 +2525,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `value` | Значение |  | `-` |
+| `values` | Значение |  | `-` |
 ## `ifVar.compareNumber();` [↩️]()
 **Пример:**
 ```js
@@ -2011,6 +2537,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number1` | Значение |  | `-` |
+| `number2` | Значение |  | `-` |
+| `switch` | Переключатель |  | `-` |
 ## `ifVar.compareInterval();` [↩️]()
 **Пример:**
 ```js
@@ -2021,6 +2550,11 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `number1` | Значение |  | `-` |
+| `number2` | Значение |  | `first` |
+| `number3` | Значение |  | `second` |
+| `switch1` | Переключатель |  | `more` |
+| `switch2` | Переключатель |  | `less` |
 ## `ifVar.textEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2031,6 +2565,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `texts` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `ifVar.textContains();` [↩️]()
 **Пример:**
 ```js
@@ -2041,6 +2579,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `texts` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `ifVar.exists();` [↩️]()
 **Пример:**
 ```js
@@ -2051,6 +2593,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `variable` | Значение |  | `-` |
 ## `ifVar.locationInRegion();` [↩️]()
 **Пример:**
 ```js
@@ -2061,6 +2604,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `location1` | Значение |  | `-` |
+| `location2` | Значение |  | `-` |
+| `location3` | Значение |  | `-` |
 ## `ifVar.textStartWith();` [↩️]()
 **Пример:**
 ```js
@@ -2071,6 +2617,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `texts` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `ifVar.textEndWith();` [↩️]()
 **Пример:**
 ```js
@@ -2081,6 +2631,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `texts` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `ifEntity.typeEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2091,6 +2645,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
 ## `ifPlayer.nameEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2101,6 +2656,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `-` |
+| `switch` | Переключатель |  | `case` |
 ## `ifPlayer.standOnBlock();` [↩️]()
 **Пример:**
 ```js
@@ -2111,6 +2668,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `blocks` | Значение |  | `block`, `item`, `items` |
+| `locations` | Значение |  | `location` |
+| `switch` | Переключатель |  | `ignoreBlockData` |
 ## `ifPlayer.nearLocation();` [↩️]()
 **Пример:**
 ```js
@@ -2121,6 +2681,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `locations` | Значение |  | `location` |
+| `number` | Значение |  | `distance` |
 ## `ifEntity.isMob();` [↩️]()
 **Пример:**
 ```js
@@ -2155,6 +2717,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `potion` | Значение |  | `-` |
 ## `ifPlayer.messageEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2165,6 +2728,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `-` |
+| `switch` | Переключатель |  | `case` |
 ## `ifPlayer.interactionType();` [↩️]()
 **Пример:**
 ```js
@@ -2175,6 +2740,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.handUsedEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2185,6 +2751,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.hasGoldTransaction();` [↩️]()
 **Пример:**
 ```js
@@ -2195,6 +2762,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
+| `number` | Значение |  | `-` |
 ## `ifPlayer.gamemodeEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2205,6 +2774,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.havePermissions();` [↩️]()
 **Пример:**
 ```js
@@ -2215,6 +2785,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.holdingItem();` [↩️]()
 **Пример:**
 ```js
@@ -2225,6 +2796,16 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCount` |
+| `switch2` | Переключатель |  | `ignoreMeta`, `ignoreDurability` |
+| `switch3` | Переключатель |  | `ignoreName` |
+| `switch4` | Переключатель |  | `ignoreLore`, `ignoreDescription` |
+| `switch5` | Переключатель |  | `hand` |
+| `switch6` | Переключатель |  | `ignoreNBT` |
+| `switch7` | Переключатель |  | `ignoreEnchantments`, `ignoreEnch` |
+| `switch8` | Переключатель |  | `ignoreMaterial`, `ignoreID` |
+| `switch9` | Переключатель |  | `ignoreFlags` |
 ## `ifPlayer.hasItem();` [↩️]()
 **Пример:**
 ```js
@@ -2235,6 +2816,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode` |
 ## `ifPlayer.wearingItem();` [↩️]()
 **Пример:**
 ```js
@@ -2245,6 +2828,15 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCount` |
+| `switch2` | Переключатель |  | `ignoreMeta`, `ignoreDurability` |
+| `switch3` | Переключатель |  | `ignoreName` |
+| `switch4` | Переключатель |  | `ignoreLore`, `ignoreDescription` |
+| `switch5` | Переключатель |  | `ignoreNBT` |
+| `switch6` | Переключатель |  | `ignoreEnchantments`, `ignoreEnch` |
+| `switch7` | Переключатель |  | `ignoreMaterial`, `ignoreID` |
+| `switch8` | Переключатель |  | `ignoreFlags` |
 ## `ifPlayer.itemEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2255,6 +2847,15 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCount` |
+| `switch2` | Переключатель |  | `ignoreMeta`, `ignoreDurability` |
+| `switch3` | Переключатель |  | `ignoreName` |
+| `switch4` | Переключатель |  | `ignoreLore`, `ignoreDescription` |
+| `switch5` | Переключатель |  | `ignoreNBT` |
+| `switch6` | Переключатель |  | `ignoreEnchantments`, `ignoreEnch` |
+| `switch7` | Переключатель |  | `ignoreMaterial`, `ignoreID` |
+| `switch8` | Переключатель |  | `ignoreFlags` |
 ## `ifPlayer.itemInCursorEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2265,6 +2866,15 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `items` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCount` |
+| `switch2` | Переключатель |  | `ignoreMeta`, `ignoreDurability` |
+| `switch3` | Переключатель |  | `ignoreName` |
+| `switch4` | Переключатель |  | `ignoreLore`, `ignoreDescription` |
+| `switch5` | Переключатель |  | `ignoreNBT` |
+| `switch6` | Переключатель |  | `ignoreEnchantments`, `ignoreEnch` |
+| `switch7` | Переключатель |  | `ignoreMaterial`, `ignoreID` |
+| `switch8` | Переключатель |  | `ignoreFlags` |
 ## `ifPlayer.itemHasDelay();` [↩️]()
 **Пример:**
 ```js
@@ -2275,6 +2885,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `item` | Значение |  | `-` |
 ## `ifPlayer.clickType();` [↩️]()
 **Пример:**
 ```js
@@ -2285,6 +2896,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.clickedSlotEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2295,6 +2907,8 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `numbers` | Значение |  | `slots`, `slot`, `number` |
+| `switch` | Переключатель |  | `-` |
 ## `ifPlayer.hotbarSlotEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2305,6 +2919,7 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `numbers` | Значение |  | `slots`, `slot`, `number` |
 ## `ifPlayer.openInventoryNameEquals();` [↩️]()
 **Пример:**
 ```js
@@ -2315,6 +2930,9 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `texts` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `ifPlayer.inventoryFull();` [↩️]()
 **Пример:**
 ```js
@@ -2333,6 +2951,10 @@ asdsad
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
+| `blocks` | Значение |  | `block`, `item`, `items` |
+| `locations` | Значение |  | `location` |
+| `number` | Значение |  | `distance` |
+| `switch` | Переключатель |  | `ignoreBlockData` |
 ## `ifPlayer.isSneaking();` [↩️]()
 **Пример:**
 ```js
