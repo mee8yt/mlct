@@ -14,102 +14,105 @@ asdsad
 ## `player.goldTransaction();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.goldTransaction("vip", "&b&lVIP", 100);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `text1` | Значение |  | `id` |
-| `text2` | Значение |  | `name`, `display` |
-| `number` | Значение |  | `price`, `cost`, `gold` |
-| `switch` | Переключатель |  | `save` |
+| `text1` | Значение | Имя транзакции | `id` |
+| `text2` | Значение | Отображаемое имя | `name`, `display` |
+| `number` | Значение | Стоимость | `price`, `cost`, `gold` |
+| `switch` | Переключатель | Сохранять-ли (Сохранять, Не сохранять) | `save` |
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+const items = [i`iron_sword`, i`gold_apple 5`];
+player.giteItems(@env(items));
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение |  | `-` |
-## `player.setItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
+| `items` | Значение | Предметы для выдачи | `-` |
+## `player.setItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+const items = [i`iron_sword`, i`gold_apple 5`];
+player.setItems(@env(items), 1);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `item` | Значение |  | `-` |
-| `number` | Значение |  | `slot`, `slots` |
+| `items` | Значение | Предметы для установки | `-` |
+| `switch` | Переключатель | Ставить воздух (да, нет) | `-` |
 ## `player.setItemsEnder();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+const items = [i`iron_sword`, i`gold_apple 5`];
+player.setItemsEnder(@env(items), 1);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение |  | `-` |
-| `switch` | Переключатель |  | `-` |
+| `items` | Значение | Предметы для установки | `-` |
+| `switch` | Переключатель | Ставить воздух (да, нет) | `-` |
 ## `player.setArmor();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.setItemsEnder(chestplate=i`iron_chestplate`, switch=1);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение |  | `-` |
-| `switch` | Переключатель |  | `-` |
+| `items` | Значение | Предметы для установки | `-` |
+| `switch` | Переключатель | Ставить воздух (да, нет) | `-` |
 ## `player.setItemHand();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.setItemHand(i`diamond`, 1);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `item` | Значение |  | `-` |
-| `switch` | Переключатель |  | `hand` |
+| `item` | Значение | Предмет для установки | `-` |
+| `switch` | Переключатель | Рука (основная, вторая) | `hand` |
 ## `player.setItemCursor();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.setItemHand(i`diamond`, 1);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `item` | Значение |  | `-` |
-## `player.removeItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
+| `item` | Значение | Предмет для установки | `-` |
+## `player.removeItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.removeItems(i`diamond 64`);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение |  | `-` |
+| `items` | Значение | Предметы для удаления | `-` |
 ## `player.clearInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.clearInventory<all>;
 ```
 
 **Аргументы**:
@@ -117,7 +120,7 @@ asdsad
 ## `player.clearEnder();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.clearInventory<selected>;
 ```
 
 **Аргументы**:
@@ -125,29 +128,29 @@ asdsad
 ## `player.setHotbar();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.setHotbar(4);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `number` | Значение |  | `slot` |
+| `number` | Значение | Слот (0-8) | `slot` |
 ## `player.giveRandomItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.giveRandomItem(i`dirt`, i`stone`, i`grass`);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение |  | `-` |
+| `items` | Значение | Предметы для выдачи | `-` |
 ## `player.saveInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.saveInventory;
 ```
 
 **Аргументы**:
@@ -155,7 +158,7 @@ asdsad
 ## `player.loadInventory();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.loadInventory;
 ```
 
 **Аргументы**:
@@ -163,38 +166,51 @@ asdsad
 ## `player.setDelay();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.setDelay(i`ender_pearl`, 20);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `item` | Значение |  | `-` |
-| `number` | Значение |  | `time`, `ticks`, `delay` |
+| `item` | Значение | Предмет для установки | `-` |
+| `number` | Значение | Время (в тиках) | `time`, `ticks`, `delay` |
 ## `player.getItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.getItem(`itemAtSlot`, 33);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `variable` | Значение |  | `result` |
-| `number` | Значение |  | `slot` |
+| `variable` | Значение | Для результата | `result` |
+| `number` | Значение | Слот | `slot` |
+## `player.setItem();` [↩️](actions.md#действие-игрока---playeractionargs-)
+**Пример:**
+```js
+player.setItem(i`diamond`, 34);
+```
+
+**Аргументы**:
+
+| **Имя** | **Тип** | **Описание** | **Синонимы** |
+| :--- | --- | --- | --- |
+| `item` | Значение | Предмет для установки | `-` |
+| `number` | Значение | Слот | `slot`, `slots` |
 ## `player.getItemCooldown();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `variable` | Значение |  | `result` |
+| `variable` | Значение | Для результата | `result` |
+| `item` | Значение | Предмет | `-` |
 ## `player.send();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
