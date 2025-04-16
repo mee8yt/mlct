@@ -17,7 +17,7 @@
 | [`player.setArmor();`](code.md) | Установить броню |
 | [`player.setItemHand();`](code.md) | Установить предмет в руку |
 | [`player.setItemCursor();`](code.md) | Установить предмет в курсор |
-| [`player.removeItem();`](code.md) | Удалить предметы |
+| [`player.removeItems();`](code.md) | Удалить предметы |
 | [`player.clearInventory();`](code.md) | Очистить инвентарь |
 | [`player.clearEnder();`](code.md) | Очистить эндер сундук |
 | [`player.setHotbar();`](code.md) | Установить слот в хотбаре |
