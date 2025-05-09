@@ -1,30 +1,4 @@
 
-## `game.breakBlock();` [↩️]()
-**Пример:**
-```js
-asdsad
-```
-
-**Аргументы**:
-
-| **Имя** | **Тип** | **Описание** | **Синонимы** |
-| :--- | --- | --- | --- |
-| `locations` | Значение | Местоположения для ломания | `location` |
-| `item` | Значение | Предмет, которым сломается блок | `tool` |
-## `player.goldTransaction();` [↩️](actions.md#действие-игрока---playeractionargs-)
-**Пример:**
-```js
-player.goldTransaction("vip", "&b&lVIP", 100);
-```
-
-**Аргументы**:
-
-| **Имя** | **Тип** | **Описание** | **Синонимы** |
-| :--- | --- | --- | --- |
-| `text1` | Значение | Имя транзакции | `id` |
-| `text2` | Значение | Отображаемое имя | `name`, `display` |
-| `number` | Значение | Стоимость | `price`, `cost`, `gold` |
-| `switch` | Переключатель | Сохранять-ли (Сохранять, Не сохранять) | `save` |
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -73,8 +47,11 @@ player.setItemsEnder(chestplate=i`iron_chestplate`, switch=1);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `items` | Значение | Предметы для установки | `-` |
-| `switch` | Переключатель | Ставить воздух (да, нет) | `-` |
+| `item1` | Значение | Шлем | `helmet` |
+| `item2` | Значение | Нагрудник | `chestplate` |
+| `item3` | Значение | Поножи (штаны) | `leggings` |
+| `item4` | Значение | Ботинки | `boots` |
+| `switch` | Переключатель | Учитывать воздух (да, нет) | `-` |
 ## `player.setItemHand();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -428,7 +405,12 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 ```
 
 **Аргументы**:
-*` пусто `*
+
+| **Имя** | **Тип** | **Описание** | **Синонимы** |
+| :--- | --- | --- | --- |
+| `location` | Значение |  | `block` |
+| `number` | Переключатель |  | `radius`, `distance` |
+| `switch` | Переключатель |  | `mode`, `type` |
 ## `player.teleport();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -440,6 +422,7 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
 | `location` | Значение |  | `-` |
+| `switch` | Переключатель |  | `mode` |
 ## `player.rotateToLocation();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -948,6 +931,20 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
 | `switch` | Переключатель |  | `animation`, `type` |
+## `player.goldTransaction();` [↩️](actions.md#действие-игрока---playeractionargs-)
+**Пример:**
+```js
+player.goldTransaction("vip", "&b&lVIP", 100);
+```
+
+**Аргументы**:
+
+| **Имя** | **Тип** | **Описание** | **Синонимы** |
+| :--- | --- | --- | --- |
+| `text1` | Значение | Имя транзакции | `id` |
+| `text2` | Значение | Отображаемое имя | `name`, `display` |
+| `number` | Значение | Стоимость | `price`, `cost`, `gold` |
+| `switch` | Переключатель | Сохранять-ли (Сохранять, Не сохранять) | `save` |
 ## `var.set();` [↩️]()
 **Пример:**
 ```js
@@ -1943,6 +1940,18 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 | `location` | Значение |  | `first`, `begin` |
 | `location2` | Значение |  | `second`, `end` |
 | `number` | Значение |  | `meta`, `data` |
+## `game.breakBlock();` [↩️]()
+**Пример:**
+```js
+asdsad
+```
+
+**Аргументы**:
+
+| **Имя** | **Тип** | **Описание** | **Синонимы** |
+| :--- | --- | --- | --- |
+| `locations` | Значение | Местоположения для ломания | `location` |
+| `item` | Значение | Предмет, которым сломается блок | `tool` |
 ## `game.copyBlock();` [↩️]()
 **Пример:**
 ```js
