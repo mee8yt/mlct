@@ -191,39 +191,40 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 ## `player.send();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.send("Привет, &e%player%!");
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `texts` | Значение |  | `message` |
-| `switch` | Переключатель |  | `separator`, `sep` |
+| `texts` | Значение | Сообщение | `message` |
+| `switch` | Переключатель | Разделение (ничего, пробел, строка) | `separator`, `sep` |
 ## `player.sendComponent();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+var.setClickEventText(`mes`, c`&9&nКлик`, "COPY", 0);
+player.sendComponent(c"Получи код -> ", `mes`)
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `components` | Значение |  | `-` |
-| `switch` | Переключатель |  | `separator`, `switch` |
+| `components` | Значение | Сообщение | `-` |
+| `switch` | Переключатель | Разделение (ничего, пробел, строка) | `separator`, `switch` |
 ## `player.sendDialogue();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
-
+player.sendDialogue(["Bafax2010: жду млкт день 45", "Bafax2010: жду млкт день 47"], 1728000);
 ```
 
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `texts` | Значение |  | `messages` |
-| `number` | Значение |  | `time`, `delay`, `ticks` |
+| `texts` | Значение | Массив сообщений | `messages` |
+| `number` | Значение | Задержка (в тиках) | `time`, `delay`, `ticks` |
 ## `player.clearChat();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -242,11 +243,11 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `text` | Значение |  | `sound` |
-| `number1` | Значение |  | `volume` |
-| `number2` | Значение |  | `pitch` |
-| `location` | Значение |  | `fromHere`, `from` |
-| `switch` | Переключатель |  | `category`, `sounding`, `mode` |
+| `text` | Значение | Айди звука | `sound` |
+| `number1` | Значение | Громкость | `volume` |
+| `number2` | Значение | Тон (0-2) | `pitch` |
+| `location` | Значение | Местоположение | `fromHere`, `from` |
+| `switch` | Переключатель | Категория (Общее, Музыка, Муз. блок, Погода, Блок, Монстры, Мобы, Игроки, Окружение, Голос) | `category`, `sounding`, `mode` |
 ## `player.stopSound();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -257,7 +258,7 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `texts` | Значение |  | `sounds`, `sound` |
+| `texts` | Значение | Айди звуков | `sounds`, `sound` |
 ## `player.title();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -268,11 +269,11 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `text1` | Значение |  | `title` |
-| `text2` | Значение |  | `subtitle` |
-| `number1` | Значение |  | `in`, `fadeIn`, `appear`, `time1` |
-| `number2` | Значение |  | `show`, `show`, `hold`, `time2` |
-| `number3` | Значение |  | `out`, `fadeOut`, `disappear`, `time3` |
+| `text1` | Значение | Заголовок | `title` |
+| `text2` | Значение | Подзаголовок | `subtitle` |
+| `number1` | Значение | Появление (в тиках) | `in`, `fadeIn`, `appear`, `time1` |
+| `number2` | Значение | Задержание (в тиках) | `show`, `show`, `hold`, `time2` |
+| `number3` | Значение | Угасание (в тиках) | `out`, `fadeOut`, `disappear`, `time3` |
 ## `player.actionbar();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -283,7 +284,7 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `text` | Значение |  | `message`, `actionbar` |
+| `text` | Значение | Сообщение | `message`, `actionbar` |
 ## `player.showLink();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -294,7 +295,7 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `text` | Значение |  | `message`, `link`, `url` |
+| `text` | Значение | Ссылка | `message`, `link`, `url` |
 ## `player.openBook();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -305,7 +306,7 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
-| `texts` | Значение |  | `pages`, `messages`, `page` |
+| `texts` | Значение | Страницы книги | `pages`, `messages`, `page` |
 ## `player.openMenu();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -877,7 +878,10 @@ player.getItemCooldown(`itemCooldown`, v`mainHandItem`);
 ```
 
 **Аргументы**:
-*` пусто `*
+
+| **Имя** | **Тип** | **Описание** | **Синонимы** |
+| :--- | --- | --- | --- |
+| `text` | Значение |  | `-` |
 ## `player.layOnBed();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
@@ -1418,6 +1422,8 @@ player.goldTransaction("vip", "&b&lVIP", 100);
 | `text1` | Значение |  | `-` |
 | `text2` | Значение |  | `-` |
 | `text3` | Значение |  | `-` |
+| `switch1` | Переключатель |  | `ignoreCase`, `case` |
+| `switch2` | Переключатель |  | `ignoreColor`, `color` |
 ## `var.setTextCase();` [↩️]()
 **Пример:**
 ```js
