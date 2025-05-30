@@ -213,8 +213,8 @@ const items = [i`diamond`, i`emerald`];
 
 Как вы уже увидели, константа может хранить целый список значений. Их можно использовать по разному:
 ```js
-player.giveItems(@env(items));
-player.giveItems([@env(items), i`stone`]);
+player.giveItems(c`items`);
+player.giveItems([c`items`, i`stone`]);
 ```
 
 Чтобы не мусорить в файле млкт кода можно хранить их в файле `environments.json`:
@@ -229,7 +229,7 @@ player.giveItems([@env(items), i`stone`]);
 *`code.txt`:*
 ```js
 PlayerEvent(join) {
-  player.send(@env(message));
+  player.send(c`message`);
 }
 ```
 
