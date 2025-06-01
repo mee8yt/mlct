@@ -199,7 +199,7 @@ ifPlayer.nameEquals<not><selected>("Mee8YT") {
 const message = "Очень длинный текст"; // Создаём константу
 
 PlayerEvent(join) {
-    player.send(@env(message));
+    player.send(c`message`));
 } 
 ```
 
@@ -217,7 +217,7 @@ player.giveItems(c`items`);
 player.giveItems([c`items`, i`stone`]);
 ```
 
-Чтобы не мусорить в файле млкт кода можно хранить их в файле `environments.json`:
+Чтобы не мусорить в файле млкт кода, можно хранить константы в файле `environments.json`:
 ```json
 {
   "message": {
