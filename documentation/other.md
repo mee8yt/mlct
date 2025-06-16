@@ -13,7 +13,7 @@
 ```js
 const separator = 0;
 
-player.send(separator=@env(separator));
+player.send(separator=c`separator`);
 ```
 
 Константа может быть списком:
@@ -25,8 +25,8 @@ const items = [i`diamond`, i`emerald`];
 ```js
 const items = [i`diamond`, i`emerald`];
 
-player.setItems(items = @env(items));                // Аргумент "items" заполнился полностью списком из константы items
-player.setItems(items = [@env(items), i`book`]);     // Fргумент имеет значение: [i`diamond`, i`emerald`, i`book`]
+player.setItems(items = c`items`);                // Аргумент "items" заполнился полностью списком из константы items
+player.setItems(items = [c`items`, i`book`]);     // Fргумент имеет значение: [i`diamond`, i`emerald`, i`book`]
                                                      // то есть константа "развернулась"
 ```
 
@@ -39,8 +39,8 @@ const sound = "entity.player.levelup";
 //main.mlct
 import const;
 PlayerEvent(like) {
-   player.send<all>(@env(message));
-   player.playSound<all>(@env(sound), 1000, 2);
+   player.send<all>(c`message`);
+   player.playSound<all>(c`sound`, 1000, 2);
 }
 ```
 
@@ -72,7 +72,7 @@ PlayerEvent(like) {
 }
 ```
 
-Эти константы выглядели в файле кода так:
+Эти константы выглядели бы в файле кода так:
 ```js
 const `variable1` = `переменная`;
 const `variable2` = a`это уже массив`;
