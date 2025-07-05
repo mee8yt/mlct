@@ -28,7 +28,7 @@
 | [`player.getItem();`](code.md) | Получить предмет из слота |
 | [`player.setItem();`](code.md) | Установить предмет в слот |
 | [`player.getItemCooldown();`](code.md) | Получить задержку предмета |
-| [`player.send();`](code.md#playersend) | Отправить сообщение |
+| [`player.send();`](code.md#---playersend) | Отправить сообщение |
 | [`player.sendComponent();`](code.md) | Отправить сообщение (компоненты) |
 | [`player.sendDialogue();`](code.md) | Отправить диалог |
 | [`player.clearChat();`](code.md) | Очистить чат |
