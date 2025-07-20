@@ -1,4 +1,5 @@
-
+a
+a
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
