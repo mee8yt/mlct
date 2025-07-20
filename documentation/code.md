@@ -1,12 +1,5 @@
-a
-a
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
-**Пример:**
-```js
-const items = [i`iron_sword`, i`gold_apple 5`];
-player.giteItems(@env(items));
-```
-**Аргументы**:
+Аргументы:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
 | :--- | --- | --- | --- |
