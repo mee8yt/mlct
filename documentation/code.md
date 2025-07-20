@@ -1,6 +1,6 @@
 a
 a
-## `player.giveItems();` [↩](actions.md#действие-игрока---playeractionargs-)
+## `player.giveItems();` [1](actions.md#действие-игрока---playeractionargs-)
 **Пример:**
 ```js
 const items = [i`iron_sword`, i`gold_apple 5`];
