@@ -1,9 +1,11 @@
 a
 a
 ## `player.giveItems();` [↩️](actions.md#действие-игрока---playeractionargs-)
-**Блок:** Действие игрока - Отправить сообщение
-**Категория:** Коммуникация
-
+**Пример:**
+```js
+const items = [i`iron_sword`, i`gold_apple 5`];
+player.giteItems(@env(items));
+```
 **Аргументы**:
 
 | **Имя** | **Тип** | **Описание** | **Синонимы** |
