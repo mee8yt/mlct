@@ -38,9 +38,9 @@
 | `PlayerEvent(moveInventory)` | Игрок перетащил предметы по слотам |
 | `PlayerEvent(pickupItem)` | Игрок поднимает предмет |
 | `PlayerEvent(dropItem)` | Игрок выбрасывает предмет |
-| `PlayerEvent(extractFurnace)` | Игрок достал предмет из печи |
 | `PlayerEvent(swapHands)` | Смена рук |
 | `PlayerEvent(crafted)` | Игрок скрафтил предмет |
+| `PlayerEvent(extractFurnace)` | Игрок достал предмет из печи |
 | `PlayerEvent(changeSlot)` | Игрок сменил слот |
 | `PlayerEvent(killPlayer)` | Игрок убил игрока |
 | `PlayerEvent(deathPlayer)` | Смерть игрока |
