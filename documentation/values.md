@@ -63,7 +63,7 @@
 | ``` eventClickType ``` | Тип клика | Текст<br/>Тип клика: "LEFT", "RIGHT", "MIDDLE", "SHIFT_LEFT", "SHIFT_RIGHT", "CREATIVE" |
 | ``` eventCursorItem ``` | Предмет в курсоре | Предмет |
 | ``` eventInventoryInteraction ``` | Действие в инвентаре | Текст<br/>Тип взаимодействия в инвентаре: "PICKUP_ALL", "PICKUP_HALF", "PLACE_ALL", "PLACE_ONE", "NOTHING", "MOVE_TO_OTHER_INVENTORY" |
-| ``` eventSlotType ``` | Тип слота | Текст<br/>Тип слота в инвентаре: "CONTAINER", "QUICKBAR", "ARMOR", "CRAFTING", "RESULT", "FUEL" |
+| ``` eventSlotType ``` | Тип слота | Текст<br/>Тип слота в инвентаре: "CONTAINER", "QUICKBAR", "ARMOR", "OUTSIDE", "CRAFTING", "RESULT", "FUEL" |
 | ``` eventRegainHealth ``` | Количество здоровья | Число<br/>Здоровье, которое было восстановлено |
 | ``` eventRegainHealthReason ``` | Причина восстановления здоровья | Текст<br/>Причина восстановления: "SATIATED", "MAGIC" |
 | ``` evenTexpCount ``` | Количество опыта из события | Число |
