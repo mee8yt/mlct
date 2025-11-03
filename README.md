@@ -73,7 +73,7 @@ p"Бесцветный текст"           // Символ & не замени
 
 ```py
 f"Привет {player}"             -> "Привет %var(player)%"
-f"У тебя {money}$"             -> "У тебя %var(%player% money)%$"
+f"У тебя {%player% %money}$"             -> "У тебя %var(%player% money)%$"
 f"2+2={2+2}"                   -> "2+2=%math(2+2)%"
 f"{num1}+{num2}={num1+num2}"   -> "%var(num1)%+%var(num2)%=%math(%var(num1)%+%var(num2)%)%"
 ```
