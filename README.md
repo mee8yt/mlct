@@ -1,5 +1,5 @@
 # MLCT ✨
-**MLCT** *(**M**ine**L**and **C**ode **T**ranslator)* (эм эл кэ тэ) - Мод, для установки письменного варианта блочного кода на сервере Mineland.
+**MLCT** *(**M**ine**L**and **C**ode **T**ranslator)* (эм эл кэ тэ) - Компилируемый DSL язык программирования для кодинга на Mineland в текстовом формате, по совместительству и иод для установки письменного варианта блочного кода на сервере Mineland.
 
 Не техническую информацию об MLCT вы можете найти на **Mineland Creative+ Fandom** ([тык](https://ml-creative.fandom.com/ru/wiki/MLCT#%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2_.mlct))\
 Репозиторий компилятора: [тык](https://github.com/mee8yt/mlct-compiler)\
