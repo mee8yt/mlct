@@ -13,21 +13,20 @@
 ```js
 const separator = 0;
 
-player.send(separator=c`separator`);
+player.send(separator=separeaor);
 ```
 
 Константа может быть списком:
 ```js
-const items = [i`diamond`, i`emerald`];
+const items = [item("diamond"), item("emerald")];
 ```
 
 Их можно использовать как целиком список, а можно как частичку списка:
 ```js
 const items = [i`diamond`, i`emerald`];
 
-player.setItems(items = c`items`);                // Аргумент "items" заполнился полностью списком из константы items
-player.setItems(items = [c`items`, i`book`]);     // Fргумент имеет значение: [i`diamond`, i`emerald`, i`book`]
-                                                     // то есть константа "развернулась"
+player.setItems(items = items);                // Аргумент "items" заполнился полностью списком из константы items
+player.setItems(items = [items, item("book")]);     // константа "развернулась", то есть в аргумент items были положены 3 предмета
 ```
 
 Чтобы не мусорить в файлах константы можно импортировать из других файлов:
@@ -39,8 +38,8 @@ const sound = "entity.player.levelup";
 //main.mlct
 import const;
 PlayerEvent(like) {
-   player.send<all>(c`message`);
-   player.playSound<all>(c`sound`, 1000, 2);
+   player.send<all>(message);
+   player.playSound<all>(sound, 1000, 2);
 }
 ```
 
@@ -49,42 +48,61 @@ PlayerEvent(like) {
 ```json
 {
   "message": {
+    "type": "PRIMITIVE"
     "token": "STRING",
     "shell": null,
     "value": "Очень длинный текст"
-}
-```
-
-Разберём как всё устроено. Все значения в компиляторе MLCT разбиваются на **токены**. Это наименьшая единица компилятора. Строка ```var `test` = 0; ``` разбивается на токены `var`, `test`, `=`, `0`, `;`. При парсинге токены складываются в более большие единицы. В нашем случае в файле `Environments.json` мы задаём параметры этому токену. Для токена идут параметры "token" (его тип), и "value" (значение). В парсинге токены образуются в бОльшие и сложные структуры, например "значения". Для этого мы указываем "shell", т.к. от него может зависеть специфика значения. Например:
-
-```json
-{
-   "variable1": {
-      "token": "PLAIN_VARIABLE",
-      "shell": null,
-      "value": "переменная"
    },
-   "variable2": {
-      "token": "PLAIN_VARIABLE",
-      "shell": "a",
-      "value": "это уже массив"
-   }
+   "mlct_cool": {
+       "type": "FABRIC"
+       "kind": "item",
+       "args": {
+            "id": {"type": "PRIMITIVE", "token": "STRING", "shell": "p", "value": "diamond"},
+            "name": {"type": "PRIMITIVE", "token": "STRING", "shell": null, "value": "&e&lMLCT"},
+            "lore": [
+                {"type": "PRIMITIVE", "token": "STRING", "shell": null, "value": "&7&lлучши мод"},
+                {"type": "PRIMITIVE", "token": "STRING", "shell": null, "value": "во всом мире"}
+            ]
+        }
+   },
+   "items": [
+      {
+       "type": "FABRIC"
+       "kind": "item",
+       "args": {
+            "id": {"type": "PRIMITIVE", "token": "STRING", "shell": "p", "value": "diamond"},
+        }
+      },
+      {
+       "type": "FABRIC"
+       "kind": "item",
+       "args": {
+            "id": {"type": "PRIMITIVE", "token": "STRING", "shell": "p", "value": "emerald"},
+        }
+      }
+   ]
 }
 ```
+
 
 Эти константы выглядели бы в файле кода так:
 ```js
-const `variable1` = `переменная`;
-const `variable2` = a`это уже массив`;
+const message = "очень длинный текст";
+const mlct_cool = item("diamond", "&e&lMLCT", lore=["&7&lлучши мод", "во всом мире"]);
+const items = [item("diamond"), item("emerald")];
 ```
 
 В файле по умолчанию есть эти "встроенные" константы :
 ```js
-c`MLCT_VERSION`       //        версия mlct компилятора
-c`MLCT_AUTHORS`       //        авторы mlct
-c`MLCT_AUTHORS_LIST`  //        авторы mlct (список)
-c`MLCT_CHAT_PREFIX`   //        префикс mlct в чате
-c`MLCT_CHAT`          //        префикс mlct без стрелочеку
+pi                    //        число 3.14159265359
+true                  //        текст "true"
+false                 //        текст "false"
+MLCT                  //        предмет mlct
+MLCT_VERSION          //        текст с версией компилятора
+MLCT_AUTHORS          //        текст "Mee8YT, Shaurmabratiish"
+MLCT_AUTHORS_LIST     //        текст[] ["Mee8YT", "Shaurmabratiish"]
+MLCT_CHAT_PREFIX      //        текст "&d&lMLCT &8»&r"
+MLCT_PREFIX           //        текст "&d&lMLCT&r"
 ```
 
 ### Ошибки [🔝](#прочее)
