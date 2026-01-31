@@ -13,7 +13,7 @@
 ```js
 const separator = 0;
 
-player.send(separator=separeaor);
+player.send(separator=separator);
 ```
 
 Константа может быть списком:
