@@ -5,7 +5,7 @@
         "link": "test"
     },
     "beta": {
-        "mod_build": 0,
+        "mod_build": 300,
         "mod_version": "none",
         "link": "test"
     },
