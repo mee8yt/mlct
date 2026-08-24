@@ -1,11 +1,11 @@
 {
     "release": {
-        "mod_build": 1,
+        "mod_build": 300,
         "mod_version": "1.0.0",
         "link": "test"
     },
     "beta": {
-        "mod_build": 300,
+        "mod_build": 299,
         "mod_version": "none",
         "link": "test"
     },
