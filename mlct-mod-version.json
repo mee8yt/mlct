@@ -1,1 +1,17 @@
-
+{
+    "release": {
+        "mod_build": 1,
+        "mod_version": "1.0.0",
+        "link": "test"
+    },
+    "beta": {
+        "mod_build": 0,
+        "mod_version": "none",
+        "link": "test"
+    },
+    "mlcode": {
+        "version": 67,
+        "link": ""
+    }
+    
+}
