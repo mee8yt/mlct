@@ -1,0 +1,3770 @@
+{
+	"version": 67,
+	"PLAYER_EVENT": [
+		{
+			"name": "JOIN",
+			"path": [11, 0],
+			"access": 6
+		},
+		{
+			"name": "LEAVE",
+			"path": [11, 1],
+			"access": 7
+		},
+		{
+			"name": "REJOIN",
+			"path": [11, 2]
+		},
+		{
+			"name": "PLAYER_INTERACTION_WITH_BLOCKS",
+			"path": [11, 3]
+		},
+		{
+			"name": "RIGHT_CLICK",
+			"path": [11, 4]
+		},
+		{
+			"name": "LEFT_CLICK",
+			"path": [11, 5]
+		},
+		{
+			"name": "RIGHT_CLICK_ENTITY",
+			"path": [11, 6]
+		},
+		{
+			"name": "LEASH_ENTITY",
+			"path": [11, 7]
+		},
+		{
+			"name": "TAME_ENTITY",
+			"path": [11, 8]
+		},
+		{
+			"name": "PLAYER_PLACE_BLOCK",
+			"path": [11, 9]
+		},
+		{
+			"name": "PLAYER_BREAK_BLOCK",
+			"path": [11, 10]
+		},
+		{
+			"name": "PLAYER_FISHING",
+			"path": [11, 11]
+		},
+		{
+			"name": "DAMAGE_BLOCK",
+			"path": [11, 12]
+		},
+		{
+			"name": "PLAYER_CHANGE_EXPERIENCE",
+			"path": [11, 13]
+		},
+		{
+			"name": "LIKE",
+			"path": [11, 14]
+		},
+		{
+			"name": "PLAYER_GOLD_TRANSACTION",
+			"path": [11, 15]
+		},
+		{
+			"name": "BUY_ADVERT",
+			"path": [11, 16]
+		},
+		{
+			"name": "BUY_POINT",
+			"path": [11, 17]
+		},
+		{
+			"name": "STUDIO_TRANSACTION",
+			"path": [11, 18]
+		},
+		{
+			"name": "OPENED_INVENTORY",
+			"path": [15, 0]
+		},
+		{
+			"name": "CLOSED_INVENTORY",
+			"path": [15, 1]
+		},
+		{
+			"name": "CLICK_INVENTORY",
+			"path": [15, 2]
+		},
+		{
+			"name": "MOVE_INVENTORY",
+			"path": [15, 3]
+		},
+		{
+			"name": "PLAYER_PICKUP_ITEM",
+			"path": [15, 4]
+		},
+		{
+			"name": "DROP_ITEM",
+			"path": [15, 5]
+		},
+		{
+			"name": "SWAP_HANDS",
+			"path": [15, 6]
+		},
+		{
+			"name": "CHANGE_SLOT",
+			"path": [15, 7]
+		},
+		{
+			"name": "CRAFT_ITEM",
+			"path": [15, 8]
+		},
+		{
+			"name": "EXTRACT_FURNACE",
+			"path": [15, 9]
+		},
+		{
+			"name": "DAMAGE_ITEM",
+			"path": [15, 10]
+		},
+		{
+			"name": "BREAK_ITEM",
+			"path": [15, 11]
+		},
+		{
+			"name": "REPAIR_ITEM",
+			"path": [15, 12]
+		},
+		{
+			"name": "EDIT_BOOK",
+			"path": [15, 13]
+		},
+		{
+			"name": "MANIPULATE_WITH_ARMOR_STAND",
+			"path": [15, 14]
+		},
+		{
+			"name": "PLAYER_TAKE_DAMAGE",
+			"path": [28, 0]
+		},
+		{
+			"name": "PLAYER_TAKE_FALL_DAMAGE",
+			"path": [28, 1]
+		},
+		{
+			"name": "PLAYER_DEATH",
+			"path": [28, 2]
+		},
+		{
+			"name": "PLAYER_DAMAGE_PLAYER",
+			"path": [28, 3]
+		},
+		{
+			"name": "PROJECTILE_DAMAGE_PLAYER",
+			"path": [28, 4]
+		},
+		{
+			"name": "PLAYER_KILL_PLAYER",
+			"path": [28, 5]
+		},
+		{
+			"name": "DAMAGE_MOB_BY_PLAYER",
+			"path": [28, 6]
+		},
+		{
+			"name": "PROJECTILE_DAMAGE_MOB_BY_PLAYER",
+			"path": [28, 7]
+		},
+		{
+			"name": "KILL_MOB_BY_PLAYER",
+			"path": [28, 8]
+		},
+		{
+			"name": "PROJECTILE_KILL_MOB_BY_PLAYER",
+			"path": [28, 9]
+		},
+		{
+			"name": "KILL_PLAYER_BY_MOB",
+			"path": [28, 10]
+		},
+		{
+			"name": "DAMAGE_PLAYER_BY_MOB",
+			"path": [28, 11]
+		},
+		{
+			"name": "PLAYER_CHANGE_VELOCITY",
+			"path": [28, 12]
+		},
+		{
+			"name": "SNEAK",
+			"path": [31, 0]
+		},
+		{
+			"name": "UNSNEAK",
+			"path": [31, 1]
+		},
+		{
+			"name": "START_SPRINT",
+			"path": [31, 2]
+		},
+		{
+			"name": "JUMP",
+			"path": [31, 3]
+		},
+		{
+			"name": "STOP_SPRINT",
+			"path": [31, 4]
+		},
+		{
+			"name": "MOVE",
+			"path": [31, 5]
+		},
+		{
+			"name": "ROTATE",
+			"path": [31, 6]
+		},
+		{
+			"name": "JUMP_ON_HORSE",
+			"path": [31, 7]
+		},
+		{
+			"name": "PLAYER_PICKUP_EXPERIENCE",
+			"path": [34, 0]
+		},
+		{
+			"name": "MESSAGE",
+			"path": [34, 1]
+		},
+		{
+			"name": "PLAYER_LAUNCH_PROJECTILE",
+			"path": [34, 2]
+		},
+		{
+			"name": "CONSUME_ITEM",
+			"path": [34, 3]
+		},
+		{
+			"name": "CHANGE_FOOD_LVL",
+			"path": [34, 4]
+		},
+		{
+			"name": "PLAYER_RESOURCEPACK_EVENT",
+			"path": [34, 5]
+		},
+		{
+			"name": "PLAYER_BREED_ENTITY",
+			"path": [34, 6]
+		}
+	],
+	"ENTITY_EVENT": [
+		{
+			"name": "ENTITY_SPAWN",
+			"path": [0]
+		},
+		{
+			"name": "ENTITY_REMOVE_FROM_WOLRD",
+			"path": [1]
+		},
+		{
+			"name": "ENTITY_FIND_PATH",
+			"path": [2]
+		},
+		{
+			"name": "ENTITY_FIND_TARGET",
+			"path": [3]
+		},
+		{
+			"name": "ENTITY_TELEPORT",
+			"path": [4]
+		},
+		{
+			"name": "ENTITY_TAKE_DAMAGE",
+			"path": [5]
+		},
+		{
+			"name": "DAMAGE_ENTITY_BY_ENTITY",
+			"path": [6]
+		},
+		{
+			"name": "DAMAGE_PLAYER_BY_ENTITY",
+			"path": [7]
+		},
+		{
+			"name": "ENTITY_PUSH_ENTITY",
+			"path": [8]
+		},
+		{
+			"name": "ENTITY_USE_TOTEM",
+			"path": [9]
+		},
+		{
+			"name": "ENTITY_RESTORED_HEALTH",
+			"path": [10]
+		},
+		{
+			"name": "ENTITY_DEATH_BY_PROJECTILE",
+			"path": [11]
+		},
+		{
+			"name": "ENTITY_KILL_ENTITY",
+			"path": [12]
+		},
+		{
+			"name": "ENTITY_KILL_PLAYER",
+			"path": [13]
+		},
+		{
+			"name": "ENTITY_DEATH",
+			"path": [14]
+		},
+		{
+			"name": "ENTITY_PRIME_EXPLOSION",
+			"path": [15]
+		},
+		{
+			"name": "ENTITY_EXPLODE",
+			"path": [16]
+		},
+		{
+			"name": "",
+			"path": [17]
+		},
+		{
+			"name": "CREEPER_POWER",
+			"path": [18]
+		},
+		{
+			"name": "TRANSPORT_SPAWN",
+			"path": [19]
+		},
+		{
+			"name": "ENTITY_ENTER_VEHICLE",
+			"path": [20]
+		},
+		{
+			"name": "ENTITY_LEAVE_VEHICLE",
+			"path": [21]
+		},
+		{
+			"name": "VEHICLE_BLOCK_COLLISION",
+			"path": [22]
+		},
+		{
+			"name": "VEHICLE_ENTITY_COLLISION",
+			"path": [23]
+		},
+		{
+			"name": "VEHICLE_TAKE_DAMAGE",
+			"path": [24]
+		},
+		{
+			"name": "PROJECTILE_LAUNCH",
+			"path": [25]
+		},
+		{
+			"name": "PROJECTILE_HIT_BLOCK",
+			"path": [26]
+		},
+		{
+			"name": "PROJECTILE_HIT_ENTITY",
+			"path": [27]
+		},
+		{
+			"name": "ENTITY_SHOOT_BOW",
+			"path": [28]
+		},
+		{
+			"name": "ENTITY_INTERACTION_WITH_BLOCKS",
+			"path": [29]
+		},
+		{
+			"name": "ENTITY_CHANGE_BLOCK",
+			"path": [30]
+		},
+		{
+			"name": "ENTITY_BLOCK_FORM",
+			"path": [31]
+		},
+		{
+			"name": "ENTITY_BLOCK_START_FALL",
+			"path": [32]
+		},
+		{
+			"name": "ENTITY_BLOCK_FALLEN",
+			"path": [33]
+		},
+		{
+			"name": "ENTITY_BREAK_DOOR",
+			"path": [34]
+		},
+		{
+			"name": "HANGING_BREAK",
+			"path": [35]
+		},
+		{
+			"name": "ENTITY_PICKUP_ITEM",
+			"path": [36]
+		},
+		{
+			"name": "INVENTORY_PICKUP_ITEM",
+			"path": [37]
+		},
+		{
+			"name": "ITEMS_MERGE",
+			"path": [38]
+		},
+		{
+			"name": "ITEM_DESPAWN",
+			"path": [39]
+		},
+		{
+			"name": "EXPERIENCE_ORB_MERGE",
+			"path": [40]
+		},
+		{
+			"name": "WITCH_THROW_POTION",
+			"path": [41]
+		},
+		{
+			"name": "WITCH_DRINK_POTION",
+			"path": [42]
+		},
+		{
+			"name": "WITCH_THROW_POTION",
+			"path": [43]
+		},
+		{
+			"name": "VILLAGER_ACQUIRE_TRADE",
+			"path": [44]
+		},
+		{
+			"name": "VILLAGE_REPLENISH_TRADE",
+			"path": [45]
+		},
+		{
+			"name": "ENTITY_UNLEASH",
+			"path": [46]
+		},
+		{
+			"name": "ENDERMAN_ESCAPE",
+			"path": [47]
+		},
+		{
+			"name": "SHEEP_REGROW",
+			"path": [48]
+		},
+		{
+			"name": "SHEEP_DYE_WOOL",
+			"path": [49]
+		},
+		{
+			"name": "FIREWORK_EXPLODE",
+			"path": [50]
+		}
+	],
+	"WORLD_EVENT": [
+		{
+			"name": "GAME_START",
+			"path": [0]
+		},
+		{
+			"name": "GAME_STOP",
+			"path": [1]
+		},
+		{
+			"name": "RECEIVE_DATA",
+			"path": [2]
+		},
+		{
+			"name": "BLOCK_IGNITE",
+			"path": [3]
+		},
+		{
+			"name": "BLOCK_BURN",
+			"path": [4]
+		},
+		{
+			"name": "BLOCK_FADE",
+			"path": [5]
+		},
+		{
+			"name": "PISTON_EXTEND",
+			"path": [6]
+		},
+		{
+			"name": "PISTON_RETRACT",
+			"path": [7]
+		},
+		{
+			"name": "BLOCK_EXPLODE",
+			"path": [8]
+		},
+		{
+			"name": "LEAVES_DECAY",
+			"path": [9]
+		},
+		{
+			"name": "TREE_GROW",
+			"path": [10]
+		},
+		{
+			"name": "BLOCK_GROW",
+			"path": [11]
+		},
+		{
+			"name": "BLOCK_MOVED",
+			"path": [12]
+		},
+		{
+			"name": "BLOCK_BREW",
+			"path": [13]
+		},
+		{
+			"name": "BREWING_STAND_FUEL",
+			"path": [14]
+		},
+		{
+			"name": "BLOCK_FORM",
+			"path": [15]
+		},
+		{
+			"name": "BLOCK_SPREAD",
+			"path": [16]
+		},
+		{
+			"name": "BLOCK_PHYSICS",
+			"path": [17]
+		},
+		{
+			"name": "PORTAL_ACTIVATION",
+			"path": [18]
+		},
+		{
+			"name": "NOTE_PLAY",
+			"path": [19]
+		},
+		{
+			"name": "BLOCK_DISPENSE",
+			"path": [20]
+		},
+		{
+			"name": "CAULDRON_LEVEL_CHANGE",
+			"path": [21]
+		},
+		{
+			"name": "SIGN_CHANGE",
+			"path": [22]
+		},
+		{
+			"name": "BLOCK_EXP",
+			"path": [23]
+		},
+		{
+			"name": "ITEM_MOVE_TO_INVENTORY",
+			"path": [24]
+		},
+		{
+			"name": "FURNACE_SMELT",
+			"path": [25]
+		},
+		{
+			"name": "FURNACE_BURN",
+			"path": [26]
+		}
+	],
+	"PLAYER_ACTION": [
+		{
+			"name": "GIVE_ITEMS",
+			"path": [0, 0],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]}
+			}
+		},
+		{
+			"name": "SET_ITEMS",
+			"path": [0, 1],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]},
+				"switch": {"type": "switch", "pos": [49]}
+			}
+		},
+		{
+			"name": "SET_ITEMS_IN_ENDERCHEST",
+			"path": [0, 2],
+			"args": {
+				"items": {"type": "value", "pos": ["0-26"]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "SET_ARMOR",
+			"path": [0, 3],
+			"args": {
+				"item1": {"type": "value", "pos": [10]},
+				"item2": {"type": "value", "pos": [12]},
+				"item3": {"type": "value", "pos": [14]},
+				"item4": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_ITEM_IN_HAND",
+			"path": [0, 4],
+			"args": {
+				"item": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_ITEM_IN_CURSOR",
+			"path": [0, 5],
+			"args": {
+				"item": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "REMOVE_ITEMS",
+			"path": [0, 6],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]}
+			}
+		},
+		{
+			"name": "CLEAR_INVENTORY",
+			"path": [0, 7]
+		},
+		{
+			"name": "CLEAR_ENDERCHEST",
+			"path": [0, 8]
+		},
+		{
+			"name": "SET_HOTBAR_SLOT",
+			"path": [0, 9],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "GIVE_RANDOM_ITEM",
+			"path": [0, 10],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]}
+			}
+		},
+		{
+			"name": "SAVE_INVENTORY",
+			"path": [0, 11]
+		},
+		{
+			"name": "LOAD_INVENTORY",
+			"path": [0, 12]
+		},
+		{
+			"name": "SET_DELAY_ITEM",
+			"path": [0, 13],
+			"args": {
+				"item": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_PLAYER_INVENTORY_ITEM",
+			"path": [0, 14],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_PLAYER_INVENTORY_ITEM",
+			"path": [0, 15],
+			"args": {
+				"item": {"type": "value", "pos": [7]},
+				"number": {"type": "value", "pos": ["18-44"]}
+			}
+		},
+		{
+			"name": "GET_ITEM_COOLDOWN",
+			"path": [0, 16],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"item": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SEND_MESSAGE",
+			"path": [1, 0],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-35"]},
+				"switch": {"type": "switch", "pos": [40]}
+			}
+		},
+		{
+			"name": "SEND_COMPONENT_MESSAGE",
+			"path": [1, 1],
+			"args": {
+				"components": {"type": "value", "pos": ["9-35"]},
+				"switch": {"type": "switch", "pos": [40]}
+			}
+		},
+		{
+			"name": "SEND_DIALOGUE",
+			"path": [1, 2],
+			"args": {
+				"texts": {"type": "value", "pos": ["0-26"]},
+				"number": {"type": "value", "pos": [40]}
+			}
+		},
+		{
+			"name": "CLEAR_CHAT",
+			"path": [1, 3]
+		},
+		{
+			"name": "PLAY_SOUND",
+			"path": [1, 4],
+			"args": {
+				"text": {"type": "value", "pos": [9]},
+				"number1": {"type": "value", "pos": [11]},
+				"number2": {"type": "value", "pos": [13]},
+				"location": {"type": "value", "pos": [15]},
+				"switch": {"type": "switch", "pos": [17]}
+			}
+		},
+		{
+			"name": "STOP_SOUND",
+			"path": [1, 5],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-35"]}
+			}
+		},
+		{
+			"name": "SEND_TITLE",
+			"path": [1, 6],
+			"args": {
+				"text1": {"type": "value", "pos": [9]},
+				"text2": {"type": "value", "pos": [11]},
+				"number1": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [15]},
+				"number3": {"type": "value", "pos": [17]}
+			}
+		},
+		{
+			"name": "SEND_ACTIONBAR",
+			"path": [1, 7],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SHOW_LINK",
+			"path": [1, 8],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "OPEN_BOOK",
+			"path": [1, 9],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-35"]}
+			}
+		},
+		{
+			"name": "OPEN_MENU",
+			"path": [2, 0],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"text": {"type": "value", "pos": [49]},
+				"switch": {"type": "switch", "pos": [53]}
+			}
+		},
+		{
+			"name": "EXPAND_MENU",
+			"path": [2, 1],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"number": {"type": "value", "pos": [49]}
+			}
+		},
+		{
+			"name": "SET_ITEM_IN_MENU",
+			"path": [2, 2],
+			"args": {
+				"item": {"type": "value", "pos": [4]},
+				"number": {"type": "value", "pos": ["18-44"]}
+			}
+		},
+		{
+			"name": "GET_ITEM_FROM_MENU",
+			"path": [2, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_MENU_NAME",
+			"path": [2, 4],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "ADD_LINE_IN_MENU",
+			"path": [2, 5],
+			"args": {
+				"items": {"type": "value", "pos": ["9-17"]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "DELETE_LINE_IN_MENU",
+			"path": [2, 6],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "CLOSE_INVENTORY",
+			"path": [2, 7]
+		},
+		{
+			"name": "OPEN_BLOCK_INVENTORY",
+			"path": [2, 8],
+			"args": {
+				"location": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "OPEN_ENTITY_INVENTORY",
+			"path": [2, 9],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "TELEPORT",
+			"path": [3, 0],
+			"args": {
+				"location": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "ROTATE_ENTITY_TO_LOCATION",
+			"path": [3, 1],
+			"args": {
+				"location": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "RANDOM_TELEPORT",
+			"path": [3, 2],
+			"args": {
+				"locations": {"type": "value", "pos": ["9-44"]},
+				"switch": {"type": "switch", "pos": [49]}
+			}
+		},
+		{
+			"name": "TELEPORT_SEQUENCE",
+			"path": [3, 3],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-26"]},
+				"switch": {"type": "switch", "pos": [31]},
+				"number": {"type": "value", "pos": [40]}
+			}
+		},
+		{
+			"name": "LAUNCH_VERTICALLY",
+			"path": [3, 4],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "LAUNCH_FORWARD",
+			"path": [3, 5],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "LAUNCH_TOWARD",
+			"path": [3, 6],
+			"args": {
+				"number1": {"type": "value", "pos": [10]},
+				"number2": {"type": "value", "pos": [13]},
+				"number3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "LAUNCH_TO_LOCATION",
+			"path": [3, 7],
+			"args": {
+				"location": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SADDLE_ENTITY",
+			"path": [3, 8],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "KICK_PLAYER",
+			"path": [3, 9]
+		},
+		{
+			"name": "MOVE_TO_GAME",
+			"path": [3, 10],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_TARGET_POS",
+			"path": [3, 11],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "RESET_TARGET_POS",
+			"path": [3, 12]
+		},
+		{
+			"name": "DAMAGE",
+			"path": [4, 0],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_HEALTH",
+			"path": [4, 1],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "GIVE_POTION_EFFECT",
+			"path": [4, 2],
+			"args": {
+				"potions": {"type": "value", "pos": ["0-17"]},
+				"switch1": {"type": "switch", "pos": [21]},
+				"switch2": {"type": "switch", "pos": [23]},
+				"number1": {
+					"type": "value",
+					"pos": [
+						38
+					]
+				},
+				"number2": {
+					"type": "value",
+					"pos": [
+						42
+					]
+				}
+			}
+		},
+		{
+			"name": "CLEAR_POTION_EFFECT",
+			"path": [4, 3]
+		},
+		{
+			"name": "REMOVE_POTION_EFFECT",
+			"path": [4, 4],
+			"args": {
+				"potions": {"type": "value", "pos": ["9-26"]}
+			}
+		},
+		{
+			"name": "SET_XP_LVL",
+			"path": [4, 5],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_XP_PROGRESS",
+			"path": [4, 6],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_HUNGER",
+			"path": [4, 7],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_SATURATION",
+			"path": [4, 8],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_EXHAUSTION",
+			"path": [4, 9],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_MAXIMUM_HEALTH",
+			"path": [4, 10],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_ON_FIRE",
+			"path": [4, 11],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_FLIGHT_SPEED",
+			"path": [4, 12],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_WALK_SPEED",
+			"path": [4, 13],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_REMAINING_AIR",
+			"path": [4, 14],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_MAXIMUM_AIR",
+			"path": [4, 15],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_COMPASS_TARGET",
+			"path": [4, 16],
+			"args": {
+				"location": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_NAME",
+			"path": [4, 17],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"switch": {"type": "switch", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_DAMAGE",
+			"path": [4, 18],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_TARGET_ENTITY",
+			"path": [4, 19],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_SIZE",
+			"path": [4, 20],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_SOUND",
+			"path": [4, 21],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_GLOW",
+			"path": [4, 22],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_VISIBILITY",
+			"path": [4, 23],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_GRAVITY",
+			"path": [4, 24],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_INVINCIBILITY",
+			"path": [4, 25],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "DELETE_ENTITY",
+			"path": [4, 26]
+		},
+		{
+			"name": "SHOW_PARTICLE",
+			"path": [5, 0],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-17"]},
+				"particle": {"type": "value", "pos": [40]},
+				"number1": {"type": "value", "pos": [37]},
+				"number2": {"type": "value", "pos": [43]},
+				"number3": {"type": "value", "page": 1, "pos": [19]},
+				"number4": {"type": "value", "page": 1, "pos": [22]},
+				"number5": {"type": "value", "page": 1, "pos": [25]}
+			}
+		},
+		{
+			"name": "SHOW_PARTICLE_LINE",
+			"path": [5, 1],
+			"args": {
+				"particle": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [12]},
+				"location2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "SHOW_PARTICLE_RAY",
+			"path": [5, 2],
+			"args": {
+				"particle": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"vector": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "SHOW_PARTICLE_CIRCLE",
+			"path": [5, 3],
+			"args": {
+				"particle": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"vector": {"type": "value", "pos": [14]},
+				"number1": {"type": "value", "pos": [16]},
+				"number2": {"type": "value", "page": 1, "pos": [10]},
+				"number3": {"type": "value", "page": 1, "pos": [12]},
+				"switch": {"type": "switch", "page": 1, "pos": [14]}
+			}
+		},
+		{
+			"name": "SHOW_PARTICLE_CUBE",
+			"path": [5, 4],
+			"args": {
+				"particle": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [12]},
+				"location2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "SHOW_PARTICLE_SPHERE",
+			"path": [5, 5],
+			"args": {
+				"particle": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_FLIGHT",
+			"path": [6, 0],
+			"args": {
+				"switch1": {"type": "value", "pos": [12]},
+				"switch2": {"type": "value", "pos": [14]}
+			}
+		},
+		{
+			"name": "SET_GAMEMODE",
+			"path": [6, 1],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_KEEP_INVENTORY",
+			"path": [6, 2],
+			"args": {
+				"switch": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SHOW_SCOREBOARD",
+			"path": [6, 3],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "HIDE_SCOREBOARD",
+			"path": [6, 4]
+		},
+		{
+			"name": "SHOW_BOSSBAR",
+			"path": [6, 5],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "HIDE_BOSSBAR",
+			"path": [6, 6],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_RESOURCEPACK",
+			"path": [6, 7],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "LAY_ON_BED",
+			"path": [7, 0],
+			"args": {
+				"location": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "WAKE_UP",
+			"path": [7, 1]
+		},
+		{
+			"name": "HAND_ANIMATION",
+			"path": [7, 2],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "SNEAKING_STATE",
+			"path": [7, 3],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "DAMAGE_ANIMATION",
+			"path": [7, 4],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "GOLD_TRANSACTION",
+			"path": [8, 0],
+			"args": {
+				"text1": {"type": "value", "pos": [10]},
+				"text2": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		}
+	],
+	"VARIABLE_ACTION": [
+		{
+			"name": "SET_VARIABLE",
+			"path": [0, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [13]},
+				"values": {"type": "value", "pos": ["27-53"]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_ITEM_TO_VARIABLE",
+			"path": [0, 1],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"item": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_RANDOM_VALUE",
+			"path": [0, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [13]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "SUM",
+			"path": [1, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"numbers": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "DIFFERENCE",
+			"path": [1, 1],
+			"args": {
+				"variable": {"type": "value", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"numbers": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "MULTIPLY",
+			"path": [1, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"numbers": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "DIVISION",
+			"path": [1, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"numbers": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "REMAINDER",
+			"path": [1, 4],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "INCREMENT",
+			"path": [1, 5],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "DECREMENT",
+			"path": [1, 6],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_RANDOM_NUMBER",
+			"path": [1, 7],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ROUND_NUMBER",
+			"path": [1, 8],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "MODULE",
+			"path": [1, 9],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "MIN_NUMBER",
+			"path": [1, 10],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "MAX_NUMBER",
+			"path": [1, 11],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "DEGREE_EXPANSION",
+			"path": [1, 12],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "COSINUS",
+			"path": [1, 13],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SINUS",
+			"path": [1, 14],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "TANGENT",
+			"path": [1, 15],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ARC_SINUS",
+			"path": [1, 16],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ARC_COSINUS",
+			"path": [1, 17],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ARC_TANGENT",
+			"path": [1, 18],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "DEGREES",
+			"path": [1, 19],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "NATURAL_LOGARITHM",
+			"path": [1, 20],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "LOGARITHM",
+			"path": [1, 21],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [13]},
+				"number2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SQUARE_ROOT",
+			"path": [1, 22],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "EXPONENTIAL",
+			"path": [1, 23],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "RADIANS",
+			"path": [1, 24],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "PERLIN_NOISE",
+			"path": [1, 25],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]},
+				"number3": {"type": "value", "page": 1, "pos": [10]},
+				"number4": {"type": "value", "page": 1, "pos": [12]},
+				"number5": {"type": "value", "page": 1, "pos": [14]},
+				"switch": {"type": "switch", "page": 1, "pos": [16]}
+			}
+		},
+		{
+			"name": "SIMPLEX_NOISE",
+			"path": [1, 26],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]},
+				"number3": {"type": "value", "page": 1, "pos": [10]},
+				"number4": {"type": "value", "page": 1, "pos": [12]},
+				"number5": {"type": "value", "page": 1, "pos": [14]},
+				"switch": {"type": "switch", "page": 1, "pos": [16]}
+			}
+		},
+		{
+			"name": "WORLEY_NOISE",
+			"path": [1, 26],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]},
+				"number3": {"type": "value", "page": 1, "pos": [10]},
+				"switch": {"type": "switch", "page": 1, "pos": [16]}
+			}
+		},
+		{
+			"name": "COMBINE_TEXT",
+			"path": [2, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [13]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "PARSE_NUMBER",
+			"path": [2, 1],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"texts": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "REPEAT_TEXT",
+			"path": [2, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "TRUNCATE_TEXT",
+			"path": [2, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "SPLIT_TEXT",
+			"path": [2, 4],
+			"args": {
+				"array": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [13]},
+				"text2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_TEXT_LENGTH",
+			"path": [2, 5],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_SYMBOL_IN_TEXT",
+			"path": [2, 6],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_SUBTEXT_IN_TEXT",
+			"path": [2, 7],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [12]},
+				"text2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "REPLACE_TEXT",
+			"path": [2, 8],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [12]},
+				"text2": {"type": "value", "pos": [14]},
+				"text3": {"type": "value", "pos": [16]},
+				"switch1": {"type": "switch", "pos": [30]},
+				"switch2": {"type": "switch", "pos": [32]}
+			}
+		},
+		{
+			"name": "REPLACE_REGULAR_EXPRESSION_IN_TEXT",
+			"path": [2,9],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [12]},
+				"text2": {"type": "value", "pos": [14]},
+				"text3": {"type": "value", "pos": [16]},
+				"switch1": {"type": "switch", "pos": [31]},
+				"switch2": {"type": "switch", "pos": [10], "page": 1},
+				"switch3": {"type": "switch", "pos": [11], "page": 1},
+				"switch4": {"type": "switch", "pos": [12], "page": 1},
+				"switch5": {"type": "switch", "pos": [13], "page": 1},
+				"switch6": {"type": "switch", "pos": [14], "page": 1},
+				"switch7": {"type": "switch", "pos": [15], "page": 1},
+				"switch8": {"type": "switch", "pos": [16], "page": 1}
+			}
+		},
+		{
+			"name": "GET_GROUP_BY_REGULAR_EXPRESSION",
+			"path": [2, 10],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [12]},
+				"text2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_TEXT_CASE",
+			"path": [2, 11],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [15]}
+			}
+		},
+		{
+			"name": "CLEAR_TEXT_COLORS",
+			"path": [2, 12],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_SYMBOL_BY_UNICODE",
+			"path": [2, 13],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_UNICODE_BY_SYMBOL",
+			"path": [2, 14],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "CREATE_RGB_COLOR",
+			"path": [2, 15],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [12]},
+				"number2": {"type": "value", "pos": [14]},
+				"number3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_HSB_COLOR",
+			"path": [2, 16],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [12]},
+				"number2": {"type": "value", "pos": [14]},
+				"number3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_HSL_COLOR",
+			"path": [2, 17],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [12]},
+				"number2": {"type": "value", "pos": [14]},
+				"number3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "TIME_FORMAT",
+			"path": [2, 18],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [12]},
+				"text1": {"type": "value", "pos": [14]},
+				"text2": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "GET_LOCATION_VALUE",
+			"path": [3, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [17]}
+			}
+		},
+		{
+			"name": "GET_LOCATION_VALUES",
+			"path": [3, 1],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"variable1": {"type": "value", "pos": [12]},
+				"variable2": {"type": "value", "pos": [14]},
+				"variable3": {"type": "value", "pos": [16]},
+				"variable4": {"type": "value", "page": 1, "pos": [10]},
+				"variable5": {"type": "value", "page": 1, "pos": [12]}
+			}
+		},
+		{
+			"name": "SET_LOCATION",
+			"path": [3, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [12]},
+				"number1": {"type": "value", "pos": [14]},
+				"number2": {"type": "value", "pos": [16]},
+				"number3": {"type": "value", "pos": [38]},
+				"number4": {"type": "value", "pos": [40]},
+				"number5": {"type": "value", "pos": [42]},
+				"switch1": {"type": "switch", "pos": [5]},
+				"switch2": {"type": "switch", "pos": [6]},
+				"switch3": {"type": "switch", "pos": [29]},
+				"switch4": {"type": "switch", "pos": [31]},
+				"switch5": {"type": "switch", "pos": [33]}
+			}
+		},
+		{
+			"name": "GET_LOCATION_DISTANCE",
+			"path": [3, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [13]},
+				"location2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ROUND_LOCATION",
+			"path": [3, 4],
+			"args": {
+				"variable": {"type": "value", "pos": [9]},
+				"location": {"type": "value", "pos": [11]},
+				"switch1": {"type": "switch", "pos": [13]},
+				"switch2": {"type": "switch", "pos": [15]},
+				"switch3": {"type": "switch", "pos": [17]}
+			}
+		},
+		{
+			"name": "GET_LOCATION_DIRECTION",
+			"path": [3, 5],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_LOCATION_DIRECTION",
+			"path": [3, 6],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [13]},
+				"vector": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ROTATE_LOCATION_TO_LOCATION",
+			"path": [3, 7],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [13]},
+				"location2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_BLOCK_IN_WORLD",
+			"path": [3, 8],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_RANDOM_LOCATION",
+			"path": [3, 9],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [12]},
+				"location2": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_REGION_CENTRE",
+			"path": [3, 10],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [13]},
+				"location2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_ITEM_VALUE",
+			"path": [4, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [17]}
+			}
+		},
+		{
+			"name": "GET_ITEM_LORE",
+			"path": [4, 1],
+			"args": {
+				"array": {"type": "value", "pos": [11]},
+				"item": {"type": "value", "pos": [
+					15]}
+			}
+		},
+		{
+			"name": "SET_ITEM_AMOUNT",
+			"path": [4, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_DURABILITY",
+			"path": [4, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_LORE",
+			"path": [4, 4],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]},
+				"number": {"type": "value", "page": 1, "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_ITEM_NAME",
+			"path": [4, 5],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ADD_ITEM_LORE",
+			"path": [4, 6],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "DELETE_ITEM_LORE",
+			"path": [4, 7],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_PAGE_BOOK",
+			"path": [4, 8],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_FLAGS",
+			"path": [4, 9],
+			"args": {
+				"variable": {"type": "value", "pos": [2]},
+				"item": {"type": "value", "pos": [6]},
+				"switch1": {"type": "switch", "pos": [19]},
+				"switch2": {"type": "switch", "pos": [20]},
+				"switch3": {"type": "switch", "pos": [21]},
+				"switch4": {"type": "switch", "pos": [23]},
+				"switch5": {"type": "switch", "pos": [24]},
+				"switch6": {"type": "switch", "pos": [25]}
+			}
+		},
+		{
+			"name": "SET_PAGE_BOOK",
+			"path": [4, 10],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]},
+				"number": {"type": "value", "page": 1, "pos": [13]}
+			}
+		},
+		{
+			"name": "ADD_ITEM_ENCHANTMENT",
+			"path": [4, 11],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [12]},
+				"text": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "REMOVE_ITEM_ENCHANTMENT",
+			"path": [4, 12],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_ITEM_COLOR",
+			"path": [4, 13],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"item": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_ITEM_COLOR",
+			"path": [4, 14],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_UNBREAKABLE",
+			"path": [4, 15],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_PLAYER_HEAD",
+			"path": [4, 16],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_CUSTOM_TAG",
+			"path": [4, 17],
+			"args": {
+				"variable": {"type": "value", "pos": [9]},
+				"item": {"type": "value", "pos": [11]},
+				"text1": {"type": "value", "pos": [13]},
+				"value": {"type": "value", "pos": [15]},
+				"text2": {"type": "value", "pos": [17]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "GET_ITEM_CUSTOM_TAG",
+			"path": [4, 18],
+			"args": {
+				"variable": {"type": "value", "pos": [9]},
+				"item": {"type": "value", "pos": [11]},
+				"text1": {"type": "value", "pos": [13]},
+				"text2": {"type": "value", "pos": [15]},
+				"value": {"type": "value", "pos": [17]}
+			}
+		},
+		{
+			"name": "DELETE_ITEM_CUSTOM_TAG",
+			"path": [4, 19],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"item": {"type": "value", "pos": [12]},
+				"text1": {"type": "value", "pos": [14]},
+				"text2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_POPUP_TEXT",
+			"path": [5, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text_component": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_CLICK_EVENT_TEXT",
+			"path": [5, 1],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"text_component": {"type": "value", "pos": [13]},
+				"text": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "page": 1, "pos": [13]}
+			}
+		},
+		{
+			"name": "COMBINE_TEXT_COMPONENT",
+			"path": [5, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [13]},
+				"text_components": {"type": "value", "pos": ["27-53"]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "CREATE_VECTOR",
+			"path": [6, 0],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number1": {"type": "value", "pos": [12]},
+				"number2": {"type": "value", "pos": [14]},
+				"number3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_VECTOR_BETWEEN_LOCATIONS",
+			"path": [6, 1],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location1": {"type": "value", "pos": [13]},
+				"location2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_VECTOR_FROM_FACE",
+			"path": [6, 2],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_VECTOR_VALUE",
+			"path": [6, 3],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_VECTOR_VALUES",
+			"path": [6, 4],
+			"args": {
+				"vector": {"type": "value", "pos": [10]},
+				"variable1": {"type": "value", "pos": [12]},
+				"variable2": {"type": "value", "pos": [14]},
+				"variable3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_VECTOR_VALUE",
+			"path": [6, 5],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector": {"type": "value", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_VECTOR_LENGTH",
+			"path": [6, 6],
+			"args": {
+				"variable": { "type": "value",  "pos": [11] },
+				"vector": { "type": "value",  "pos": [15] }
+			}
+		},
+		{
+			"name": "SET_VECTOR_LENGTH",
+			"path": [6, 7],
+			"args": {
+				"variable": { "type": "value",  "pos": [10] },
+				"vector": { "type": "value",  "pos": [13] },
+				"number": { "type": "value",  "pos": [16] }
+			}
+		},
+		{
+			"name": "SUM_VECTORS",
+			"path": [6, 8],
+			"args": {
+				"variable": { "type": "value",  "pos": [2] },
+				"vector": { "type": "value",  "pos": [6] },
+				"vectors": { "type": "value",  "pos": ["18-44"] }
+			}
+		},
+		{
+			"name": "DIFFERENCE_VECTORS",
+			"path": [6, 9],
+			"args": {
+				"variable": { "type": "value",  "pos": [2] },
+				"vector": { "type": "value",  "pos": [6] },
+				"vectors": { "type": "value",  "pos": ["18-44"] }
+			}
+		},
+		{
+			"name": "MULTIPLY_VECTOR",
+			"path": [6, 10],
+			"args": {
+				"variable": { "type": "value",  "pos": [10] },
+				"vector": { "type": "value",  "pos": [13] },
+				"number": { "type": "value",  "pos": [16] }
+			}
+		},
+		{
+			"name": "DIVIDE_VECTOR",
+			"path": [6, 11],
+			"args": {
+				"variable": { "type": "value",  "pos": [10] },
+				"vector1": { "type": "value",  "pos": [13] },
+				"vector2": { "type": "value",  "pos": [16] }
+			}
+		},
+		{
+			"name": "SCALAR_PRODUCT_VECTORS",
+			"path": [6, 12],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [13]},
+				"vector2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "PRODUCT_VECTORS",
+			"path": [6, 13],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [13]},
+				"vector2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "HADAMARD_VECTORS_PRODUCT",
+			"path": [6, 14],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [13]},
+				"vector2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ALIGN_VECTOR",
+			"path": [6, 15],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_CENTRE_BETWEEN_VECTORS",
+			"path": [6, 16],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [13]},
+				"vector2": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_ANGLE_BETWEEN_VECTORS",
+			"path": [6, 17],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [12]},
+				"vector2": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "REFLECT_VECTOR_PRODUCT",
+			"path": [6, 18],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [12]},
+				"vector2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ROTATE_VECTOR_AROUND_VECTOR",
+			"path": [6, 19],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector1": {"type": "value", "pos": [12]},
+				"vector2": {"type": "value", "pos": [14]},
+				"number": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "ROTATE_VECTOR_AROUND_AXIS",
+			"path": [6, 20],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"vector": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]},
+				"switch1": {"type": "switch", "page": 1, "pos": [10]},
+				"switch2": {"type": "switch", "page": 1, "pos": [12]}
+			}
+		},
+		{
+			"name": "GET_VECTOR_FACE",
+			"path": [6, 21],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"vector": {"type": "value", "pos": [15]}
+			}
+		}
+	],
+	"GAME_ACTION": [
+		{
+			"name": "SPAWN_ENTITY",
+			"path": [0, 0],
+			"args": {
+				"item1": {"type": "value", "pos": [4]},
+				"locations": {"type": "value", "pos": ["18-35"]},
+				"switch1": {"type": "switch", "pos": [47]},
+				"switch2": {"type": "switch", "pos": [48]},
+				"switch3": {"type": "switch", "pos": [49]},
+				"switch4": {"type": "switch", "pos": [50]},
+				"switch5": {"type": "switch", "pos": [51]},
+				"text": {"type": "value", "page": 1, "pos": [9]},
+				"number1": {"type": "value", "page": 1, "pos": [11]},
+				"number2": {"type": "value", "page": 1, "pos": [13]},
+				"number3": {"type": "value", "page": 1, "pos": [15]},
+				"number4": {"type": "value", "page": 1, "pos": [17]},
+				"number5": {"type": "value", "page": 1, "pos": [39]},
+				"number6": {"type": "value", "page": 1, "pos": [41]},
+				"switch6": {"type": "switch", "page": 1, "pos": [18]},
+				"switch7": {"type": "switch", "page": 1, "pos": [37]},
+				"switch8": {"type": "switch", "page": 1, "pos": [50]},
+				"switch9": {"type": "switch", "page": 1, "pos": [43]},
+				"potions": {"type": "value", "page": 2, "pos": ["9-17"]},
+				"number7": {"type": "value", "page": 2, "pos": [38]},
+				"number8": {"type": "value", "page": 2, "pos": [40]},
+				"switch10": {"type": "switch", "page": 2, "pos": [42]},
+				"item2": {"type": "value", "page": 3, "pos": [10]},
+				"item3": {"type": "value", "page": 3, "pos": [12]},
+				"item4": {"type": "value", "page": 3, "pos": [14]},
+				"item5": {"type": "value", "page": 3, "pos": [16]},
+				"number9": {"type": "value", "page": 3, "pos": [37]},
+				"number10": {"type": "value", "page": 3, "pos": [39]},
+				"number11": {"type": "value", "page": 3, "pos": [41]},
+				"number12": {"type": "value", "page": 3, "pos": [43]},
+				"item6": {"type": "value", "page": 4, "pos": [11]},
+				"item7": {"type": "value", "page": 4, "pos": [15]},
+				"number13": {"type": "value", "page": 4, "pos": [38]},
+				"number14": {"type": "value", "page": 4, "pos": [42]},
+				"switch11": {"type": "switch", "page": 4, "pos": [22]}
+			}
+		},
+		{
+			"name": "SPAWN_NPC",
+			"path": [0, 1],
+			"args": {
+				"item1": {"type": "value", "pos": [4]},
+				"locations": {"type": "value", "pos": ["18-35"]},
+				"switch1": {"type": "switch", "pos": [47]},
+				"switch2": {"type": "switch", "pos": [48]},
+				"switch3": {"type": "switch", "pos": [49]},
+				"switch4": {"type": "switch", "pos": [50]},
+				"switch5": {"type": "switch", "pos": [51]},
+				"text1": {"type": "value", "page": 1, "pos": [9]},
+				"text2": {"type": "value", "page": 1, "pos": [40]},
+				"number1": {"type": "value", "page": 1, "pos": [11]},
+				"number2": {"type": "value", "page": 1, "pos": [13]},
+				"number3": {"type": "value", "page": 1, "pos": [15]},
+				"number4": {"type": "value", "page": 1, "pos": [17]},
+				"number5": {"type": "value", "page": 1, "pos": [38]},
+				"number6": {"type": "value", "page": 1, "pos": [42]},
+				"switch7": {"type": "switch", "page": 1, "pos": [37]},
+				"switch8": {"type": "switch", "page": 1, "pos": [51]},
+				"switch9": {"type": "switch", "page": 1, "pos": [43]},
+				"potions": {"type": "value", "page": 2, "pos": ["9-17"]},
+				"number7": {"type": "value", "page": 2, "pos": [38]},
+				"number8": {"type": "value", "page": 2, "pos": [40]},
+				"switch10": {"type": "switch", "page": 2, "pos": [42]},
+				"item2": {"type": "value", "page": 3, "pos": [10]},
+				"item3": {"type": "value", "page": 3, "pos": [12]},
+				"item4": {"type": "value", "page": 3, "pos": [14]},
+				"item5": {"type": "value", "page": 3, "pos": [16]},
+				"number9": {"type": "value", "page": 3, "pos": [37]},
+				"number10": {"type": "value", "page": 3, "pos": [39]},
+				"number11": {"type": "value", "page": 3, "pos": [41]},
+				"number12": {"type": "value", "page": 4, "pos": [43]},
+				"item6": {"type": "value", "page": 4, "pos": [11]},
+				"item7": {"type": "value", "page": 4, "pos": [15]},
+				"number13": {"type": "value", "page": 4, "pos": [38]},
+				"number14": {"type": "value", "page": 4, "pos": [42]},
+				"switch11": {"type": "switch", "page": 4, "pos": [22]}
+			}
+		},
+		{
+			"name": "SPAWN_ITEM",
+			"path": [0, 2],
+			"args": {
+				"item": {"type": "value", "pos": [14]},
+				"locations": {"type": "value", "pos": ["0-2", "9-11", "18-20", "27-29", "36-38", "45-47"]},
+				"text": {"type": "value", "pos": [40]},
+				"number": {"type": "value", "pos": [42]},
+				"switch1": {"type": "switch", "pos": [26]},
+				"switch2": {"type": "switch", "pos": [35]}
+			}
+		},
+		{
+			"name": "LAUNCH_FIREWORK",
+			"path": [0, 3],
+			"args": {
+				"item": {"type": "value", "pos": [13]},
+				"locations": {"type": "value", "pos": ["0-1", "9-10", "18-19", "27-28", "36-37", "45-46"]},
+				"text": {"type": "value", "pos": [39]},
+				"number": {"type": "value", "pos": [41]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "SPAWN_TNT",
+			"path": [0, 4],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-9"]},
+				"text": {"type": "value", "pos": [28]},
+				"number1": {"type": "value", "pos": [31]},
+				"number2": {"type": "value", "pos": [34]},
+				"switch1": {"type": "switch", "pos": [48]},
+				"switch2": {"type": "switch", "pos": [50]}
+			}
+		},
+		{
+			"name": "SPAWN_VEHICLE",
+			"path": [0, 5],
+			"args": {
+				"item": {"type": "value", "pos": [28]},
+				"locations": {"type": "value", "pos": ["0-9"]},
+				"text": {"type": "value", "pos": [31]},
+				"number": {"type": "value", "pos": [33]},
+				"block": {"type": "value", "pos": [35]},
+				"switch1": {"type": "switch", "pos": [47]},
+				"switch2": {"type": "switch", "pos": [48]},
+				"switch3": {"type": "switch", "pos": [49]},
+				"switch4": {"type": "switch", "pos": [50]},
+				"switch5": {"type": "switch", "pos": [51]}
+			}
+		},
+		{
+			"name": "SPAWN_XP_ORB",
+			"path": [0, 6],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-2", "9-11", "18-20", "27-29", "36-38", "45-47"]},
+				"text": {"type": "value", "pos": [41]},
+				"number": {"type": "value", "pos": [14]},
+				"switch": {"type": "switch", "pos": [26]}
+			}
+		},
+		{
+			"name": "SPAWN_LIGHTNING",
+			"path": [0, 7],
+			"args": {
+				"location": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "WAIT",
+			"path": [1, 0],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "START_LOOP",
+			"path": [1, 1],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-26"]}
+			}
+		},
+		{
+			"name": "STOP_LOOP",
+			"path": [1, 2],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-26"]}
+			}
+		},
+		{
+			"name": "CANCEL_EVENT",
+			"path": [1, 3]
+		},
+		{
+			"name": "RETURN_EVENT",
+			"path": [1, 4]
+		},
+		{
+			"name": "CALL_FUNCTION",
+			"path": [1, 5],
+			"args": {
+				"text": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_EVENT_ITEM",
+			"path": [1, 6],
+			"args": {
+				"item": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_EVENT_DAMAGE",
+			"path": [1, 7],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_BLOCK",
+			"path": [2, 0],
+			"args": {
+				"block": {"type": "value", "pos": [4]},
+				"locations": {"type": "value", "pos": ["18-53"]},
+				"number": {"type": "value", "pos": [7]}
+			}
+		},
+		{
+			"name": "FILL_REGION",
+			"path": [2, 1],
+			"args": {
+				"block": {"type": "value", "pos": [13]},
+				"location": {"type": "value", "pos": [19]},
+				"location2": {"type": "value", "pos": [25]},
+				"number": {"type": "value", "pos": [40]}
+			}
+		},
+		{
+			"name": "GAME_BREAK_BLOCK",
+			"path": [0],
+			"args": {
+				"locations": {"type": "value", "pos": [0]},
+				"item": {"type": "value", "pos": [0]}
+			}
+		},
+		{
+			"name": "COPY_BLOCK",
+			"path": [2, 3],
+			"args": {
+				"location1": {"type": "value", "pos": [11]},
+				"location2": {"type": "value", "pos": [15]},
+				"location3": {"type": "value", "pos": [38]},
+				"location4": {"type": "value", "pos": [42]}
+			}
+		},
+		{
+			"name": "FILL_CONTAINER",
+			"path": [2, 4],
+			"args": {
+				"location": {"type": "value", "pos": [4]},
+				"items": {"type": "value", "pos": ["18-53"]}
+			}
+		},
+		{
+			"name": "DELETE_ITEM_FROM_CONTAINER",
+			"path": [2, 5],
+			"args": {
+				"location": {"type": "value", "pos": [4]},
+				"items": {"type": "value", "pos": ["18-53"]}
+			}
+		},
+		{
+			"name": "SET_ITEM_TO_CONTAINER",
+			"path": [2, 6],
+			"args": {
+				"location": {"type": "value", "pos": [1]},
+				"item": {"type": "value", "pos": [7]},
+				"numbers": {"type": "value", "pos": ["18-53"]}
+			}
+		},
+		{
+			"name": "CLEAR_ITEMS_FROM_CONTAINER",
+			"path": [2, 7],
+			"args": {
+				"locations": {"type": "value", "pos": ["9-26"]}
+			}
+		},
+		{
+			"name": "CHANGE_SIGN",
+			"path": [2, 8],
+			"args": {
+				"location": {"type": "value", "pos": [10]
+				},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CHANGE_CONTAINER_NAME",
+			"path": [2, 9],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"locations": {"type": "value", "pos": ["18-53"]}
+			}
+		},
+		{
+			"name": "GET_CONTAINER_NAME",
+			"path": [2, 10],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_ITEM_FROM_CONTAINER",
+			"path": [2, 11],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"location": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_ITEM_IN_ENDER_CHEST",
+			"path": [2, 12],
+			"args": {
+				"item": {"type": "value", "pos": [7]},
+				"numbers": {"type": "value", "pos": ["18-44"]}
+			}
+		},
+		{
+			"name": "GET_ITEM_FROM_ENDER_CHEST",
+			"path": [2, 13],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_ITEMS_FROM_CONTAINER",
+			"path": [2, 14],
+			"args": {
+				"array": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_SIGN_VALUE",
+			"path": [2, 15],
+			"args": {
+				"variable": {"type": "value", "pos": [10]},
+				"location": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_TREE",
+			"path": [2, 16],
+			"args": {
+				"location": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_CHEST_LOOT_TABLE",
+			"path": [2, 17],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "SET_CHEST_KEY",
+			"path": [2, 18],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_BURN_TIME",
+			"path": [2, 19],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BURN_TIME",
+			"path": [2, 20],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_COOK_TIME",
+			"path": [2, 21],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_COOK_TIME",
+			"path": [2, 22],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_BREWING_TIME",
+			"path": [2, 23],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BREWING_TIME",
+			"path": [2, 24],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_BREWER_FUEL",
+			"path": [2, 25],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BREWER_FUEL",
+			"path": [2, 26],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_NOTEBLOCK_NOTE",
+			"path": [2, 27],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [12]},
+				"switch1": {"type": "switch", "pos": [14]},
+				"switch2": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "PLAY_NOTEBLOCK_NOTE",
+			"path": [2, 28],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_NOTEBLOCK_DISC",
+			"path": [2, 29],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_NOTEBLOCK_DISC",
+			"path": [2, 30],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"item": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_BLOCK_FACE",
+			"path": [2, 31],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BLOCK_FACE",
+			"path": [2, 32],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_SPAWNER_DATA",
+			"path": [2, 34],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "GET_SPAWNER_ENTITY",
+			"path": [2, 35],
+			"args": {
+				"variable": {"type": "value", "pos": [11]},
+				"location": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_SPAWNER_ENTITY",
+			"path": [2, 36],
+			"args": {
+				"location": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "CREATE_EXPLOSION",
+			"path": [3, 0],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-9"]},
+				"number": {"type": "value", "pos": [22]},
+				"switch1": {"type": "switch", "pos": [19]},
+				"switch2": {"type": "switch", "pos": [25]}
+			}
+		},
+		{
+			"name": "PLAY_FIREWORK_EXPLOSION",
+			"path": [3, 1],
+			"args": {
+				"item": {"type": "value", "pos": [4]},
+				"locations": {"type": "value", "pos": ["18-26"]}
+			}
+		},
+		{
+			"name": "CREATE_HOLOGRAM",
+			"path": [3, 2],
+			"args": {
+				"location": {"type": "value", "pos": [2]},
+				"text": {"type": "value", "pos": [6]},
+				"texts": {"type": "value", "pos": ["18-44"]}
+			}
+		},
+		{
+			"name": "DELETE_HOLOGRAM",
+			"path": [3, 3],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-26"]}
+			}
+		},
+		{
+			"name": "CREATE_SCOREBOARD",
+			"path": [4, 0],
+			"args": {
+				"text1": {"type": "value", "pos": [11]},
+				"text2": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "DELETE_SCOREBOARD",
+			"path": [4, 1],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_SCOREBOARD_SCORE",
+			"path": [4, 2],
+			"args": {
+				"text1": {"type": "value", "pos": [10]},
+				"text2": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "REMOVE_SCOREBOARD_SCORE",
+			"path": [4, 3],
+			"args": {
+				"text1": {"type": "value", "pos": [10]},
+				"text2": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "RENAME_SCOREBOARD",
+			"path": [4, 4],
+			"args": {
+				"text1": {"type": "value", "pos": [11]},
+				"text2": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_WEATHER",
+			"path": [5, 0],
+			"args": {
+				"switch1": {"type": "switch", "pos": [12]},
+				"number": {"type": "value", "pos": [14]},
+				"switch2": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "SET_GAME_TIME",
+			"path": [5, 1],
+			"args": {
+				"number": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		},
+		{
+			"name": "SET_GAMERULE",
+			"path": [5, 2],
+			"args": {
+				"switch": {"type": "switch", "pos": [11]},
+				"text": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_GAME_DIFFICULTY",
+			"path": [5, 3],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_PVP_SETTINGS",
+			"path": [5, 4],
+			"args": {
+				"number1": {"type": "value", "pos": [9]},
+				"number2": {"type": "value", "pos": [11]},
+				"number3": {"type": "value", "pos": [13]},
+				"number4": {"type": "value", "pos": [15]},
+				"number5": {"type": "value", "pos": [17]},
+				"number6": {"type": "value", "page": 1, "pos": [10]},
+				"number7": {"type": "value", "page": 1, "pos": [12]},
+				"number8": {"type": "value", "page": 1, "pos": [14]},
+				"number9": {"type": "value", "page": 1, "pos": [16]}
+			}
+		},
+		{
+			"name": "CREATE_BOSSBAR",
+			"path": [5, 3],
+			"args": {
+				"text1": {"type": "value", "pos": [10]},
+				"text2": {"type": "value", "pos": [13]},
+				"switch1": {"type": "switch", "pos": [15]},
+				"switch2": {"type": "switch", "pos": [17]}
+			}
+		},
+		{
+			"name": "DELETE_BOSSBAR",
+			"path": [5, 4],
+			"args": {
+				"text": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "SET_BOSSBAR_TITLE",
+			"path": [5, 5],
+			"args": {
+				"text1": {"type": "value", "pos": [11]},
+				"text2": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BOSSBAR_COLOR",
+			"path": [5, 6],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"switch": {"type": "switch", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BOSSBAR_STYLE",
+			"path": [5, 7],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"switch": {"type": "switch", "pos": [15]}
+			}
+		},
+		{
+			"name": "SET_BOSSBAR_PROGRESS",
+			"path": [5, 8],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "READ_DATA_FROM_CHANNEL",
+			"path": [6, 0],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"value": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SEND_DATA_THROUGH_CHANNEL",
+			"path": [6, 1],
+			"args": {
+				"number": {"type": "value", "pos": [11]},
+				"text": {"type": "value", "pos": [15]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "SEND_ARRAY_THROUGH_CHANNEL",
+			"path": [6, 2],
+			"args": {
+				"number": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"array": {"type": "value", "pos": [16]}
+			}
+		}
+	],
+	"ARRAY_ACTION": [
+		{
+			"name": "CREATE_ARRAY",
+			"path": [0],
+			"args": {
+				"array": {"type": "value", "pos": [13]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "GET_ELEMENT",
+			"path": [1],
+			"args": {
+				"array": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"variable": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "INSERT_ELEMENT",
+			"path": [2],
+			"args": {
+				"array": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"value": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "REPLACE_ELEMENT",
+			"path": [3],
+			"args": {
+				"array": {"type": "value", "pos": [10]},
+				"number": {"type": "value", "pos": [13]},
+				"value": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "DELETE_ELEMENT",
+			"path": [4],
+			"args": {
+				"array": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "APPEND_ELEMENT",
+			"path": [5],
+			"args": {
+				"array": {"type": "value", "pos": [13]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "COMBINE_ARRAY",
+			"path": [6],
+			"args": {
+				"array1": {"type": "value", "pos": [11]},
+				"array2": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "COPY_ARRAY",
+			"path": [7],
+			"args": {
+				"array1": {"type": "value", "pos": [11]},
+				"array2": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GET_LENGTH",
+			"path": [8],
+			"args": {
+				"array": {"type": "value", "pos": [11]},
+				"variable": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "SORT_ARRAY",
+			"path": [9],
+			"args": {
+				"array1": {"type": "value", "pos": [10]},
+				"array2": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [16]}
+			}
+		},
+		{
+			"name": "CONVERT_ARRAY_TO_STRING",
+			"path": [10],
+			"args": {
+				"array": {"type": "value", "pos": [11]},
+				"variable": {"type": "value", "pos": [15]}
+			}
+		}
+	],
+	"IF_GAME": [
+		{
+			"name": "GAME_BLOCK_EQUALS",
+			"path": [0],
+			"args": {
+				"location": {"type": "value", "pos": [4]},
+				"blocks": {"type": "value", "pos": ["18-53"]},
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "CONTAINER_HAS_ITEM",
+			"path": [1],
+			"args": {
+				"location": {"type": "value", "pos": [4]},
+				"items": {"type": "value", "pos": ["18-53"]},
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "SIGN_CONTAINS",
+			"path": [2],
+			"args": {
+				"location": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]},
+				"switch1": {"type": "switch", "pos": [4]},
+				"switch2": {"type": "switch", "pos": [22]}
+			}
+		}
+	],
+	"IF_VARIABLE": [
+		{
+			"name": "VALUE_EQUALS",
+			"path": [0],
+			"args": {
+				"value": {"type": "value", "pos": [4]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "VALUE_NOT_EQUALS",
+			"path": [1],
+			"args": {
+				"value": {"type": "value", "pos": [4]},
+				"values": {"type": "value", "pos": ["27-53"]}
+			}
+		},
+		{
+			"name": "COMPARE_NUMBER",
+			"path": [2],
+			"args": {
+				"number1": {"type": "value", "pos": [10]},
+				"number2": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "COMPARE_INTERVAL",
+			"path": [3],
+			"args": {
+				"number1": {"type": "value", "pos": [19]},
+				"number2": {"type": "value", "pos": [16]},
+				"number3": {"type": "value", "pos": [34]},
+				"switch1": {"type": "switch", "pos": [13]},
+				"switch2": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "TEXT_EQUALS",
+			"path": [4],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch1": {"type": "switch", "pos": [21]},
+				"switch2": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "TEXT_CONTAINS",
+			"path": [5],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch1": {"type": "switch", "pos": [21]},
+				"switch2": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "VARIABLE_EXISTS",
+			"path": [6],
+			"args": {
+				"variable": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "LOCATION_IN_REGION",
+			"path": [7],
+			"args": {
+				"location1": {"type": "value", "pos": [10]},
+				"location2": {"type": "value", "pos": [13]},
+				"location3": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "REGION_INTERSECTS_REGION",
+			"path": [8],
+			"args": {
+				"location1": {"type": "value", "pos": [10]},
+				"location2": {"type": "value", "pos": [12]},
+				"location3": {"type": "value", "pos": [14]},
+				"location4": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "TEXT_START_WITH",
+			"path": [9],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch1": {"type": "switch", "pos": [21]},
+				"switch2": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "TEXT_END_WITH",
+			"path": [10],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch1": {"type": "switch", "pos": [21]},
+				"switch2": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "TEXT_MATCHES_REGULAR_EXPRESSION",
+			"path": [11],
+			"args": {
+				"text": {"type": "value", "pos": [4]},
+				"texts": {"type": "value", "pos": ["27-53"]},
+				"switch1": {"type": "switch", "pos": [22]},
+				"switch2": {"type": "switch", "pos": [21]},
+				"switch3": {"type": "switch", "pos": [23]}
+			}
+		},
+		{
+			"name": "IS_BLOCK_FULL",
+			"path": [12],
+			"args": {
+				"item": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "ITEM_IS_BLOCK",
+			"path": [13],
+			"args": {
+				"item": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "ITEM_HAS_ENCHANTMENT",
+			"path": [14],
+			"args": {
+				"item": {"type": "value", "pos": [10]},
+				"text": {"type": "value", "pos": [13]},
+				"number": {"type": "value", "pos": [16]}
+			}
+		},
+		{
+			"name": "ITEM_HAS_CUSTOM_TAG",
+			"path": [15],
+			"args": {
+				"item": {"type": "value", "pos": [10]},
+				"text1": {"type": "value", "pos": [12]},
+				"value": {"type": "value", "pos": [14]},
+				"text2": {"type": "value", "pos": [16]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		},
+		{
+			"name": "ITEM_EQUALS",
+			"path": [16],
+			"args": {
+				"variable": {"type": "value", "pos": [4]},
+				"items": {"type": "value", "pos": ["18-35"]},
+				"switch1": {"type": "switch", "pos": [45]},
+				"switch2": {"type": "switch", "pos": [46]},
+				"switch3": {"type": "switch", "pos": [47]},
+				"switch4": {"type": "switch", "pos": [48]},
+				"switch5": {"type": "switch", "pos": [50]},
+				"switch6": {"type": "switch", "pos": [51]},
+				"switch7": {"type": "switch", "pos": [52]},
+				"switch8": {"type": "switch", "pos": [53]}
+
+			}
+		},
+		{
+			"name": "VARIABLE_TYPE_EQUALS",
+			"path": [17],
+			"args": {
+				"variable": {"type": "value", "pos": [13]},
+				"switch": {"type": "switch", "pos": [22]}
+			}
+		}
+	],
+	"IF_ENTITY": [
+		{
+			"name": "ENTITY_TYPE_EQUALS",
+			"path": [0],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]}
+			}
+		},
+		{
+			"name": "ENTITY_NAME_EQUALS",
+			"path": [1],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-44"]},
+				"switch1": {"type": "switch", "pos": [48]},
+				"switch2": {"type": "switch", "pos": [50]}
+			}
+		},
+		{
+			"name": "ENTITY_STAND_ON_BLOCK",
+			"path": [2],
+			"args": {
+				"blocks": {"type": "value", "pos": ["0-17"]},
+				"switch": {"type": "switch", "pos": [22]},
+				"locations": {"type": "value", "pos": ["27-44"]}
+			}
+		},
+		{
+			"name": "ENTITY_NEAR_LOCATION",
+			"path": [3],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-26"]},
+				"number": {"type": "value", "pos": [40]}
+			}
+		},
+		{
+			"name": "ENTITY_IS_MOB",
+			"path": [4]
+		},
+		{
+			"name": "ENTITY_IS_NPC",
+			"path": [5]
+		},
+		{
+			"name": "ENTITY_IS_PROJECTILE",
+			"path": [6]
+		},
+		{
+			"name": "ENTITY_HAS_POTION_EFFECT",
+			"path": [7],
+			"args": {
+				"potion": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "IS_SITTING_ON_THE_TRANSPORT",
+			"path": [8]
+		},
+		{
+			"name": "ENTITY_EXISTS",
+			"path": [9]
+		}
+	],
+	"IF_PLAYER": [
+		{
+			"name": "PLAYER_NAME_EQUALS",
+			"path": [0, 0],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-44"]},
+				"switch": {"type": "switch", "pos": [49]}
+			}
+		},
+		{
+			"name": "PLAYER_MESSAGE_EQUALS",
+			"path": [0, 1],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-44"]},
+				"switch": {"type": "switch", "pos": [4]}
+			}
+		},
+		{
+			"name": "INTERACTION_TYPE",
+			"path": [0, 2],
+			"args": {
+				"switch": {"type": "switch", "pos": [1]}
+			}
+		},
+		{
+			"name": "HAND_USED_EQUALS",
+			"path": [0, 3],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "HAS_GOLD_TRANSACTION",
+			"path": [0, 4],
+			"args": {
+				"text": {"type": "value", "pos": [11]},
+				"number": {"type": "value", "pos": [15]}
+			}
+		},
+		{
+			"name": "GAMEMODE_EQUALS",
+			"path": [0, 5],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "HAS_PERMISSIONS",
+			"path": [0, 6],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "HOLDING_ITEM",
+			"path": [1, 0],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"switch1": {"type": "switch", "pos": [45]},
+				"switch2": {"type": "switch", "pos": [46]},
+				"switch3": {"type": "switch", "pos": [47]},
+				"switch4": {"type": "switch", "pos": [48]},
+				"switch5": {"type": "switch", "pos": [49]},
+				"switch6": {"type": "switch", "pos": [50]},
+				"switch7": {"type": "switch", "pos": [51]},
+				"switch8": {"type": "switch", "pos": [52]},
+				"switch9": {"type": "switch", "pos": [53]}
+			}
+		},
+		{
+			"name": "HAS_ITEMS",
+			"path": [1, 1],
+			"args": {
+				"items": {"type": "value", "pos": ["9-44"]},
+				"switch": {"type": "switch", "pos": [49]}
+			}
+		},
+		{
+			"name": "WEARING_ITEM",
+			"path": [1, 2],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"switch1": {"type": "switch", "pos": [45]},
+				"switch2": {"type": "switch", "pos": [46]},
+				"switch3": {"type": "switch", "pos": [47]},
+				"switch4": {"type": "switch", "pos": [48]},
+				"switch5": {"type": "switch", "pos": [50]},
+				"switch6": {"type": "switch", "pos": [51]},
+				"switch7": {"type": "switch", "pos": [52]},
+				"switch8": {"type": "switch", "pos": [53]}
+			}
+		},
+		{
+			"name": "PLAYER_EVENT_ITEM_EQUALS",
+			"path": [1, 3],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"switch1": {"type": "switch", "pos": [45]},
+				"switch2": {"type": "switch", "pos": [46]},
+				"switch3": {"type": "switch", "pos": [47]},
+				"switch4": {"type": "switch", "pos": [48]},
+				"switch5": {"type": "switch", "pos": [50]},
+				"switch6": {"type": "switch", "pos": [51]},
+				"switch7": {"type": "switch", "pos": [52]},
+				"switch8": {"type": "switch", "pos": [53]}
+			}
+		},
+		{
+			"name": "ITEM_IN_CURSOR_EQUALS",
+			"path": [1, 4],
+			"args": {
+				"items": {"type": "value", "pos": ["9-35"]},
+				"switch1": {"type": "switch", "pos": [45]},
+				"switch2": {"type": "switch", "pos": [46]},
+				"switch3": {"type": "switch", "pos": [47]},
+				"switch4": {"type": "switch", "pos": [48]},
+				"switch5": {"type": "switch", "pos": [50]},
+				"switch6": {"type": "switch", "pos": [51]},
+				"switch7": {"type": "switch", "pos": [52]},
+				"switch8": {"type": "switch", "pos": [53]}
+			}
+		},
+		{
+			"name": "ITEM_HAS_DELAY",
+			"path": [1, 5],
+			"args": {
+				"item": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "PLAYER_CLICK_TYPE_EQUALS",
+			"path": [1, 6],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "CLICKED_SLOT_EQUALS",
+			"path": [1, 7],
+			"args": {
+				"numbers": {"type": "value", "pos": ["9-35"]},
+				"switch": {"type": "switch", "pos": [40]}
+			}
+		},
+		{
+			"name": "HOTBAR_SLOT_EQUALS",
+			"path": [1, 8],
+			"args": {
+				"numbers": {"type": "value", "pos": ["9-17"]}
+			}
+		},
+		{
+			"name": "OPEN_INVENTORY_NAME_EQUALS",
+			"path": [1, 9],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-35"]},
+				"switch1": {"type": "switch", "pos": [39]},
+				"switch2": {"type": "switch", "pos": [41]}
+			}
+		},
+		{
+			"name": "IS_PLAYER_INVENTORY_FULL",
+			"path": [1, 10]
+		},
+		{
+			"name": "PLAYER_LOOK_AT_BLOCK",
+			"path": [2, 0],
+			"args": {
+				"blocks": {"type": "value", "pos": ["0-8"]},
+				"locations": {"type": "value", "pos": ["18-26"]},
+				"number": {"type": "value", "pos": [40]},
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "PLAYER_STAND_ON_BLOCK",
+			"path": [2, 1],
+			"args": {
+				"blocks": {"type": "value", "pos": ["0-17"]},
+				"locations": {"type": "value", "pos": ["27-44"]},
+				"switch": {"type": "switch", "pos": [27]}
+			}
+		},
+		{
+			"name": "PLAYER_NEAR_LOCATION",
+			"path": [2, 2],
+			"args": {
+				"locations": {"type": "value", "pos": ["0-26"]},
+				"number": {"type": "value", "pos": [40]}
+			}
+		},
+		{
+			"name": "PLAYER_EVENT_BLOCK_EQUALS",
+			"path": [2, 3],
+			"args": {
+				"blocks": {"type": "value", "pos": ["0-17"]},
+				"locations": {"type": "value", "pos": ["27-44"]},
+				"switch": {"type": "switch", "pos": [27]}
+			}
+		},
+		{
+			"name": "IS_SNEAKING",
+			"path": [3, 0]
+		},
+		{
+			"name": "IS_BLOCKING",
+			"path": [3, 1]
+		},
+		{
+			"name": "IS_GLIDING",
+			"path": [3, 2]
+		},
+		{
+			"name": "IS_SPRINTING",
+			"path": [3, 3]
+		},
+		{
+			"name": "IS_FLYING",
+			"path": [3, 4]
+		},
+		{
+			"name": "IS_SWIMMING",
+			"path": [3, 5]
+		},
+		{
+			"name": "IS_LIKED",
+			"path": [3, 6]
+		},
+		{
+			"name": "HAS_RESOURCEPACK",
+			"path": [3, 7]
+		}
+	],
+	"SELECT_OBJECT": [
+		{
+			"name": "SELECT_EVENT_TARGET",
+			"path": [11, 0],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "SELECT_DEFAULT_PLAYER",
+			"path": [11, 1]
+		},
+		{
+			"name": "SELECT_DEFAULT_ENTITY",
+			"path": [11, 2]
+		},
+		{
+			"name": "SELECT_TARGET_BY_UUID",
+			"path": [11, 3],
+			"args": {
+				"texts": {"type": "value", "pos": ["9-35"]}
+			}
+		},
+		{
+			"name": "SELECT_RANDOM_PLAYER",
+			"path": [11, 4]
+		},
+		{
+			"name": "SELECT_RANDOM_MOB",
+			"path": [11, 5]
+		},
+		{
+			"name": "SELECT_RANDOM_ENTITY",
+			"path": [11, 6]
+		},
+		{
+			"name": "SELECT_ALL_PLAYERS",
+			"path": [11, 7]
+		},
+		{
+			"name": "SELECT_ALL_MOBS",
+			"path": [11, 8]
+		},
+		{
+			"name": "SELECT_ALL_ENTITIES",
+			"path": [11, 9]
+		},
+		{
+			"name": "SELECT_LAST_SPAWNED_MOB",
+			"path": [11, 10]
+		},
+		{
+			"name": "SELECT_LAST_SPAWNED_ENITTY",
+			"path": [11, 11]
+		},
+		{
+			"name": "SELECT_PLAYER_BY_CONDITION",
+			"path": [11, 12],
+			"nested": true
+		},
+		{
+			"name": "SELECT_MOD_BY_CONDITION",
+			"path": [11, 13],
+			"nested": true
+		},
+		{
+			"name": "SELECT_ENTITY_BY_CONDITION",
+			"path": [11, 14],
+			"nested": true
+		},
+		{
+			"name": "ADD_RANDOM_PLAYER",
+			"path": [13, 0]
+		},
+		{
+			"name": "ADD_RANDOM_MOB",
+			"path": [13, 1]
+		},
+		{
+			"name": "ADD_RANDOM_ENTITY",
+			"path": [13, 2]
+		},
+		{
+			"name": "ADD_ALL_PLAYERS",
+			"path": [13, 3]
+		},
+		{
+			"name": "ADD_ALL_MOBS",
+			"path": [13, 4]
+		},
+		{
+			"name": "ADD_ALL_ENTITIES",
+			"path": [13, 5]
+		},
+		{
+			"name": "ADD_LAST_SPAWNED_ENITTY",
+			"path": [13, 6]
+		},
+		{
+			"name": "ADD_LAST_SPAWNED_MOB",
+			"path": [13, 7]
+		},
+		{
+			"name": "ADD_MOD_BY_CONDITION",
+			"path": [13, 8],
+			"nested": true
+		},
+		{
+			"name": "ADD_ENTITY_BY_CONDITION",
+			"path": [13, 9],
+			"nested": true
+		},
+		{
+			"name": "ADD_PLAYER_BY_CONDITION",
+			"path": [13, 10],
+			"nested": true
+		},
+		{
+			"name": "FILTER_BY_CONDITION",
+			"path": [15, 0],
+			"nested": true
+		},
+		{
+			"name": "FILTER_RANDOMLY",
+			"path": [15, 1],
+			"args": {
+				"number": {"type": "value", "pos": [13]}
+			}
+		},
+		{
+			"name": "INVERT_SELECTION",
+			"path": [15, 2],
+			"args": {
+				"switch": {"type": "switch", "pos": [13]}
+			}
+		},
+		{
+			"name": "FILTER_BY_DISTANCE",
+			"path": [15, 3],
+			"args": {
+				"location": {"type": "value", "pos": [9]},
+				"number1": {"type": "value", "pos": [11]},
+				"number2": {"type": "value", "pos": [13]},
+				"switch1": {"type": "switch", "pos": [15]},
+				"switch2": {"type": "switch", "pos": [17]}
+			}
+		}
+	],
+	"FUNCTION_CALLER": [
+		{
+			"name": "CALL_FUNCTION_BY_CALLER",
+			"path": [-1],
+			"args": {
+				"function": {"type": "value", "pos": [-1]},
+				"switch": {"type": "switch", "pos": [31]}
+			}
+		}
+	]
+}

@@ -1,0 +1,5935 @@
+{
+	"PLAYER_EVENT": {
+		"JOIN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LEAVE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REJOIN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"INTERACTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RIGHT_CLICK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LEFT_CLICK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RIGHT_CLICK_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LEASH_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TAME_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAYER_PLACE_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAYER_BREAK_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAYER_FISHING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"EXPERIENCE_CHANGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LIKE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAYER_GOLD_TRANSACTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BUY_ADVERT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BUY_POINT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"STUDIO_TRANSACTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"OPENED_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLOSED_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"EDIT_BOOK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BREAK_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLICK_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MOVE_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PICKUP_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DROP_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"EXTRACT_FURNACE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SWAP_HANDS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CRAFTED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CHANGE_SLOT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"KILL_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEATH_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PROJECTILE_DAMAGE_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TAKE_DAMAGE_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TAKE_FALL_DAMAGE_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"KILL_MOB_BY_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"KILL_PLAYER_BY_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE_MOB_BY_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE_PLAYER_BY_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PROJECTILE_DAMAGE_MOB_BY_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PROJECTILE_KILL_MOB_BY_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEATH_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TAKE_DAMAGE_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RESTORED_HEALTH_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SNEAK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"UNSNEAK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"START_SPRINT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"JUMP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"STOP_SPRINT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MOVE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ROTATE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MESSAGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAUNCH_PROJECTILE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CONSUME_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CHANGE_FOOD_LVL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"ENTITY_EVENT": {},
+	"WORLD_EVENT": {
+		"GAME_START": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GAME_STOP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RECEIVE_DATA": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_IGNITE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_BURN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_FADE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PISTON_EXTEND": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PISTON_RETRACT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_EXPLODE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_SPAWN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_EXPLODE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_EXPLOSION_PRIME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LEAVES_DECAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TREE_GROW": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_GROW": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_MOVED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_BREW": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BREWING_STAND_FUEL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_FORM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_BLOCK_FORM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_SPREAD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_PHYSICS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PORTAL_ACTIVATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"NOTE_PLAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_DISPENSE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ITEM_DESPAWN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ITEM_MERGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CAULDRON_LEVEL_CHANGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SIGN_CHANGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_EXP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ITEM_MOVE_TO_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"INVENTORY_PICKUP_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FURNACE_SMELT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FURNACE_BURN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"PLAYER_ACTION": {
+		"GIVE_ITEMS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEMS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PLAYER_SET_ITEMS_IN_ENDER_CHEST": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_ARMOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_ITEM_IN_HAND": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_ITEM_IN_CURSOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REMOVE_ITEMS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLEAR_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLEAR_ENDERCHEST": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_HOTBAR_SLOT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GIVE_RANDOM_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SAVE_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LOAD_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_DELAY_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM_COOLDOWN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SEND_MESSAGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SEND_COMPONENT_MESSAGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SEND_DIALOGUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLEAR_CHAT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAY_SOUND": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"STOP_SOUND": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SEND_TITLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SEND_ACTIONBAR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SHOW_LINK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"OPEN_BOOK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"OPEN_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"EXPAND_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_IN_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM_FROM_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_MENU_NAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_LINE_IN_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"DELETE_LINE_IN_MENU": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CLOSE_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"OPEN_BLOCK_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"OPEN_ENTITY_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TELEPORT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ROTATE_TO_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RANDOM_TELEPORT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TELEPORT_SEQUENCE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"LAUNCH_VERTICALLY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAUNCH_FORWARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAUNCH_TOWARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAUNCH_TO_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"KICK_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MOVE_TO_GAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DAMAGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_HEALTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GIVE_POTION_EFFECT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CLEAR_POTION_EFFECT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REMOVE_POTION_EFFECT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_XP_LVL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_XP_PROGRESS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_HUNGER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_SATURATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_EXHAUSTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_MAXIMUM_HEALTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_ON_FIRE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_FLIGHT_SPEED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_WALK_SPEED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_REMAINING_AIR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_MAXIMUM_AIR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_NAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_DAMAGE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_SIZE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_SOUND": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_GLOW": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_VISIBILITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_GRAVITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_INVINCIBILITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"DELETE_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SHOW_PARTICLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SHOW_PARTICLE_LINE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SHOW_PARTICLE_RAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SHOW_PARTICLE_CIRCLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SHOW_PARTICLE_CUBE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SHOW_PARTICLE_SPHERE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_FLIGHT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_GAMEMODE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_KEEP_INVENTORY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SHOW_SCOREBOARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"HIDE_SCOREBOARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SHOW_BOSSBAR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"HIDE_BOSSBAR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAY_ON_BED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"WAKE_UP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"HAND_ANIMATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SNEAKING_STATE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"DAMAGE_ANIMATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GOLD_TRANSACTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		}
+	},
+	"VARIABLE_ACTION": {
+		"SET_VARIABLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_ITEM_TO_VARIABLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_RANDOM_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_TIMESTAMP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_UNIX": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SUM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DIFFERENCE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MULTIPLY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DIVISION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REMAINDER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"INCREMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DECREMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_RANDOM_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ROUND_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"MODULE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MIN_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MAX_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEGREE_EXPANSION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"COSINUS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SINUS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TANGENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ARC_SINUS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ARC_COSINUS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ARC_TANGENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEGREES": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LOGARITHM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SQUARE_ROOT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"EXPONENTIAL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RADIANS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PERLIN_NOISE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SIMPLEX_NOISE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"WORLEY_NOISE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"COMBINE_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PARSE_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TRUNCATE_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPLIT_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_TEXT_LENGTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REPLACE_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_TEXT_CASE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TIME_FORMAT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_SYMBOL_BY_UNICODE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_UNICODE_BY_SYMBOL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLEAR_TEXT_COLORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_SYMBOL_IN_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_SUBTEXT_INDEX": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_LOCATION_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_LOCATION_VALUES": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_LOCATION_DISTANCE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_LOCATION_DIRECTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_LOCATION_DIRECTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_RANDOM_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_REGION_CENTRE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_ITEM_LORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_AMOUNT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_DURABILITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_LORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_NAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_ITEM_LORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DELETE_ITEM_LORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_PAGE_BOOK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_PAGE_BOOK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_POPUP_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_CLICK_EVENT_TEXT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"COMBINE_TEXT_COMPONENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CREATE_VECTOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CREATE_VECTOR_BETWEEN_LOCATIONS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CREATE_VECTOR_FROM_FACE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_VECTOR_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_VECTOR_VALUES": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_VECTOR_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_VECTOR_LENGTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_VECTOR_LENGTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SUM_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DIFFERENCE_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MULTIPLY_VECTOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DIVIDE_VECTOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SCALAR_PRODUCT_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PRODUCT_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"HADAMARD_VECTORS_PRODUCT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"NORMALIZE_VECTOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_CENTRE_BETWEEN_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ANGLE_BETWEEN_VECTORS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"REFLECT_VECTOR_PRODUCT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ROTATE_VECTOR_AROUND_VECTOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ROTATE_VECTOR_AROUND_AXIS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"GET_VECTOR_FACE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"GAME_ACTION": {
+		"SPAWN_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch6": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch9": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch10": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch11": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_NPC": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch9": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch10": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch11": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"LAUNCH_FIREWORK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_TNT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_VEHICLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_XP_ORB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SPAWN_LIGHTNING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"WAIT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"START_LOOP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"STOP_LOOP": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CANCEL_EVENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CALL_FUNCTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FILL_REGION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GAME_BREAK_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"COPY_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FILL_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DELETE_ITEM_FROM_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_ITEM_FROM_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLEAR_ITEMS_FROM_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CHANGE_SIGN": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CHANGE_CONTAINER_NAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_CONTAINER_NAME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM_FROM_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GAME_SET_ITEM_IN_ENDER_CHEST": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEM_FROM_ENDER_CHEST": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ITEMS_FROM_CONTAINER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_SIGN_VALUE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CREATE_TREE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CREATE_EXPLOSION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PLAY_FIREWORK_EXPLOSION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CREATE_HOLOGRAM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DELETE_HOLOGRAM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CREATE_SCOREBOARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DELETE_SCOREBOARD": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_SCOREBOARD_SCORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REMOVE_SCOREBOARD_SCORE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_WEATHER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_GAME_TIME": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_GAME_RULE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CREATE_BOSSBAR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"DELETE_BOSSBAR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_BOSSBAR_TITLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SET_BOSSBAR_COLOR": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_BOSSBAR_STYLE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SET_BOSSBAR_PROGRESS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"READ_DATA_FROM_CHANNEL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SEND_DATA_THROUGH_CHANNEL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SEND_ARRAY_THROUGH_CHANNEL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"ARRAY_ACTION": {
+		"CREATE_ARRAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_ELEMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"INSERT_ELEMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"REPLACE_ELEMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DELETE_ELEMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"APPEND_ELEMENT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"COMBINE_ARRAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"COPY_ARRAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GET_LENGTH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"SORT_ARRAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CONVERT_ARRAY_TO_STRING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"IF_GAME": {
+		"GAME_BLOCK_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CONTAINER_HAS_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"SIGN_CONTAINS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		}
+	},
+	"IF_VARIABLE": {
+		"VAlUE_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"VARIABLE_NOT_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"COMPARE_NUMBER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"COMPARE_INTERVAL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TEXT_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TEXT_CONTAINS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"VARIABLE_EXISTS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LOCATION_IN_REGION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TEXT_START_WITH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"TEXT_END_WITH": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		}
+	},
+	"IF_ENTITY": {
+		"ENTITY_TYPE_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_NAME_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ENTITY_STAND_ON_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ENTITY_NEAR_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_IS_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_IS_NPC": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_IS_PROJECTILE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_HAS_POTION_EFFECT": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"IF_PLAYER": {
+		"PLAYER_NAME_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PLAYER_MESSAGE_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"INTERACTION_TYPE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HAND_USED_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HAS_GOLD_TRANSACTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"GAMEMODE_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HAVE_PERMISSIONS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						"",
+						"",
+						""
+					],
+					"en": [
+						"",
+						"",
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HOLDING_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch6": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch9": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HAS_ITEMS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"WEARING_ITEM": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch6": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PLAYER_EVENT_ITEM_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch6": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ITEM_IN_CURSOR_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch3": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch4": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch5": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch6": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch7": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch8": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"ITEM_HAS_DELAY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"CLICK_TYPE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"CLICKED_SLOT_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"HOTBAR_SLOT_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"OPEN_INVENTORY_NAME_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"INVENTORY_FULL": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LOOK_AT_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"STAND_ON_BLOCK": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"PLAYER_NEAR_LOCATION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"BLOCK_EQUALS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		},
+		"IS_SNEAKING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_BLOCKING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_GLIDING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_SPRINTING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_FLYING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_SWIMMING": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"IS_LIKED": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		}
+	},
+	"FUNCTION_CALLER": {
+		"CALL_FUNCTION_BY_CALLER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		}
+	},
+	"SELECT_OBJECT": {
+		"EVENT_TARGET": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEFAULT_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"DEFAULT_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"TARGET_BY_UUID": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RANDOM_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RANDOM_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"RANDOM_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ALL_PLAYERS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ALL_MOBS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ALL_ENTITIES": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAST_SPAWNED_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"LAST_SPAWNED_ENITTY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"PLAYER_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"MOD_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ENTITY_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_RANDOM_PLAYER": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_RANDOM_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_RANDOM_ENTITY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_ALL_PLAYERS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_ALL_MOBS": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_ALL_ENTITIES": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_LAST_SPAWNED_ENITTY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_LAST_SPAWNED_MOB": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_MOD_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_ENTITY_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"ADD_PLAYER_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FILTER_BY_CONDITION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FILTER_RANDOMLY": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"INVERT_SELECTION": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			}
+		},
+		"FILTER_BY_DISTANCE": {
+			"sign": {
+				"ru": "",
+				"en": "",
+				"uk": "",
+				"de": ""
+			},
+			"args": {
+				"switch1": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				},
+				"switch2": {
+					"ru": [
+						"",
+						""
+					],
+					"en": [
+						"",
+						""
+					],
+					"uk": "",
+					"de": ""
+				}
+			}
+		}
+	}
+}
