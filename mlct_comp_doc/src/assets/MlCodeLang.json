@@ -111,8 +111,8 @@
             "customName": "rejoin"
         },
         {
-            "name": "INTERACTION",
-            "customName": "interaction"
+            "name": "PLAYER_INTERACTION_WITH_BLOCKS",
+            "customName": "blockInteraction"
         },
         {
             "name": "RIGHT_CLICK",
@@ -151,7 +151,7 @@
             "customName": "damageBlock"
         },
         {
-            "name": "EXPERIENCE_CHANGE",
+            "name": "PLAYER_CHANGE_EXPERIENCE",
             "customName": "expChange"
         },
         {
@@ -183,8 +183,36 @@
             "customName": "closedInventory"
         },
         {
-            "name": "EDIT_BOOK",
-            "customName": "editBook"
+            "name": "CLICK_INVENTORY",
+            "customName": "clickInventory"
+        },
+        {
+            "name": "MOVE_INVENTORY",
+            "customName": "moveInventory"
+        },
+        {
+            "name": "PLAYER_PICKUP_ITEM",
+            "customName": "pickupItem"
+        },
+        {
+            "name": "DROP_ITEM",
+            "customName": "dropItem"
+        },
+        {
+            "name": "SWAP_HANDS",
+            "customName": "swapHands"
+        },
+        {
+            "name": "CHANGE_SLOT",
+            "customName": "changeSlot"
+        },
+        {
+            "name": "CRAFT_ITEM",
+            "customName": "craftItem"
+        },
+        {
+            "name": "EXTRACT_FURNACE",
+            "customName": "extractFurnace"
         },
         {
             "name": "DAMAGE_ITEM",
@@ -195,47 +223,31 @@
             "customName": "breakItem"
         },
         {
-            "name": "CLICK_INVENTORY",
-            "customName": "clickInventory"
+            "name": "REPAIR_ITEM",
+            "customName": "repairItem"
         },
         {
-            "name": "MOVE_INVENTORY",
-            "customName": "moveInventory"
+            "name": "EDIT_BOOK",
+            "customName": "editBook"
         },
         {
-            "name": "PICKUP_ITEM",
-            "customName": "pickupItem"
+            "name": "MANIPULATING_WITH_ARMOR_STAND",
+            "customName": "armorStandInteraction"
         },
         {
-            "name": "DROP_ITEM",
-            "customName": "dropItem"
+            "name": "PLAYER_TAKE_DAMAGE",
+            "customName": "takeDamage"
         },
         {
-            "name": "EXTRACT_FURNACE",
-            "customName": "extractFurnace"
+            "name": "PLAYER_TAKE_FALL_DAMAGE",
+            "customName": "takeFallDamage"
         },
         {
-            "name": "SWAP_HANDS",
-            "customName": "swapHands"
+            "name": "PLAYER_DEATH",
+            "customName": "death"
         },
         {
-            "name": "CRAFTED",
-            "customName": "crafted"
-        },
-        {
-            "name": "CHANGE_SLOT",
-            "customName": "changeSlot"
-        },
-        {
-            "name": "KILL_PLAYER",
-            "customName": "killPlayer"
-        },
-        {
-            "name": "DEATH_PLAYER",
-            "customName": "deathPlayer"
-        },
-        {
-            "name": "DAMAGE_PLAYER",
+            "name": "PLAYER_DAMAGE_PLAYER",
             "customName": "damagePlayer"
         },
         {
@@ -243,49 +255,40 @@
             "customName": "projectileDamagePlayer"
         },
         {
-            "name": "TAKE_DAMAGE_PLAYER",
-            "customName": "takeDamagePlayer"
-        },
-        {
-            "name": "TAKE_FALL_DAMAGE_PLAYER",
-            "customName": "takeFallDamagePlayer"
-        },
-        {
-            "name": "KILL_MOB_BY_PLAYER",
-            "customName": "killMobByPlayer"
-        },
-        {
-            "name": "KILL_PLAYER_BY_MOB",
-            "customName": "killPlayerByMob"
+            "name": "PLAYER_KILL_PLAYER",
+            "customName": "killPlayer"
         },
         {
             "name": "DAMAGE_MOB_BY_PLAYER",
-            "customName": "damageMobByPlayer"
-        },
-        {
-            "name": "DAMAGE_PLAYER_BY_MOB",
-            "customName": "damagePlayerByMob"
+            "customName": "damageMob"
         },
         {
             "name": "PROJECTILE_DAMAGE_MOB_BY_PLAYER",
-            "customName": "projectileDamageMobByPlayer"
+            "customName": "projectileDamageMob"
+        },
+        {
+            "name": "KILL_MOB_BY_PLAYER",
+            "customName": "killMob"
         },
         {
             "name": "PROJECTILE_KILL_MOB_BY_PLAYER",
-            "customName": "projectileKillMobByPlayer"
+            "customName": "projectileKillMob"
         },
         {
-            "name": "DEATH_MOB",
-            "customName": "deathMob"
+            "name": "PLAYER_CHANGE_VELOCITY",
+            "customName": "changeVelocity"
         },
-        {
-            "name": "TAKE_DAMAGE_MOB",
-            "customName": "takeDamageMob"
-        },
-        {
-            "name": "RESTORED_HEALTH_ENTITY",
-            "customName": "restoredHealthEntity"
-        },
+
+
+
+
+
+
+
+
+
+
+        
         {
             "name": "SNEAK",
             "customName": "sneak"
@@ -315,11 +318,19 @@
             "customName": "rotate"
         },
         {
+            "name": "JUMP_ON_HORSE",
+            "customName": "jumpOnHorse"
+        },
+        {
+            "name": "PLAYER_PICKUP_EXPERIENCE",
+            "customName": "pickupExp"
+        },
+        {
             "name": "MESSAGE",
             "customName": "message"
         },
         {
-            "name": "LAUNCH_PROJECTILE",
+            "name": "PLAYER_LAUNCH_PROJECTILE",
             "customName": "launchProjectile"
         },
         {
@@ -329,11 +340,218 @@
         {
             "name": "CHANGE_FOOD_LVL",
             "customName": "changeFoodLvl"
+        },
+        {
+            "name": "PLAYER_RESOURCEPACK_EVENT",
+            "customName": "resourcepackEvent"
+        },
+        {
+            "name": "PLAYER_BREED_ENTITY",
+            "customName": "breedEntity"
         }
     ],
-	"ENTITY_EVENT": [
-		
-	],
+    "ENTITY_EVENT": [
+        {
+            "name": "ENTITY_SPAWN",
+            "customName": "spawn"
+        },
+        {
+            "name": "ENTITY_REMOVE_FROM_WOLRD",
+            "customName": "remove"
+        },
+        {
+            "name": "ENTITY_FIND_PATH",
+            "customName": "findPath"
+        },
+        {
+            "name": "ENTITY_FIND_TARGET",
+            "customName": "findTarget"
+        },
+        {
+            "name": "ENTITY_TELEPORT",
+            "customName": "teleport"
+        },
+        {
+            "name": "ENTITY_TAKE_DAMAGE",
+            "customName": "takeDamage"
+        },
+        {
+            "name": "DAMAGE_ENTITY_BY_ENTITY",
+            "customName": "damageEntity"
+        },
+        {
+            "name": "DAMAGE_PLAYER_BY_ENTITY",
+            "customName": "damagePlayer"
+        },
+        {
+            "name": "ENTITY_PUSH_ENTITY",
+            "customName": "pushEntity"
+        },
+        {
+            "name": "ENTITY_USE_TOTEM",
+            "customName": "useTotem"
+        },
+        {
+            "name": "ENTITY_RESTORED_HEALTH",
+            "customName": "restoredHealth"
+        },
+        {
+            "name": "ENTITY_DEATH_BY_PROJECTILE",
+            "customName": "deathByProjectile"
+        },
+        {
+            "name": "ENTITY_KILL_ENTITY",
+            "customName": "killEntity"
+        },
+        {
+            "name": "ENTITY_KILL_PLAYER",
+            "customName": "killPlayer"
+        },
+        {
+            "name": "ENTITY_DEATH",
+            "customName": "death"
+        },
+        {
+            "name": "ENTITY_PRIME_EXPLOSION",
+            "customName": "primeExplosion"
+        },
+        {
+            "name": "ENTITY_EXPLODE",
+            "customName": "explode"
+        },
+        {
+            "name": "LIGHTNING_STRIKE_DAMAGE",
+            "customName": "zapDamage"
+        },
+        {
+            "name": "CREEPER_POWER",
+            "customName": "creeperPower"
+        },
+        {
+            "name": "TRANSPORT_SPAWN",
+            "customName": "transportSpawn"
+        },
+        {
+            "name": "ENTITY_ENTER_VEHICLE",
+            "customName": "enterVehicle"
+        },
+        {
+            "name": "ENTITY_LEAVE_VEHICLE",
+            "customName": "leaveVehicle"
+        },
+        {
+            "name": "VEHICLE_BLOCK_COLLISION",
+            "customName": "vehicleBlockCollision"
+        },
+        {
+            "name": "VEHICLE_ENTITY_COLLISION",
+            "customName": "vehicleEntityCollision"
+        },
+        {
+            "name": "VEHICLE_TAKE_DAMAGE",
+            "customName": "vehicleTakeDamage"
+        },
+        {
+            "name": "PROJECTILE_LAUNCH",
+            "customName": "projectileLaunch"
+        },
+        {
+            "name": "PROJECTILE_HIT_BLOCK",
+            "customName": "projectileHitBlock"
+        },
+        {
+            "name": "PROJECTILE_HIT_ENTITY",
+            "customName": "projectileHitEntity"
+        },
+        {
+            "name": "ENTITY_SHOOT_BOW",
+            "customName": "shootBow"
+        },
+        {
+            "name": "ENTITY_INTERACTION_WITH_BLOCKS",
+            "customName": "blockInteraction"
+        },
+        {
+            "name": "ENTITY_CHANGE_BLOCK",
+            "customName": "changeBlock"
+        },
+        {
+            "name": "ENTITY_BLOCK_FORM",
+            "customName": "formBlock"
+        },
+        {
+            "name": "ENTITY_BLOCK_START_FALL",
+            "customName": "blockStartFall"
+        },
+        {
+            "name": "ENTITY_BLOCK_FALLEN",
+            "customName": "blockFallen"
+        },
+        {
+            "name": "ENTITY_BREAK_DOOR",
+            "customName": "breakDoor"
+        },
+        {
+            "name": "HANGING_BREAK",
+            "customName": "hangingBreak"
+        },
+        {
+            "name": "ENTITY_PICKUP_ITEM",
+            "customName": "pickupItem"
+        },
+        {
+            "name": "INVENTORY_PICKUP_ITEM",
+            "customName": "blockPickupItem"
+        },
+        {
+            "name": "ITEMS_MERGE",
+            "customName": "itemsMerge"
+        },
+        {
+            "name": "ITEM_DESPAWN",
+            "customName": "itemDespawn"
+        },
+        {
+            "name": "EXPERIENCE_ORB_MERGE",
+            "customName": "orbsMerge"
+        },
+        {
+            "name": "WITCH_THROW_POTION",
+            "customName": "witchThrowPotion"
+        },
+        {
+            "name": "WITCH_DRINK_POTION",
+            "customName": "witchDrinkPotion"
+        },
+        {
+            "name": "VILLAGER_ACQUIRE_TRADE",
+            "customName": "villagerAcquireTrade"
+        },
+        {
+            "name": "VILLAGE_REPLENISH_TRADE",
+            "customName": "villagerReplenishTrade"
+        },
+        {
+            "name": "ENTITY_UNLEASH",
+            "customName": "unleash"
+        },
+        {
+            "name": "ENDERMAN_ESCAPE",
+            "customName": "endermanEscape"
+        },
+        {
+            "name": "SHEEP_REGROW",
+            "customName": "sheepRegrow"
+        },
+        {
+            "name": "SHEEP_DYE_WOOL",
+            "customName": "sheepDyeWool"
+        },
+        {
+            "name": "FIREWORK_EXPLODE",
+            "customName": "fireworkExplode"
+        }
+    ],
     "WORLD_EVENT": [
         {
             "name": "GAME_START",
@@ -412,10 +630,6 @@
             "customName": "blockForm"
         },
         {
-            "name": "ENTITY_BLOCK_FORM",
-            "customName": "entityBlockForm"
-        },
-        {
             "name": "BLOCK_SPREAD",
             "customName": "blockSpread"
         },
@@ -434,14 +648,6 @@
         {
             "name": "BLOCK_DISPENSE",
             "customName": "blockDispense"
-        },
-        {
-            "name": "ITEM_DESPAWN",
-            "customName": "itemDespawn"
-        },
-        {
-            "name": "ITEM_MERGE",
-            "customName": "itemMerge"
         },
         {
             "name": "CAULDRON_LEVEL_CHANGE",
@@ -568,7 +774,7 @@
             }
         },
         {
-            "name": "GET_ITEM",
+            "name": "GET_PLAYER_INVENTORY_ITEM",
             "customName": "getItem",
             "return": "variable",
             "args": {
@@ -577,7 +783,7 @@
             }
         },
         {
-            "name": "SET_ITEM",
+            "name": "SET_PLAYER_INVENTORY_ITEM",
             "customName": "setItem",
             "args": {
                 "item": {"type": "value"},
@@ -814,6 +1020,13 @@
             }
         },
         {
+            "name": "SADDLE_ENTITY",
+            "customName": "saddleEntity",
+            "args": {
+                "text": {"type": "value", "aliases": ["name"]}
+            }
+        },
+        {
             "name": "KICK_PLAYER",
             "customName": "kick"
         },
@@ -823,6 +1036,18 @@
             "args": {
                 "number": {"type": "value", "aliases": ["world", "id"]}
             }
+        },
+        {
+            "name": "SET_TARGET_POS",
+            "customName": "setTargetPos",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value", "aliases": ["speed"]}
+            }
+        },
+        {
+            "name": "RESET_TARGET_POS",
+            "customName": "resetTargetPos"
         },
         {
             "name": "DAMAGE",
@@ -947,6 +1172,13 @@
             }
         },
         {
+            "name": "SET_COMPASS_TARGET",
+            "customName": "setCompassTarget",
+            "args": {
+                "location": {"type": "value"}
+            }
+        },
+        {
             "name": "SET_NAME",
             "customName": "setName",
             "args": {
@@ -961,10 +1193,17 @@
             }
         },
         {
+            "name": "SET_TARGET_ENTITY",
+            "customName": "setTargetEntity",
+            "args": {
+                "text": {"type": "value", "aliases": ["name", "uuid"]}
+            }
+        },
+        {
             "name": "SET_SIZE",
             "customName": "setSize",
             "args": {
-                "number": {"type": "value", "aliases": ["damage"]}
+                "number": {"type": "value", "aliases": ["size"]}
             }
         },
         {
@@ -1123,6 +1362,13 @@
             }
         },
         {
+            "name": "SET_RESOURCEPACK",
+            "customName": "setResourcepack",
+            "args": {
+                "text": {"type": "value", "aliases": ["link"]}
+            }
+        },
+        {
             "name": "LAY_ON_BED",
             "customName": "layOnBed",
             "args": {
@@ -1196,22 +1442,6 @@
             }
         },
         {
-            "name": "SET_TIMESTAMP",
-            "customName": "setTimestamp",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]}
-            }
-        },
-        {
-            "name": "SET_UNIX",
-            "customName": "setUnix",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]}
-            }
-        },
-        {
             "name": "SUM",
             "customName": "sum",
             "return": "variable",
@@ -1223,7 +1453,7 @@
         },
         {
             "name": "DIFFERENCE",
-            "customName": "difference",
+            "customName": "dif",
             "return": "variable",
             "args": {
                 "variable": {"type": "value", "aliases": ["result", "output", "difference"]},
@@ -1403,12 +1633,22 @@
             }
         },
         {
+            "name": "NATURAL_LOGARITHM",
+            "customName": "ln",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
             "name": "LOGARITHM",
             "customName": "log",
             "return": "variable",
             "args": {
                 "variable": {"type": "value", "aliases": ["result", "output"]},
-                "number": {"type": "value"}
+                "number1": {"type": "value", "aliases": ["argument"]},
+                "number2": {"type": "value", "aliases": ["base"]}
             }
         },
         {
@@ -1501,8 +1741,18 @@
             }
         },
         {
+            "name": "REPEAT_TEXT",
+            "customName": "repeatText",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"},
+                "number": {"type": "value", "aliases": ["count"]}
+            }
+        },
+        {
             "name": "TRUNCATE_TEXT",
-            "customName": "truncate",
+            "customName": "truncateText",
             "return": "variable",
             "args": {
                 "variable": {"type": "value", "aliases": ["result", "output"]},
@@ -1532,6 +1782,28 @@
             }
         },
         {
+            "name": "GET_SYMBOL_IN_TEXT",
+            "customName": "getTextSymbol",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"},
+                "number": {"type": "value", "aliases": ["index"]}
+            }
+        },
+        {
+            "name": "GET_SUBTEXT_IN_TEXT",
+            "customName": "getSubtext",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text1": {"type": "value", "aliases": ["source"]},
+                "text2": {"type": "value", "aliases": ["subtext"]},
+                "number": {"type": "value", "aliases": ["index"]},
+                "switch": {"type": "switch", "aliases": ["mode"], "states": ["first", "last"]}
+            }
+        },
+        {
             "name": "REPLACE_TEXT",
             "customName": "replaceText",
             "return": "variable",
@@ -1545,6 +1817,36 @@
             }
         },
         {
+            "name": "REPLACE_REGULAR_EXPRESSION_IN_TEXT",
+            "customName": "replaceRegex",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text1": {"type": "value", "aliases": ["source"]},
+                "text2": {"type": "value", "aliases": ["regex"]},
+                "text3": {"type": "value", "aliases": ["replacement"]},
+                "switch1": {"type": "switch", "aliases": ["mode", "type"], "states": ["all", "first"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreCase", "case"], "states": [["false", "consider"], ["true", "ignore"]]},
+                "switch3": {"type": "switch", "aliases": ["multiline"], "states": ["false", "true"]},
+                "switch4": {"type": "switch", "aliases": ["literal"], "states": ["false", "true"]},
+                "switch5": {"type": "switch", "aliases": ["unix_lines"], "states": ["false", "true"]},
+                "switch6": {"type": "switch", "aliases": ["comments"], "states": ["false", "true"]},
+                "switch7": {"type": "switch", "aliases": ["dotall"], "states": ["false", "true"]},
+                "switch8": {"type": "switch", "aliases": ["canon_eq"], "states": ["false", "true"]}
+            }
+        },
+        {
+            "name": "GET_GROUP_BY_REGULAR_EXPRESSION",
+            "customName": "getRegexGroup",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text1": {"type": "value", "aliases": ["source"]},
+                "text2": {"type": "value", "aliases": ["regex"]},
+                "number": {"type": "value", "aliases": ["index", "group"]}
+            }
+        },
+        {
             "name": "SET_TEXT_CASE",
             "customName": "setTextCase",
             "return": "variable",
@@ -1552,6 +1854,66 @@
                 "variable": {"type": "value", "aliases": ["result", "output"]},
                 "text": {"type": "value"},
                 "switch": {"type": "switch", "aliases": ["mode", "type", "case"], "states": ["upper", "lower", "invert"]}
+            }
+        },
+        {
+            "name": "CLEAR_TEXT_COLORS",
+            "customName": "clearTextColors",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_SYMBOL_BY_UNICODE",
+            "customName": "getUnicodeSymbol",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_UNICODE_BY_SYMBOL",
+            "customName": "getUnicode",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "CREATE_RGB_COLOR",
+            "customName": "rgbColor",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number1": {"type": "value", "aliases": ["r"]},
+                "number2": {"type": "value", "aliases": ["g"]},
+                "number3": {"type": "value", "aliases": ["b"]}
+            }
+        },
+        {
+            "name": "CREATE_HSB_COLOR",
+            "customName": "hsbColor",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number1": {"type": "value", "aliases": ["h"]},
+                "number2": {"type": "value", "aliases": ["s"]},
+                "number3": {"type": "value", "aliases": ["b"]}
+            }
+        },
+        {
+            "name": "CREATE_HSL_COLOR",
+            "customName": "hslColor",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "number1": {"type": "value", "aliases": ["h"]},
+                "number2": {"type": "value", "aliases": ["s"]},
+                "number3": {"type": "value", "aliases": ["l"]}
             }
         },
         {
@@ -1564,55 +1926,6 @@
                 "text1": {"type": "value", "aliases": ["formating"]},
                 "text2": {"type": "value", "aliases": ["lang"]},
                 "switch": {"type": "switch", "aliases": ["type", "format"], "states": ["default", "yyyy", "hh", "dd", ["custom", "customizable"]]}
-            }
-        },
-        {
-            "name": "GET_SYMBOL_BY_UNICODE",
-            "customName": "getSymbolByUnicode",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]},
-                "number": {"type": "value"}
-            }
-        },
-        {
-            "name": "GET_UNICODE_BY_SYMBOL",
-            "customName": "getUnicodeBySymbol",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]},
-                "text": {"type": "value"}
-            }
-        },
-        {
-            "name": "CLEAR_TEXT_COLORS",
-            "customName": "clearColors",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]},
-                "text": {"type": "value"}
-            }
-        },
-        {
-            "name": "GET_SYMBOL_IN_TEXT",
-            "customName": "getSymbolInText",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]},
-                "text": {"type": "value"},
-                "number": {"type": "value"}
-            }
-        },
-        {
-            "name": "GET_SUBTEXT_INDEX",
-            "customName": "getSubtextIndex",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output"]},
-                "text1": {"type": "value", "aliases": ["text"]},
-                "text2": {"type": "value", "aliases": ["subtext"]},
-                "number": {"type": "value"},
-                "switch": {"type": "switch", "states": [["first", "beginning"], ["last", "end"]]}
             }
         },
         {
@@ -1638,16 +1951,6 @@
             }
         },
         {
-            "name": "GET_LOCATION_DISTANCE",
-            "customName": "getLocationDistance",
-            "return": "variable",
-            "args": {
-                "variable": {"type": "value", "aliases": ["result", "output", "distance"]},
-                "location1": {"type": "value"},
-                "location2": {"type": "value"}
-            }
-        },
-        {
             "name": "SET_LOCATION",
             "customName": "setLocation",
             "return": "variable",
@@ -1667,11 +1970,33 @@
             }
         },
         {
-            "name": "GET_BLOCK",
-            "customName": "getBlock",
+            "name": "GET_LOCATION_DISTANCE",
+            "customName": "getLocationDistance",
             "return": "variable",
             "args": {
-                "variable": {"type": "value", "aliases": ["result", "output", "item", "block"]},
+                "variable": {"type": "value", "aliases": ["result", "output", "distance"]},
+                "location1": {"type": "value"},
+                "location2": {"type": "value"}
+            }
+        },
+        {
+            "name": "ROUND_LOCATION",
+            "customName": "roundLocation",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "distance"]},
+                "location": {"type": "value"},
+                "switch1": {"type": "switch", "aliases": ["rotation"], "states": ["true", "false"]},
+                "switch2": {"type": "switch", "aliases": ["type"], "states": ["xyz", "xz", "y"]},
+                "switch3": {"type": "switch", "aliases": ["mode"], "states": ["centre", "edge"]}
+            }
+        },
+        {
+            "name": "GET_LOCATION_DIRECTION",
+            "customName": "getLocationDirection",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
                 "location": {"type": "value"}
             }
         },
@@ -1686,11 +2011,20 @@
             }
         },
         {
-            "name": "GET_LOCATION_DIRECTION",
-            "customName": "getLocationDirection",
-            "return": "variable",
+            "name": "ROTATE_LOCATION_TO_LOCATION",
+            "customName": "rotateLocation",
             "args": {
                 "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location1": {"type": "value", "aliases": ["from"]},
+                "location2": {"type": "value", "aliases": ["to"]}
+            }
+        },
+        {
+            "name": "GET_BLOCK_IN_WORLD",
+            "customName": "getBlock",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output", "item", "block"]},
                 "location": {"type": "value"}
             }
         },
@@ -1806,6 +2140,21 @@
             }
         },
         {
+            "name": "SET_ITEM_FLAGS",
+            "customName": "setItemsFlags",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "switch1": {"type": "switch", "aliases": ["enchants"], "states": ["hide", "stay", "show"]},
+                "switch2": {"type": "switch", "aliases": ["attributes"], "states": ["hide", "stay", "show"]},
+                "switch3": {"type": "switch", "aliases": ["unbreakable"], "states": ["hide", "stay", "show"]},
+                "switch4": {"type": "switch", "aliases": ["effects"], "states": ["hide", "stay", "show"]},
+                "switch5": {"type": "switch", "aliases": ["can_break"], "states": ["hide", "stay", "show"]},
+                "switch6": {"type": "switch", "aliases": ["can_place"], "states": ["hide", "stay", "show"]}
+            }
+        },
+        {
             "name": "SET_PAGE_BOOK",
             "customName": "setPageBook",
             "return": "variable",
@@ -1814,6 +2163,102 @@
                 "item": {"type": "value"},
                 "text": {"type": "value", "aliases": ["content"]},
                 "number": {"type": "value", "aliases": ["page"]}
+            }
+        },
+        {
+            "name": "ADD_ITEM_ENCHANTMENT",
+            "customName": "addItemEnchantment",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["id"]},
+                "number": {"type": "value", "aliases": ["power"]}
+            }
+        },
+        {
+            "name": "REMOVE_ITEM_ENCHANTMENT",
+            "customName": "setItemFlags",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["id"]}
+            }
+        },
+        {
+            "name": "GET_ITEM_COLOR",
+            "customName": "getItemColor",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_ITEM_COLOR",
+            "customName": "setItemColor",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["color"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_UNBREAKABLE",
+            "customName": "setItemUnbreakable",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "switch": {"type": "switch", "states": ["true", "false"]}
+            }
+        },
+        {
+            "name": "GET_PLAYER_HEAD",
+            "customName": "getPlayerHead",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "text": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["type"], "states": [["nick", "uuid"], "value"]}
+            }
+        },
+        {
+            "name": "SET_ITEM_CUSTOM_TAG",
+            "customName": "setItemCustomTag",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text1": {"type": "value", "aliases": ["key"]},
+                "value": {"type": "value"},
+                "text2": {"type": "value", "aliases": ["path"]},
+                "switch": {"type": "switch", "aliases": ["type"], "states": ["text", "number"]}
+            }
+        },
+        {
+            "name": "GET_ITEM_CUSTOM_TAG",
+            "customName": "getItemCustomTag",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value"},
+                "text1": {"type": "value", "aliases": ["key"]},
+                "text2": {"type": "value", "aliases": ["path"]},
+                "value": {"type": "value"}
+            }
+        },
+        {
+            "name": "DELETE_ITEM_CUSTOM_TAG",
+            "customName": "deleteItemCustomTag",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "item": {"type": "value", "pos": [12]},
+                "text1": {"type": "value", "aliases": ["key"]},
+                "text2": {"type": "value", "aliases": ["path"]}
             }
         },
         {
@@ -1999,12 +2444,13 @@
             }
         },
         {
-            "name": "NORMALIZE_VECTOR",
-            "customName": "normalizeVector",
+            "name": "ALIGN_VECTOR",
+            "customName": "alignVector",
             "return": "variable",
             "args": {
                 "variable": {"type": "value", "aliases": ["result", "output"]},
-                "vector": {"type": "value"}
+                "vector": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["normalize"], "states": ["false", "true"]}
             }
         },
         {
@@ -2253,11 +2699,29 @@
             "customName": "cancelEvent"
         },
         {
+            "name": "RETURN_EVENT",
+            "customName": "returnEvent"
+        },
+        {
             "name": "CALL_FUNCTION",
             "customName": "callFunction",
             "args": {
                 "text": {"type": "value", "aliases": ["function"]},
                 "switch": {"type": "switch", "aliases": ["type", "mode"], "states": ["sync", "async"]}
+            }
+        },
+        {
+            "name": "SET_EVENT_ITEM",
+            "customName": "setEventItem",
+            "args": {
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_EVENT_DAMAGE",
+            "customName": "setEventDamage",
+            "args": {
+                "number": {"type": "value"}
             }
         },
         {
@@ -2314,8 +2778,8 @@
             }
         },
         {
-            "name": "SET_ITEM_FROM_CONTAINER",
-            "customName": "setItemFromContainer",
+            "name": "SET_ITEM_TO_CONTAINER",
+            "customName": "setItemToContainer",
             "args": {
                 "location": {"type": "value"},
                 "item": {"type": "value"},
@@ -2374,7 +2838,7 @@
             }
         },
         {
-            "name": "GET_ITEM_FROM_ENDER_CHEST",
+            "name": "GAME_GET_ITEM_FROM_ENDER_CHEST",
             "customName": "getItemFromEnderChest",
             "return": "variable",
             "args": {
@@ -2407,6 +2871,179 @@
             "args": {
                 "location": {"type": "value"},
                 "switch": {"type": "switch", "aliases": ["type"], "states": ["oak", "big_oak", "dark_oak", "swamp", "birch", "long_birch", "acacia", "spruce", "long_spruce", "huge_spruce", "jungle_bush", "small_jungle", "jungle", "jungle_with_cocoa", "red_mushroom", "brown_mushroom", "chorus"]}
+            }
+        },
+        {
+            "name": "SET_CHEST_LOOT_TABLE",
+            "customName": "setChestLootTable",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value", "aliases": ["id", "table"]},
+                "number": {"type": "value", "aliases": ["seed"]}
+            }
+        },
+        {
+            "name": "SET_CHEST_KEY",
+            "customName": "setChestKey",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value", "aliases": ["key"]}
+            }
+        },
+        {
+            "name": "GET_BURN_TIME",
+            "customName": "getBurnTime",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BURN_TIME",
+            "customName": "setBurnTime",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_COOK_TIME",
+            "customName": "getCookTime",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_COOK_TIME",
+            "customName": "setCookTime",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_BREWING_TIME",
+            "customName": "getBrewingTime",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BREWING_TIME",
+            "customName": "setBrewingTime",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_BREWER_FUEL",
+            "customName": "getBrewerFuel",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value", "aliases": ["result", "output"]},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BREWER_FUEL",
+            "customName": "setBrewerFuel",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_NOTEBLOCK_NOTE",
+            "customName": "setNoteblockNote",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value", "aliases": ["octaves"]},
+                "switch1": {"type": "switch", "aliases": ["tone"], "states": ["G", "A", "B", "C", "D", "E", "F"]},
+                "switch2": {"type": "switch", "states": ["type"], "states": ["flat", "natural", "shape"]}
+            }
+        },
+        {
+            "name": "PLAY_NOTEBLOCK_NOTE",
+            "customName": "playNoteblockNote",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value", "aliases": ["instrument"]}
+            }
+        },
+        {
+            "name": "GET_NOTEBLOCK_DISC",
+            "customName": "getNoteblockDisc",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value"},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_NOTEBLOCK_DISC",
+            "customName": "setNoteblockDisc",
+            "args": {
+                "location": {"type": "value"},
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_BLOCK_FACE",
+            "customName": "getBlockFace",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value"},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_BLOCK_FACE",
+            "customName": "setBlockFace",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "GET_SPAWNER_DATA",
+            "customName": "getSpawnerData",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value"},
+                "location": {"type": "value"},
+                "switch": {"type": "switch", "states": ["delay", "minSpawnDelay", "maxSpawnDelay", "spawnCount", "spawnRange", "maxNearbyEntities", "requiredPlayerRange"]}
+            }
+        },
+        {
+            "name": "SET_SPAWNER_DATA",
+            "customName": "setSpawnerData",
+            "args": {
+                "location": {"type": "value"},
+                "number": {"type": "value"},
+                "switch": {"type": "switch", "states": ["delay", "minSpawnDelay", "maxSpawnDelay", "spawnCount", "spawnRange", "maxNearbyEntities", "requiredPlayerRange"]}
+            }
+        },
+        {
+            "name": "GET_SPAWNER_ENTITY",
+            "customName": "getSpawnerEntity",
+            "return": "variable",
+            "args": {
+                "variable": {"type": "value"},
+                "location": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_SPAWNER_ENTITY",
+            "customName": "setSpawnerEntity",
+            "args": {
+                "location": {"type": "value"},
+                "text": {"type": "value"}
             }
         },
         {
@@ -2448,23 +3085,23 @@
             "name": "CREATE_SCOREBOARD",
             "customName": "createScoreboard",
             "args": {
-                "text1": {"type": "value"},
-                "text2": {"type": "value"}
+                "text1": {"type": "value", "aliases": ["name"]},
+                "text2": {"type": "value", "aliases": ["display"]}
             }
         },
         {
             "name": "DELETE_SCOREBOARD",
             "customName": "deleteScoreboard",
             "args": {
-                "text": {"type": "value"}
+                "text": {"type": "value", "aliases": ["name"]}
             }
         },
         {
             "name": "SET_SCOREBOARD_SCORE",
             "customName": "setScoreboardScore",
             "args": {
-                "text1": {"type": "value"},
-                "text2": {"type": "value"},
+                "text1": {"type": "value", "aliases": ["name"]},
+                "text2": {"type": "value", "aliases": ["line"]},
                 "number": {"type": "value"}
             }
         },
@@ -2472,9 +3109,17 @@
             "name": "REMOVE_SCOREBOARD_SCORE",
             "customName": "removeScoreboardScore",
             "args": {
-                "text1": {"type": "value"},
-                "text2": {"type": "value"},
+                "text1": {"type": "value", "aliases": ["name"]},
+                "text2": {"type": "value", "aliases": ["line"]},
                 "number": {"type": "value"}
+            }
+        },
+        {
+            "name": "RENAME_SCOREBOARD",
+            "customName": "renameScoreboard",
+            "args": {
+                "text1": {"type": "value", "aliases": ["name"]},
+                "text2": {"type": "value", "aliases": ["display"]}
             }
         },
         {
@@ -2496,11 +3141,32 @@
             }
         },
         {
-            "name": "SET_GAME_RULE",
+            "name": "SET_GAMERULE",
             "customName": "setGamerule",
             "args": {
                 "switch": {"type": "switch", "states": ["dofiretick", "domobgriefing", "domobloot", "dotiledrops", "doentitydrops", "naturalgeneration", "dodaylightcycle", "randomtickspeed", "doweathercycle"]},
                 "text": {"type": "value"}
+            }
+        },
+        {
+            "name": "SET_GAME_DIFFICULTY",
+            "customName": "setDifficulty",
+            "args": {
+                "switch": {"type": "switch", "aliases": ["difficulty"], "states": ["peace", "easy", "normal", "hard"]}
+            }
+        },
+        {
+            "name": "SET_PVP_SETTINGS",
+            "customName": "setPvpSettings",
+            "args": {
+                "number1": {"type": "value", "aliases": ["horizontal_knockback"]},
+                "number2": {"type": "value", "aliases": ["vertical_knockback"]},
+                "number3": {"type": "value", "aliases": ["vertical_knockback_limit"]},
+                "number4": {"type": "value", "aliases": ["horizontal_knockback_additional"]},
+                "number5": {"type": "value", "aliases": ["vertical_knockback_additional"]},
+                "number6": {"type": "value", "aliases": ["player_delay"]},
+                "number7": {"type": "value", "aliases": ["mob_delay"]},
+                "number8": {"type": "value", "aliases": ["crit"]}
             }
         },
         {
@@ -2648,8 +3314,8 @@
             }
         },
         {
-            "name": "GET_LENGTH",
-            "customName": "getLength",
+            "name": "GET_ARRAY_LENGTH",
+            "customName": "size",
             "args": {
                 "array": {"type": "value"},
                 "variable": {"type": "value"}
@@ -2665,7 +3331,7 @@
             }
         },
         {
-            "name": "CONVERT_ARRAY_TO_STRING",
+            "name": "ARRAY_TO_STRING",
             "customName": "toString",
             "args": {
                 "array": {"type": "value"},
@@ -2714,7 +3380,7 @@
             }
         },
         {
-            "name": "VARIABLE_NOT_EQUALS",
+            "name": "VALUE_NOT_EQUALS",
             "customName": "notEquals",
             "args": {
                 "value": {"type": "value"},
@@ -2779,6 +3445,17 @@
             }
         },
         {
+            "name": "REGION_INTERSECTS_REGION",
+            "customName": "regionIntersectsRegion",
+            "args": {
+                "location1": {"type": "value"},
+                "location2": {"type": "value"},
+                "location3": {"type": "value"},
+                "location4": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["mode", "type"], "states": ["intersects", "contains"]}
+            }
+        },
+        {
             "name": "TEXT_START_WITH",
             "customName": "textStartWith",
             "args": {
@@ -2796,6 +3473,77 @@
                 "texts": {"type": "value", "listed": true, "max": 27},
                 "switch1": {"type": "switch", "aliases": ["ignoreCase", "case"], "states": [["false", "consider"], ["true", "ignore"]]},
                 "switch2": {"type": "switch", "aliases": ["ignoreColor", "color"], "states": ["false", ["true", "ignore"]]}
+            }
+        },
+
+
+        {
+            "name": "TEXT_MATCHES_REGULAR_EXPRESSION",
+            "customName": "textMatchesRegex",
+            "args": {
+                "text": {"type": "value", "aliases": ["regex"]},
+                "texts": {"type": "value", "aliases": ["source"], "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["mode"], "states": [""]},
+                "switch2": {"type": "switch", "aliases": ["ignoreCase", "case"], "states": [["false", "consider"], ["true", "ignore"]]},
+                "switch3": {"type": "switch", "aliases": ["ignoreColor", "color"], "states": ["false", ["true", "ignore"]]}
+            }
+        },
+        {
+            "name": "IS_BLOCK_FULL",
+            "customName": "isBlockFull",
+            "args": {
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "ITEM_IS_BLOCK",
+            "customName": "itemIsBlock",
+            "args": {
+                "item": {"type": "value"}
+            }
+        },
+        {
+            "name": "ITEM_HAS_ENCHANTMENT",
+            "customName": "itemHasEnchantment",
+            "args": {
+                "item": {"type": "value"},
+                "text": {"type": "value", "aliases": ["enchant"]},
+                "number": {"type": "value", "aliases": ["power"]}
+            }
+        },
+        {
+            "name": "ITEM_HAS_CUSTOM_TAG",
+            "path": [15],
+            "args": {
+                "item": {"type": "value"},
+                "text1": {"type": "value", "aliases": ["key"]},
+                "value": {"type": "value"},
+                "text2": {"type": "value", "aliases": ["path"]},
+                "switch": {"type": "switch", "aliases": ["type"], "states": ["text", "number"]}
+            }
+        },
+        {
+            "name": "ITEM_EQUALS",
+            "path": [16],
+            "args": {
+                "item": {"type": "value"},
+                "items": {"type": "value", "listed": true, "max": 27},
+                "switch1": {"type": "switch", "aliases": ["ignoreCount", "ignoreQuantity"], "states": ["false", "true"]},
+                "switch2": {"type": "switch", "aliases": ["ignoreMeta", "ignoreDurability"], "states": ["false", "true"]},
+                "switch3": {"type": "switch", "aliases": ["ignoreName"], "states": ["false", "true"]},
+                "switch4": {"type": "switch", "aliases": ["ignoreLore", "ignoreDescription"], "states": ["false", "true"]},
+                "switch5": {"type": "switch", "aliases": ["ignoreNBT"], "states": ["false", "true"]},
+                "switch6": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"], "states": ["false", "true"]},
+                "switch7": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"], "states": ["false", "true"]},
+                "switch8": {"type": "switch", "aliases": ["ignoreFlags"], "states": ["false", "true"]}
+            }
+        },
+        {
+            "name": "VARIABLE_TYPE_EQUALS",
+            "path": [17],
+            "args": {
+                "variable": {"type": "value"},
+                "switch": {"type": "switch", "aliases": ["type"], "states": ["text", "number", "location", "vetor", "potion", "particle", "item", "text_component"]}
             }
         }
     ],
@@ -2851,6 +3599,14 @@
             "args": {
                 "potion": {"type": "value"}
             }
+        },
+        {
+            "name": "IS_SITTING_ON_THE_TRANSPORT",
+            "customName": "isSittingOnTransport"
+        },
+        {
+            "name": "ENTITY_EXISTS",
+            "customName": "exists"
         }
     ],
     "IF_PLAYER": [
@@ -2871,7 +3627,7 @@
             }
         },
         {
-            "name": "INTERACTION_TYPE",
+            "name": "PLAYER_INTERACTION_TYPE",
             "customName": "interactionType",
             "args": {
                 "switch": {"type": "switch", "states": ["right_click_to_block_or_air", "left_click_to_block_or_air", "right_click_to_air", "right_click_to_block", "left_click_to_air", "left_click_to_block", "physical"]}
@@ -2958,7 +3714,6 @@
                 "switch6": {"type": "switch", "aliases": ["ignoreEnchantments", "ignoreEnch"], "states": ["false", "true"]},
                 "switch7": {"type": "switch", "aliases": ["ignoreMaterial", "ignoreID"], "states": ["false", "true"]},
                 "switch8": {"type": "switch", "aliases": ["ignoreFlags"], "states": ["false", "true"]}
-
             }
         },
         {
@@ -2985,7 +3740,7 @@
             }
         },
         {
-            "name": "CLICK_TYPE",
+            "name": "PLAYER_CLICK_TYPE_EQUALS",
             "customName": "clickType",
             "args": {
                 "switch": {"type": "switch", "states": [["left", "lbm"], ["right", "rmb"]]}
@@ -3016,11 +3771,11 @@
             }
         },
         {
-            "name": "INVENTORY_FULL",
+            "name": "IS_PLAYER_INVENTORY_FULL",
             "customName": "inventoryFull"
         },
         {
-            "name": "LOOK_AT_BLOCK",
+            "name": "PLAYER_LOOK_AT_BLOCK",
             "customName": "lookAtBlock",
             "args": {
                 "blocks": {"type": "value", "listed": true, "max": 9, "aliases": ["block", "item", "items"]},
@@ -3030,7 +3785,7 @@
             }
         },
         {
-            "name": "STAND_ON_BLOCK",
+            "name": "PLAYER_STAND_ON_BLOCK",
             "customName": "standOnBlock",
             "args": {
                 "blocks": {"type": "value", "listed": true, "max": 9, "aliases": ["block", "item", "items"]},
@@ -3047,7 +3802,7 @@
             }
         },
         {
-            "name": "BLOCK_EQUALS",
+            "name": "PLAYER_EVENT_BLOCK_EQUALS",
             "customName": "blockEquals",
             "args": {
                 "blocks": {"type": "value", "listed": true, "max": 18, "aliases": ["block", "item", "items"]},
@@ -3082,6 +3837,10 @@
         {
             "name": "IS_LIKED",
             "customName": "isLiked"
+        },
+        {
+            "name": "HAS_RESOURCEPACK",
+            "customName": "hasResourcepack"
         }
     ],
     "FUNCTION_CALLER": [
@@ -3096,65 +3855,65 @@
     ],
     "SELECT_OBJECT": [
         {
-            "name": "EVENT_TARGET",
+            "name": "SELECT_EVENT_TARGET",
             "customName": "eventTarget"
         },
         {
-            "name": "DEFAULT_PLAYER",
+            "name": "SELECT_DEFAULT_PLAYER",
             "customName": "default"
         },
         {
-            "name": "DEFAULT_ENTITY",
+            "name": "SELECT_DEFAULT_ENTITY",
             "customName": "defaultEntity"
         },
         {
-            "name": "TARGET_BY_UUID",
+            "name": "SELECT_TARGET_BY_UUID",
             "customName": "byUuid"
         },
         {
-            "name": "RANDOM_PLAYER",
+            "name": "SELECT_RANDOM_PLAYER",
             "customName": "randomPlayer"
         },
         {
-            "name": "RANDOM_MOB",
+            "name": "SELECT_RANDOM_MOB",
             "customName": "randomMob"
         },
         {
-            "name": "RANDOM_ENTITY",
+            "name": "SELECT_RANDOM_ENTITY",
             "customName": "randomEntity"
         },
         {
-            "name": "ALL_PLAYERS",
+            "name": "SELECT_ALL_PLAYERS",
             "customName": "all"
         },
         {
-            "name": "ALL_MOBS",
+            "name": "SELECT_ALL_MOBS",
             "customName": "allMobs"
         },
         {
-            "name": "ALL_ENTITIES",
+            "name": "SELECT_ALL_ENTITIES",
             "customName": "allEntity"
         },
         {
-            "name": "LAST_SPAWNED_MOB",
+            "name": "SELECT_LAST_SPAWNED_MOB",
             "customName": "lastMob"
         },
         {
-            "name": "LAST_SPAWNED_ENITTY",
+            "name": "SELECT_LAST_SPAWNED_ENITTY",
             "customName": "lastEntity"
         },
         {
-            "name": "PLAYER_BY_CONDITION",
+            "name": "SELECT_PLAYER_BY_CONDITION",
             "customName": "player",
             "nested": true
         },
         {
-            "name": "MOD_BY_CONDITION",
+            "name": "SELECT_MOD_BY_CONDITION",
             "customName": "mob",
             "nested": true
         },
         {
-            "name": "ENTITY_BY_CONDITION",
+            "name": "SELECT_ENTITY_BY_CONDITION",
             "customName": "entity",
             "nested": true
         },
